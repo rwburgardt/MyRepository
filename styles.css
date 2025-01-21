@@ -53,6 +53,7 @@ html {
 .calendar-month {
   font-size: 50px;
   text-align: center;
+  margin-bottom: 10px;
 }
 .calendar-grid-March {
   display: grid;
