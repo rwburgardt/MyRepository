@@ -1,0 +1,57 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+  "navbar navbar"
+  "sidebar main"
+  "sidebar footer"  
+}
+nav{
+  height: 3rem;
+  /*1rem equals the font size of the html element, which for most browsers has a default value of 16px. */
+  top: 0;
+  position: sticky;
+  grid-area: navbar;
+  background-color: blue;
+  color: white;
+}
+aside{
+  height: calc(100vh - 3rem); /*100vh equals the entire viewport*/
+  top: 3rem;
+  position:sticky;
+  align-self: start;
+  grid-area: sidebar;
+  background-color: lightcyan;
+}
+main{
+  grid-area: main;
+}
+footer{
+  grid-area: footer;
+  background-color: gray;
+  color: white;
+  padding: 2em;
+  /*em means relative to the font-size of the element (2em means 2 times
+  the size of the current font)*/
+}
+@media(max-width: 800px){
+  body{
+    grid-template-columns: 1fr;
+  }
+  aside{
+    position: fixed;
+    width: 300px;
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+}
