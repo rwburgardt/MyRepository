@@ -100,7 +100,7 @@ footer{
   background-color: lightblue;
   text-align: center;
   border-style: solid;
-  font-size: 36px;
+  /*font-size: 36px;*/
 }
 .calendar-day-empty{
   background-color: "transparent"
