@@ -108,11 +108,10 @@ footer{
 @media (max-width: 800px){
   main{
     grid-template-columns: 1fr;
-    line-height: 4vh;
   }
-  aside{
+  /*aside{
     position: fixed;
     width: 300px;
     display: none;
-  }
+  }*/
 }
