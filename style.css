@@ -101,7 +101,7 @@ footer{
   justify-content: center
 }
 .calendar-day{
-  background-color: lightblue;
+  background-color: rgb(43, 211, 68);
   text-align: center;
   border-style: solid;
   font-size: 1px;
