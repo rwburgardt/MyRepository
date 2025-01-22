@@ -1,0 +1,116 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: MyFont;
+  src: url(CowboyOutlaw.otf);
+}
+html {
+  font-family: MyFont;
+  font-size: 18px;
+  color:black;
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+  "navbar navbar"
+  "sidebar main"
+  "sidebar footer"  
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 6rem;
+  /*1rem equals the font size of the html element, which for most browsers has a default value of 16px. */
+  top: 0;
+  position: sticky;
+  grid-area: navbar;
+  background-color: lightcyan;
+  color: black;
+  border-style: solid;
+  font-size: 55px;
+  align-items: center;
+}
+aside{
+  height: calc(100vh - 6rem); /*100vh equals the entire viewport*/
+  top: 6rem;
+  position:sticky;
+  align-self: start;
+  grid-area: sidebar;
+  border-style: solid;
+  background-color: lightcyan;
+}
+.center-gif-in-sidebar{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main{
+  grid-area: main;
+}
+footer{
+  grid-area: footer;
+  background-color: lightcyan;
+  border-style: solid;
+  color: black;
+  padding: 2em;
+  /*em means relative to the font-size of the element (2em means 2 times
+  the size of the current font)*/
+}
+.calendar-month {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calendar-grid-March {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(7, 150px);
+  justify-content: center
+}
+.calendar-grid-normal {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(5, 150px);
+  grid-template-columns: repeat(7, 150px);
+  justify-content: center
+}
+.calendar-grid-August {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(6, 150px);
+  grid-template-columns: repeat(7, 150px);
+  justify-content: center
+}
+.calendar-day{
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+}
+.calendar-day-empty{
+  background-color: "transparent"
+}
+@media(max-width: 800px){
+  body{
+    grid-template-columns: 1fr;
+  }
+  aside{
+    position: fixed;
+    width: 300px;
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+}
