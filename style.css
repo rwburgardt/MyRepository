@@ -1,10 +1,10 @@
 
 /**{
   margin: 0;
-}*/
+}
 *{
   padding: 0;
-}
+}*/
 @font-face {
   font-family: MyFont;
   src: url(CowboyOutlaw.otf);
@@ -24,7 +24,7 @@ body{
   grid-template-columns: 150px 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-  "navbar navbar"
+  "sidebar navbar"
   "sidebar main"
   "sidebar footer"  
 }
@@ -39,17 +39,23 @@ nav{
   grid-area: navbar;
   background-color: lightcyan;
   color: black;
-  border-style: solid;
+  /*border-style: solid;*/
+  border-right: 1;
+  border-bottom: 1;
+  border-top: 1;
   font-size: 55px;
   align-items: center;
 }
 aside{
-  height: calc(100vh - 6rem); /*100vh equals the entire viewport*/
-  top: 6rem;
+  height: calc(100vh); /*100vh equals the entire viewport*/
+  top: 0;
   position:sticky;
   align-self: start;
   grid-area: sidebar;
-  border-style: solid;
+  /*border-style: solid;*/
+  border-top: 1;
+  border-left: 1;
+  border-bottom: 1;
   background-color: lightcyan;
 }
 .center-gif-in-sidebar{
@@ -63,7 +69,7 @@ main{
 footer{
   grid-area: footer;
   background-color: lightcyan;
-  border-style: solid;
+  /*border-style: solid;*/
   color: black;
   padding: 2em;
   /*em means relative to the font-size of the element (2em means 2 times
@@ -106,7 +112,6 @@ footer{
 @media(max-width: 800px){
   body{
     grid-template-columns: 1fr;
-    font-size: 4vw;
   }
   aside{
     position: fixed;
