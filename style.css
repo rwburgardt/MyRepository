@@ -65,7 +65,6 @@ main{
 footer{
   grid-area: footer;
   background-color: lightcyan;
-  /*border-style: solid;*/
   color: black;
   padding: 2em;
   /*em means relative to the font-size of the element (2em means 2 times
