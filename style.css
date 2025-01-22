@@ -110,10 +110,10 @@ footer{
 .calendar-day-empty{
   background-color: "transparent"
 }
-@media(max-width: 800px){
+@media(max-width: 360px){
   body{
     grid-template-columns: 1fr;
-    font-size: 2.3vh;
+    font-size: .12px;
   }
   aside{
     position: fixed;
