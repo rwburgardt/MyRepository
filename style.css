@@ -12,7 +12,6 @@
 body{
   font-family: MyFont;
   color:black;
-  font-size: 1px;
   background-image: url('seager.jpg');
   background-repeat:no-repeat;
   background-size: cover;
@@ -105,7 +104,7 @@ footer{
   background-color: lightblue;
   text-align: center;
   border-style: solid;
-  /*font-size: 18px;*/
+  font-size: 1px;
 }
 .calendar-day-empty{
   background-color: "transparent"
