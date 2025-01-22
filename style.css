@@ -101,10 +101,10 @@ footer{
   justify-content: center
 }
 .calendar-day{
-  background-color: rgb(43, 211, 68);
+  background-color: lightblue;
   text-align: center;
   border-style: solid;
-  font-size: 1px;
+  font-size: 18px;
 }
 .calendar-day-empty{
   background-color: "transparent"
