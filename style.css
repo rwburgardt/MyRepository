@@ -113,7 +113,7 @@ footer{
 @media(max-width: 800px){
   body{
     grid-template-columns: 1fr;
-    font-size: 1px;
+    font-size: 2.3vh;
   }
   aside{
     position: fixed;
