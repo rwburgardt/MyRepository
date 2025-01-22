@@ -1,0 +1,86 @@
+@font-face {
+  font-family: MyFont;
+  src: url(CowboyOutlaw.otf);
+}
+html {
+  font-family: MyFont;
+  font-size: 18px;
+  color:black;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 90px;
+  font-size: 55px;
+  border-style: solid;
+  border-color: rgb(187, 197, 235);
+}
+.header-logos {
+  display: flex;
+  justify-content:center;
+  width:425px
+}
+.center-gif-in-sidebar{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar { 
+  color:rgb(24, 8, 193);
+  position: fixed;
+  top: 92px;
+  left: 0px;
+  bottom: 0px;
+  width: 150px;
+  border-style: solid;
+  border-color: rgb(187, 197, 235);
+  background-color: lightcyan;
+}
+.body {
+  margin: 0px;
+  padding-top: 90px;
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.calendar-month {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calendar-grid-March {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(7, 150px);
+  justify-content: center
+}
+.calendar-grid-normal {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(5, 150px);
+  grid-template-columns: repeat(7, 150px);
+  justify-content: center
+}
+.calendar-grid-August {
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: repeat(6, 150px);
+  grid-template-columns: repeat(7, 150px);
+  justify-content: center
+}
+.calendar-day{
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+}
+.calendar-day-empty{
+  background-color: "transparent"
+}
