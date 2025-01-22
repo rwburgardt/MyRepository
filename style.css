@@ -25,12 +25,6 @@ body{
   "sidebar main"
   "sidebar footer"  
 }
-@media (max-width: 800px){
-  main{
-    /*grid-template-columns: 1fr*/
-    font-size: 1px;
-  }
-}
 nav{
   display: flex;
   justify-content: space-around;
@@ -108,4 +102,10 @@ footer{
 }
 .calendar-day-empty{
   background-color: "transparent"
+}
+@media (max-width: 800px){
+  .calendar-day{
+    /*grid-template-columns: 1fr*/
+    font-size: 1px;
+  }
 }
