@@ -10,14 +10,14 @@
   src: url(CowboyOutlaw.otf);
 }
 html {
+}
+body{
   font-family: MyFont;
   color:black;
   background-image: url('seager.jpg');
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-body{
   min-height: 100vh;
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -105,7 +105,7 @@ footer{
 .calendar-day-empty{
   background-color: "transparent"
 }
-/*@media screen and (max-width: 800px){
+/*@media (max-width: 800px){
   main{
     grid-template-columns: 1fr;
   }
