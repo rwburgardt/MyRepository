@@ -106,11 +106,11 @@ footer{
   background-color: "transparent"
 }
 @media (max-width: 800px){
-  .main{
+  main{
     grid-template-columns: 1fr;
-    font-size: 14vw;
+    line-height: 4vh;
   }
-  .aside{
+  aside{
     position: fixed;
     width: 300px;
     display: none;
