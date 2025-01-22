@@ -9,8 +9,6 @@
   font-family: MyFont;
   src: url(CowboyOutlaw.otf);
 }
-/*html {
-}*/
 body{
   font-family: MyFont;
   color:black;
@@ -26,6 +24,12 @@ body{
   "sidebar navbar"
   "sidebar main"
   "sidebar footer"  
+}
+@media (max-width: 800px){
+  main{
+    /*grid-template-columns: 1fr*/
+    font-size: 1px;
+  }
 }
 nav{
   display: flex;
@@ -105,8 +109,3 @@ footer{
 .calendar-day-empty{
   background-color: "transparent"
 }
-/*@media (max-width: 800px){
-  main{
-    grid-template-columns: 1fr;
-  }
-}*/
