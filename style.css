@@ -105,8 +105,8 @@ footer{
 .calendar-day-empty{
   background-color: "transparent"
 }
-@media screen and (max-width: 800px){
+/*@media screen and (max-width: 800px){
   main{
     grid-template-columns: 1fr;
   }
-}
+}*/
