@@ -52,10 +52,6 @@ aside{
   position:sticky;
   align-self: start;
   grid-area: sidebar;
-  /*border-style: solid;*/
-  border-top: 1;
-  border-left: 1;
-  border-bottom: 1;
   background-color: lightcyan;
 }
 .center-gif-in-sidebar{
