@@ -109,9 +109,4 @@ footer{
   main{
     grid-template-columns: 1fr;
   }
-  /*aside{
-    position: fixed;
-    width: 300px;
-    display: none;
-  }*/
 }
