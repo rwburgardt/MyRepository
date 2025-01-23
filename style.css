@@ -102,7 +102,7 @@ footer{
 }
 @media (max-width: 800px){
   .calendar-day{
-    font-size: .1em;
+    font-size: .5em;
   }
   .calendar-grid-March {
     display: grid;
