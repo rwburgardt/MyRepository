@@ -96,9 +96,9 @@ footer{
   justify-content: center
 }
 .calendar-day{
-  margin-top: 50px;
   background-color: lightblue;
   text-align: center;
+  vertical-align: middle;
   border-style: solid;
   font-size: 18px;
 }
