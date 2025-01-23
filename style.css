@@ -36,15 +36,15 @@ nav{
   grid-area: navbar;
   background-color: lightcyan;
   color: black;
-  /*border-style: solid;*/
+  /*border-style: solid;
   border-right: 1;
   border-bottom: 1;
-  border-top: 1;
+  border-top: 1;*/
   font-size: 55px;
   align-items: center;
 }
 aside{
-  height: calc(100vh); /*100vh equals the entire viewport*/
+  height: calc(100vh); /*100vh equals the entire horizontal viewport*/
   top: 0;
   position:sticky;
   align-self: start;
@@ -106,6 +106,6 @@ footer{
 @media (max-width: 800px){
   .calendar-day{
     /*grid-template-columns: 1fr*/
-    font-size: .000625em;
+    font-size: .1em;
   }
 }
