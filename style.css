@@ -31,10 +31,6 @@ nav{
   grid-area: navbar;
   background-color: lightcyan;
   color: black;
-  /*border-style: solid;
-  border-right: 1;
-  border-bottom: 1;
-  border-top: 1;*/
   font-size: 55px;
   align-items: center;
 }
@@ -98,7 +94,6 @@ footer{
 .calendar-day{
   background-color: lightblue;
   text-align: center;
-  vertical-align: middle;
   border-style: solid;
   font-size: 18px;
 }
@@ -107,7 +102,6 @@ footer{
 }
 @media (max-width: 800px){
   .calendar-day{
-    /*grid-template-columns: 1fr*/
     font-size: .1em;
   }
 }
