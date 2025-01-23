@@ -73,21 +73,21 @@ footer{
 .calendar-grid-March {
   display: grid;
   row-gap: 10px;
-  grid-template-rows: repeat(2, 275px);
+  grid-template-rows: repeat(2, 150px);
   grid-template-columns: repeat(7, 150px);
   justify-content: center
 }
 .calendar-grid-normal {
   display: grid;
   row-gap: 10px;
-  grid-template-rows: repeat(5, 275px);
+  grid-template-rows: repeat(5, 150px);
   grid-template-columns: repeat(7, 150px);
   justify-content: center
 }
 .calendar-grid-August {
   display: grid;
   row-gap: 10px;
-  grid-template-rows: repeat(6, 275px);
+  grid-template-rows: repeat(6, 150px);
   grid-template-columns: repeat(7, 150px);
   justify-content: center
 }
@@ -103,5 +103,9 @@ footer{
 @media (max-width: 800px){
   .calendar-day{
     font-size: .1em;
+  }
+  .calendar-grid-March {
+    grid-template-rows: repeat(2, 275px);
+    grid-template-columns: repeat(7, 150px);
   }
 }
