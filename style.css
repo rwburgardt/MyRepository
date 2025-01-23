@@ -77,22 +77,22 @@ footer{
 .calendar-grid-March {
   display: grid;
   row-gap: 10px;
-  grid-template-rows: repeat(2, 150px);
-  grid-template-columns: repeat(7, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(7, 150px);
   justify-content: center
 }
 .calendar-grid-normal {
   display: grid;
   row-gap: 10px;
-  grid-template-rows: repeat(5, 150px);
-  grid-template-columns: repeat(7, 200px);
+  grid-template-rows: repeat(5, 200px);
+  grid-template-columns: repeat(7, 150px);
   justify-content: center
 }
 .calendar-grid-August {
   display: grid;
   row-gap: 10px;
-  grid-template-rows: repeat(6, 150px);
-  grid-template-columns: repeat(7, 200px);
+  grid-template-rows: repeat(6, 200px);
+  grid-template-columns: repeat(7, 150px);
   justify-content: center
 }
 .calendar-day{
