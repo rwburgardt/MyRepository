@@ -11,8 +11,6 @@
 }
 body{
   font-family: MyFont;
-  color:black;
-  
   min-height: 100vh;
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -48,6 +46,7 @@ aside{
   grid-area: sidebar;
   background-color: lightcyan;
   font-size: 18px;
+  color:black;
 }
 .center-gif-in-sidebar{
   display:block;
@@ -55,6 +54,7 @@ aside{
   margin-right: auto;
 }
 main{
+  color:black;
   grid-area: main;
   background-image: url('seager.jpg');
   background-repeat:no-repeat;
