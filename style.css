@@ -12,10 +12,7 @@
 body{
   font-family: MyFont;
   color:black;
-  background-image: url('seager.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  
   min-height: 100vh;
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -59,6 +56,10 @@ aside{
 }
 main{
   grid-area: main;
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 footer{
   grid-area: footer;
