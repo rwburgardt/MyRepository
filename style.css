@@ -100,11 +100,11 @@ footer{
 .calendar-day-empty{
   background-color: "transparent"
 }
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .calendar-day{
     font-size: .1em;
   }
-  /*.calendar-grid-March {
+  .calendar-grid-March {
     display: grid;
     row-gap: 10px;
     grid-template-rows: repeat(2, 275px);
