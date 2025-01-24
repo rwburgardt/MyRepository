@@ -9,9 +9,9 @@ body{
   grid-template-columns: 25px 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-  "sidebar navigationbar"
-  "sidebar maintext"
-  "sidebar footer"  
+  "aside nav"
+  "aside main"
+  "aside footer"  
 }
 nav{
   display: flex;
@@ -22,7 +22,7 @@ nav{
   top: 0;
   position: sticky;
   /*Sticks to the screen when it reaches its scroll position.*/
-  grid-area: navigationbar;
+  grid-area: nav;
   background-color: lightcyan;
   color: black;
   font-size: 55px;
@@ -33,15 +33,15 @@ aside{
   top: 0;
   position:sticky;
   align-self: start;
-  grid-area: sidebar;
+  grid-area: aside;
   background-color: lightcyan;
   font-size: 18px;
   color:black;
 }
-main{
- grid-area: maintext;
+main{TEXT
+ grid-area: main;
 }
-footer{TEXT
+footer{
   background-color: lightgrey;
   grid-area: footer;
 }
