@@ -42,6 +42,6 @@ main{
  grid-area: main;
 }
 footer{TEXT
-  background-color: lightblue;
+  background-color: lightcyan;
   grid-area: footer;
 }
