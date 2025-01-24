@@ -38,10 +38,10 @@ aside{
   font-size: 18px;
   color:black;
 }
-main{TEXT
+main{
  grid-area: main;
 }
-footer{
+footer{TEXT
   background-color: lightblue;
   grid-area: footer;
 }
