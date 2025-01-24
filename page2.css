@@ -29,7 +29,7 @@ nav {
   align-items: center;
 }
 aside {
-  height: calc(100vh); /*100vh equals the entire horizontal viewport*/
+  height: 100vh; /*100vh equals the entire horizontal viewport*/
   top: 0;
   position:sticky;
   align-self: start;
