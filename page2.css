@@ -1,3 +1,14 @@
+body{
+  font-family: MyFont;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+  "sidebar navbar"
+  "sidebar main"
+  "sidebar footer"  
+}
 .navigationbar{
   background-color: lightblue;
 }
