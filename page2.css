@@ -1,0 +1,12 @@
+body{
+  grid-template-areas: ;
+}
+nav{
+  background-color: lightblue;
+}
+aside{
+  background-color: lightcoral;
+}
+main{
+ background-color: lightgreen;
+}
