@@ -41,7 +41,7 @@ aside{
 main{
  grid-area: maintext;
 }
-footer{
+footer{TEXT
   background-color: lightgrey;
   grid-area: footer;
 }
