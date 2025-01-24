@@ -1,20 +1,42 @@
+@font-face {
+  font-family: MyFont;
+  src: url(CowboyOutlaw.otf);
+}
 body{
   font-family: MyFont;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 50px 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-  "sidebar navbar"
+  "sidebar navigationbar"
   "sidebar main"
   "sidebar footer"  
 }
-.navigationbar{
-  background-color: lightblue;
+nav{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 6rem;
+  top: 0;
+  position: sticky;
+  grid-area: navigationbar;
+  background-color: lightcyan;
+  color: black;
+  font-size: 55px;
+  align-items: center;
 }
-.sidebar{
-  background-color: lightcoral;
+aside{
+  height: calc(100vh); /*100vh equals the entire horizontal viewport*/
+  top: 0;
+  position:sticky;
+  align-self: start;
+  grid-area: sidebar;
+  background-color: lightcyan;
+  font-size: 18px;
+  color:black;
 }
-.maintext{
+main{
  background-color: lightgreen;
+ grid-area: main;
 }
