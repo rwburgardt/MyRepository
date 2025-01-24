@@ -40,3 +40,7 @@ main{
  background-color: lightgreen;
  grid-area: maintext;
 }
+footer{
+  background-color: lightgrey;
+  grid-area: footer;
+}
