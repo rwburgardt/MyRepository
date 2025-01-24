@@ -1,12 +1,9 @@
 .navigationbar{
-  TEXT
   background-color: lightblue;
 }
 .sidebar{
   background-color: lightcoral;
-  TEXT
 }
 .maintext{
  background-color: lightgreen;
- TEXT
 }
