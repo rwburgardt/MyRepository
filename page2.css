@@ -1,12 +1,12 @@
 body{
   grid-template-areas: ;
 }
-nav{
+.navigationbar{
   background-color: lightblue;
 }
-aside{
+.sidebar{
   background-color: lightcoral;
 }
-main{
+.maintext{
  background-color: lightgreen;
 }
