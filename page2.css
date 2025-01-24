@@ -6,7 +6,7 @@ body{
   font-family: MyFont;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 25px 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
   "sidebar navigationbar"
@@ -18,8 +18,10 @@ nav{
   justify-content: space-around;
   flex-direction: row;
   height: 6rem;
+  /*1rem equals the font size of the html element, which for most browsers has a default value of 16px. */
   top: 0;
   position: sticky;
+  /*Sticks to the screen when it reaches its scroll position.*/
   grid-area: navigationbar;
   background-color: lightcyan;
   color: black;
@@ -37,7 +39,6 @@ aside{
   color:black;
 }
 main{
- background-color: lightgreen;
  grid-area: maintext;
 }
 footer{
