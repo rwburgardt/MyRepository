@@ -10,7 +10,7 @@ body{
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
   "sidebar navigationbar"
-  "sidebar main"
+  "sidebar maintext"
   "sidebar footer"  
 }
 nav{
