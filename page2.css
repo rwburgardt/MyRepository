@@ -59,8 +59,8 @@ footer {
   background-color: lightcyan;
   display: grid;
   grid-template-columns: auto auto auto 1fr;
-  grid-template-rows: 25px 200px;
-  grid-auto-rows: 200px;
+  grid-template-rows: 25px 225px;
+  grid-auto-rows: 225px;
 }
 .date-heading {
   text-align: center;
