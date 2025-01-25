@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 @font-face {
   font-family: MyFont;
   src: url(CowboyOutlaw.otf);
@@ -14,7 +17,7 @@ body {
 }
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   height: 6rem;
   top: 0;
@@ -22,7 +25,7 @@ nav {
   position: sticky;
   /*Sticks to the screen when it reaches its scroll position.*/
   grid-area: nav;
-  background-color: lightcyan;
+  background-color: lightblue;
   color: black;
   font-size: 55px;
   align-items: center;
@@ -37,8 +40,8 @@ aside {
   }
 main {
   grid-area: main;
-  color:black;
-  display: grid;
+  /*color:black;*/
+  /*display: grid;*/
 }
 footer {
   background-color: green;
@@ -50,8 +53,8 @@ footer {
 }
 .container {
   /*width: 1fr;*/
-  overflow-x: auto;
-  white-space: wrap;
+  /*overflow-x: auto;*/
+  /*white-space: wrap;*/
   margin: auto;
   background-color: lightcyan;
   display: grid;
@@ -113,9 +116,15 @@ footer {
 }
 media (max-width: 800px){
   .container{
-    width: 2000px;
-    
-    
+    /*width: 1fr;
+    /*overflow-x: auto;
+    /*white-space: wrap;
+    margin: auto;
+    background-color: lightcyan;
+    display: grid;
+    grid-template-columns: auto auto auto 1fr;
+    grid-template-rows: 25px 75px;
+    grid-auto-rows: 75px;*/
   }
 }
 
