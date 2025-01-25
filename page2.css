@@ -117,8 +117,8 @@ footer {
 @media (max-width: 800px){
   .container{
     width: 1fr;
-    /*overflow-x: auto;
-    white-space: wrap;
+    overflow-x: auto;
+    /*white-space: wrap;
     margin: auto;
     background-color: lightcyan;
     display: grid;
