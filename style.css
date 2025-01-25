@@ -35,10 +35,9 @@ nav{
   align-items: center;
 }
 aside{
-  height: 100vh; /*100vh equals the entire vertical viewport*/
   top: 0;
   position:sticky;
-  align-self: start;
+  /*align-self: start;*/
   grid-area: sidebar;
   background-color: green;
   font-size: 18px;
