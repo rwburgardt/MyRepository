@@ -59,7 +59,7 @@ main{
 }
 footer{
   grid-area: footer;
-  background-color: lightcyan;
+  background-color: green;
   color: black;
   text-align: center;
   font-size: 20;
