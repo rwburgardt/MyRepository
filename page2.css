@@ -60,7 +60,7 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto 1fr;
   grid-template-rows: 25px 210px;
-  grid-auto-rows: 219px;
+  grid-auto-rows: 210px;
 }
 .date-heading {
   text-align: center;
