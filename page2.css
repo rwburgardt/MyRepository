@@ -59,8 +59,8 @@ footer {
   background-color: lightcyan;
   display: grid;
   grid-template-columns: auto auto auto 1fr;
-  grid-template-rows: 25px 75px;
-  grid-auto-rows: 75px;
+  grid-template-rows: 25px 200px;
+  grid-auto-rows: 200px;
 }
 .date-heading {
   text-align: center;
@@ -116,9 +116,11 @@ footer {
 }
 @media (max-width: 800px){
   .container{
-    /*width: 1fr;*/
+    grid-template-rows: 25px 200px;
+    grid-auto-rows: 200px;
+    /*width: 1fr;
     overflow-x: auto;
-    /*white-space: wrap;
+    white-space: wrap;
     margin: auto;
     background-color: lightcyan;
     display: grid;
