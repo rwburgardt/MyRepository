@@ -67,24 +67,28 @@ footer {
   border: 1px solid black;
   font-size: 18px;
   padding: 5px;
+  position:sticky;
 }
 .opponent-heading {
   text-align: center;
   border: 1px solid black;
   font-size: 18px;
   padding: 5px;
+  position:sticky;
 }
 .result-heading {
   text-align: center;
   border: 1px solid black;
   font-size: 18px;
   padding: 5px;
+  position:sticky;
 }
 .recap-heading {
   text-align: center;
   border: 1px solid black;
   font-size: 18px;
   padding: 5px;
+  position:sticky;
 }
 .date-game {
   text-align: center;
