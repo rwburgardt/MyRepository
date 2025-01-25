@@ -4,7 +4,6 @@
 }
 body {
   font-family: MyFont;
-  height: 100vh;
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-template-rows: auto 1fr auto;
@@ -18,7 +17,6 @@ nav {
   justify-content: space-around;
   flex-direction: row;
   height: 6rem;
-  /*1rem equals the font size of the html element, which for most browsers has a default value of 16px. */
   top: 0;
   position: sticky;
   /*Sticks to the screen when it reaches its scroll position.*/
@@ -29,38 +27,30 @@ nav {
   align-items: center;
 }
 aside {
-  /*height: 100vh; 100vh equals the entire vertical viewport*/
   top: 0;
   position:sticky;
-  /*align-self: start;*/
   grid-area: aside;
   background-color: green;
   font-size: 18px;
   color:black;
-  flex-grow: 1;
-}
+  }
 main {
   grid-area: main;
   color:black;
-  /*background-image: url('baseball-field.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;*/
   display: grid;
-  height: 100vh;
 }
 footer {
-  background-color: rgb(174, 201, 174);
+  background-color: green;
   grid-area: footer;
+  height: 40px
 }
 .center-gif-in-sidebar {
   margin: auto;
 }
 .container {
-  width: 90vw;
-  /*height: 100vh;*/
+  width: calc(100vw-100);
   margin: auto;
-  outline: 2px solid black;
+  /*outline: 2px solid black;*/
   background-color: lightcyan;
   display: grid;
   grid-template-columns: auto auto auto 1fr;
