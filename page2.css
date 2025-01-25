@@ -61,7 +61,6 @@ footer {
   grid-template-columns: auto auto auto 1fr;
   grid-template-rows: 25px 75px;
   grid-auto-rows: 75px;
-  overflow:scroll;
 }
 .date-heading {
   text-align: center;
@@ -114,6 +113,7 @@ footer {
   background-color: rgb(156, 210, 147);
   font-size: 18px;
   padding: 5px;
+  overflow: scroll;
 }
 @media (min-width: 800px){
   .container{
