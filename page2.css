@@ -18,6 +18,7 @@ nav {
   flex-direction: row;
   height: 6rem;
   top: 0;
+  width: 1fr;
   position: sticky;
   /*Sticks to the screen when it reaches its scroll position.*/
   grid-area: nav;
@@ -49,7 +50,7 @@ footer {
 }
 .container {
   width: 1fr;
-  overflow-x:scroll;
+  overflow-x: auto;
   white-space: nowrap;
   margin: auto;
   background-color: lightcyan;
