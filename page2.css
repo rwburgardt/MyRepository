@@ -111,5 +111,11 @@ footer {
   font-size: 18px;
   padding: 5px;
 }
-
+media (max-width: 800px){
+  .container{
+    width= 2000px;
+    
+    
+  }
+}
 
