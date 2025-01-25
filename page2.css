@@ -49,7 +49,7 @@ footer {
   margin: auto;
 }
 .container {
-  width: 1fr;
+  /*width: 1fr;*/
   overflow-x: auto;
   white-space: wrap;
   margin: auto;
