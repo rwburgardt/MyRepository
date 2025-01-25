@@ -48,11 +48,10 @@ footer {
   margin: auto;
 }
 .container {
-  width: 1fr;
+  width: 2000px;
   overflow-x:auto;
   white-space: nowrap;
   margin: auto;
-  /*outline: 2px solid black;*/
   background-color: lightcyan;
   display: grid;
   grid-template-columns: auto auto auto 1fr;
