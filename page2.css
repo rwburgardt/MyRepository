@@ -51,6 +51,17 @@ footer {
 .center-gif-in-sidebar {
   margin: auto;
 }
+.container-header {
+  /*width: 1fr;*/
+  /*overflow-x: auto;*/
+  /*white-space: wrap;*/
+  margin: auto;
+  background-color: lightcyan;
+  display: grid;
+  grid-template-columns: auto auto auto 1fr;
+  grid-template-rows: 25px 75px;
+  grid-auto-rows: 75px;
+}
 .container {
   /*width: 1fr;*/
   /*overflow-x: auto;*/
