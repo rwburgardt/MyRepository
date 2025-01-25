@@ -51,7 +51,7 @@ footer {
 .container {
   width: 1fr;
   overflow-x: auto;
-  white-space: nowrap;
+  white-space: wrap;
   margin: auto;
   background-color: lightcyan;
   display: grid;
