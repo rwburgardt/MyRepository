@@ -48,7 +48,7 @@ footer {
   margin: auto;
 }
 .container {
-  width: calc(100vw-100);
+  width: 1fr;
   margin: auto;
   /*outline: 2px solid black;*/
   background-color: lightcyan;
