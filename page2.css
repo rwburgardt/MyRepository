@@ -113,7 +113,7 @@ footer {
 }
 media (max-width: 800px){
   .container{
-    width= 2000px;
+    width: 2000px;
     
     
   }
