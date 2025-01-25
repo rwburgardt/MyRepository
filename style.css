@@ -35,14 +35,15 @@ nav{
   align-items: center;
 }
 aside{
-  height: calc(100vh); /*100vh equals the entire horizontal viewport*/
+  height: 100vh; /*100vh equals the entire vertical viewport*/
   top: 0;
   position:sticky;
   align-self: start;
   grid-area: sidebar;
-  background-color: lightcyan;
+  background-color: green;
   font-size: 18px;
   color:black;
+  flex-grow: 1;
 }
 .center-gif-in-sidebar{
   display:block;
@@ -104,7 +105,7 @@ footer{
 }
 @media (max-width: 800px){
   nav{
-    font-size: 50px;
+    font-size: 45px;
   }
   /*.calendar-day{
     font-size: 18px;
