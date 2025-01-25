@@ -48,7 +48,7 @@ footer {
   margin: auto;
 }
 .container {
-  width: 2000px;
+  width: 1fr;
   overflow-x:auto;
   white-space: nowrap;
   margin: auto;
