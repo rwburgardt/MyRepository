@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+}
+@font-face {
+  font-family: MyFont;
+  src: url(CowboyOutlaw.otf);
+}
+body {
+  font-family: MyFont;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+  "sidebar header"
+  "sidebar main"
+  "sidebar footer"  
+}
+.title {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 96px;
+  top: 0;
+  width: 1fr;
+  position: sticky;
+  grid-area: header;
+  background-color: lightcyan;
+  color: black;
+  font-size: 55px;
+  align-items: center;
+}
+.sidebar {
+  top: 0;
+  position:sticky;
+  grid-area: sidebar;
+  background-color: green;
+  font-size: 18px;
+  color:black;
+  }
+main {
+  grid-area: main;
+}
+footer {
+  background-color: green;
+  grid-area: footer;
+  height: 40px
+}
+.pig-in-sidebar {
+  position: fixed;
+  top: 125px;
+  left: 0;
+  height: 100px;
+  width: 100px;
+}
+.homeplate-in-sidebar {
+  position: fixed;
+  top: 250px;
+  left: 13px;
+  height: 75px;
+  width: 75px;
+}
+.container-heading {
+  background-color: lightgoldenrodyellow;
+  display: grid;
+  grid-template-columns: 95px 73px 63px 1fr;
+  grid-template-rows: 25px;
+  top: 96px;
+  position: sticky;
+}
+.container-body {
+  display: grid;
+  grid-template-columns: 95px 73px 63px 1fr;
+  grid-template-rows: 120px;
+  grid-auto-rows: 120px;
+}
+.date-heading {
+  text-align: center;
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 5px;
+}
+.opponent-heading {
+  text-align: center;
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 5px;
+}
+.result-heading {
+  text-align: center;
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 5px;
+}
+.recap-heading {
+  text-align: center;
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 5px;
+}
+.date-game {
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(156, 210, 147);
+  font-size: 18px;
+  padding: 5px;
+}
+.opponent-game {
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(156, 210, 147);
+  font-size: 18px;
+  padding: 5px;
+}
+.result-game {
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(156, 210, 147);
+  font-size: 18px;
+  padding: 5px;
+}
+.recap-game {
+  text-align: left;
+  border: 1px solid black;
+  background-color: rgb(156, 210, 147);
+  font-size: 18px;
+  padding: 5px;
+}
+@media (min-width: 800px){
+  .container{
+    grid-template-rows: 25px 75px;
+    grid-auto-rows: 75px;
+  }
+}
+
