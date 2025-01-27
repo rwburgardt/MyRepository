@@ -126,10 +126,6 @@ footer {
   padding: 5px;
 }
 @media (max-width: 800px){
-  /*.container{
-    grid-template-rows: 25px 75px;
-    grid-auto-rows: 75px;
-  }*/
   .result-game {
     font-size: 16px;
     padding: 6px;
