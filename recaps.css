@@ -130,5 +130,9 @@ footer {
     grid-template-rows: 25px 75px;
     grid-auto-rows: 75px;
   }
+  .result-game {
+    font-size: 18px;
+    padding: 5px;
+  }
 }
 
