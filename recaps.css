@@ -59,13 +59,6 @@ footer {
   height: 75px;
   width: 75px;
 }
-.sports-guy-in-sidebar {
-  position: fixed;
-  top: 350px;
-  left: 13px;
-  height: 100px;
-  width: 79px;
-}
 .container-heading {
   background-color: lightgoldenrodyellow;
   display: grid;
