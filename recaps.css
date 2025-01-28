@@ -131,7 +131,11 @@ footer {
     padding: 6px;
   }
   .container-body {
-    grid-template-rows: 175px;
-    grid-auto-rows: 175px;
-}
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
+  }
+  .opponent-game {
+    font-size: 18px;
+    padding: 4px;
+  }
 }
