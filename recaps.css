@@ -54,8 +54,8 @@ footer {
 }
 .homeplate-in-sidebar {
   position: fixed;
-  top: 350px;
-  left: 0;
+  top: 250px;
+  left: 13px;
   height: 100px;
   width: 80px;
 }
