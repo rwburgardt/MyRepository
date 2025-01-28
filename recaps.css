@@ -59,13 +59,13 @@ footer {
   height: 75px;
   width: 75px;
 }
-.up-arrow-in-sidebar {
+/*--.up-arrow-in-sidebar {
   position: fixed;
   top: 350px;
   left: 13px;
   height: 75px;
   width: 75px;
-}
+}*/
 .container-heading {
   background-color: lightgoldenrodyellow;
   display: grid;
