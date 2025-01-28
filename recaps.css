@@ -55,9 +55,9 @@ footer {
 .homeplate-in-sidebar {
   position: fixed;
   top: 250px;
-  left: 0px;
-  height: 100px;
-  width: 100px;
+  left: 13px;
+  height: 75px;
+  width: 75px;
 }
 .container-heading {
   background-color: lightgoldenrodyellow;
@@ -135,7 +135,7 @@ footer {
     grid-auto-rows: 225px;
   }
   .opponent-game {
-    font-size: 18px;
-    padding: 4px;
+    font-size: 16px;
+    padding: 5px;
   }
 }
