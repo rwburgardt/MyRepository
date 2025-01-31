@@ -1,8 +1,8 @@
 
-/**{
+/** {
   margin: 0;
 }
-*{
+* {
   padding: 0;
 }*/
 @font-face {
@@ -101,10 +101,36 @@ footer{
 }
 .calendar-day{
   background-color: lightblue;
-  text-align: center;
-  border-style: solid;
   font-size: 18px;
+  text-align: center;
+  border: 1px solid,black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
 }
+
+  .day-of-the-week {
+    margin: 0;
+  }
+
+  .date {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  .opponent {
+    margin: 0;
+  }
+
+  .result {
+    margin: 0;
+  }
+
+  .recap {
+    margin: 0;
+  }
+
 @media (max-width: 800px){
   .title{
     font-size: 45px;
