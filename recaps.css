@@ -17,21 +17,21 @@ body {
 }
 .title {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
+  justify-content: space-evenly;
   height: 96px;
-  top: 0;
   width: 1fr;
   position: sticky;
+  top: 0;
   grid-area: header;
   background-color: lightcyan;
   color: black;
   font-size: 55px;
-  align-items: center;
+  align-items: center; /*This is vertical alignment*/
 }
 .sidebar {
-  top: 0;
   position:sticky;
+  top: 0;
   grid-area: sidebar;
   background-color: green;
   font-size: 18px;
@@ -43,7 +43,7 @@ main {
 footer {
   background-color: green;
   grid-area: footer;
-  height: 40px
+  height: 20px
 }
 .pig-in-sidebar {
   position: fixed;
@@ -69,16 +69,23 @@ footer {
 .container-heading {
   background-color: lightgoldenrodyellow;
   display: grid;
-  grid-template-columns: 95px 73px 63px 1fr;
+  grid-template-columns: 95px 74px 63px 1fr;
   grid-template-rows: 25px;
-  top: 96px;
   position: sticky;
+  top: 96px;
 }
 .container-body {
   display: grid;
   grid-template-columns: 95px 73px 63px 1fr;
   grid-template-rows: 120px;
   grid-auto-rows: 120px;
+}
+@media (max-width: 800px){
+  .container-body {
+    grid-template-columns: 95px 74px 63px 1fr;
+    grid-template-rows: 220px;
+    grid-auto-rows: 220px;
+  }
 }
 .date-heading {
   text-align: center;
@@ -125,21 +132,16 @@ footer {
   font-size: 18px;
   padding: 5px;
 }
+@media (max-width: 800px){
+  .result-game {
+    font-size: 14px;
+    padding: 6px;
+  }
+}  
 .recap-game {
   text-align: left;
   border: 1px solid black;
   background-color: rgb(156, 210, 147);
   font-size: 18px;
   padding: 5px;
-}
-@media (max-width: 800px){
-  .result-game {
-    font-size: 14px;
-    padding: 6px;
-  }
-  .container-body {
-    grid-template-columns: 95px 74px 63px 1fr;
-    grid-template-rows: 220px;
-    grid-auto-rows: 220px;
-  }
 }
