@@ -1,0 +1,59 @@
+.parent {
+  width: 1050px;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  border: 1px solid black;
+  column-gap: 0px;
+}
+
+/*(1) Default is 'nowrap'. (2) Adding more than 7 squares caused all 8 to squish horizontally. This is prevented with 'wrap*. (3) Borders do not figure into the pixel count to determine whether a parent is horizontally full. (4) When I added the 8th square, the top of the new row appeared at the vertical halfway point. (5)'align-content' only works when 'wrap' is turned on and wrapping is occurring; it allows us to align everything along the cross axis. (6) 'Justify-content' allows alignment along the main axis. (7) 'align-items' allows alignment along the cross axis. (8) 'flex-direction'= row by default. (9) 'gaps','row-gaps', or 'column-gaps' can be added. The colunn-gaps figure into the horizontal pixel count and caused the 7th square to mofe down a row. */
+
+.child1 {
+  background-color: lightcoral;
+  width: 150px;
+  height: 150px;
+}
+
+.child2 {
+  background-color: lightcyan;
+  width: 150px;
+  height: 150px;
+}
+
+.child3 {
+  background-color: lightgreen;
+  width: 150px;
+  height: 150px;
+}
+
+.child4 {
+  background-color: lightgray;
+  width: 150px;
+  height: 150px;
+}
+
+.child5 {
+  background-color: lightpink;
+  width: 150px;
+  height: 150px;
+}
+
+.child6 {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+}
+
+.child7 {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+}
+
+.child8 {
+  background-color: purple;
+  width: 150px;
+  height: 150px;
+}
