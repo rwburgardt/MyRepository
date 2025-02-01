@@ -8,8 +8,8 @@
 body {
   font-family: MyFont;
   display: grid;
-  grid-template-columns: 100px 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 96px 1fr auto;
   grid-template-areas:
   "sidebar header"
   "sidebar main"
@@ -30,13 +30,19 @@ body {
   align-items: center; /*This is vertical alignment*/
 }
 .sidebar {
-  position:sticky;
-  top: 0;
+  min-height: 100vh;
   grid-area: sidebar;
   background-color: green;
   font-size: 18px;
   color:black;
-  }
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*position: sticky;
+  top: 0*/
+}
 main {
   grid-area: main;
 }
@@ -46,30 +52,30 @@ footer {
   height: 20px
 }
 .pig-in-sidebar {
+  height: 100px;
+  width: 100px;
+  margin: 120px 0 0 20px;
+  position: relative;
+  right: -50px;
+  bottom: -50px;
+  /*This ode killed the color on the sidebar. I don't know why.
   position: fixed;
   top: 125px;
   left: 0;
   height: 100px;
-  width: 100px;
+  width: 100px;*/
 }
 .homeplate-in-sidebar {
   position: fixed;
-  top: 250px;
-  left: 13px;
+  top: 280px;
+  left: 20px;
   height: 75px;
   width: 75px;
 }
-/*--.up-arrow-in-sidebar {
-  position: fixed;
-  top: 350px;
-  left: 13px;
-  height: 75px;
-  width: 75px;
-}*/
 .container-heading {
   background-color: lightgoldenrodyellow;
   display: grid;
-  grid-template-columns: 95px 74px 63px 1fr;
+  grid-template-columns: 95px 73px 63px 1fr;
   grid-template-rows: 25px;
   position: sticky;
   top: 96px;
