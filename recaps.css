@@ -20,7 +20,6 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   height: 96px;
-  width: 1fr;
   position: sticky;
   top: 0;
   grid-area: header;
