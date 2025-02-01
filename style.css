@@ -37,13 +37,17 @@ body{
     font-size: 45px;
   }
 }
+.title-logos {
+  position: relative;
+  bottom: -30px
+}
 .sidebar{
   min-height: 100vh;
   grid-area: sidebar;
   background-color: green;
   font-size: 18px;
   color:black;
-  position: fixed;/*'Fixed' caused the background color to go away because it decouples the sidebar from its parent. 'Sticky' works because the element isn't taken out of the normal document flow.*/
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -61,6 +65,9 @@ body{
   height: 100px;
   width: 100px;
   margin: 120px 0 0 20px;
+  position: relative;
+  right: -100px;
+  bottom: -50px;
 }
 .paragraph-in-sidebar{
   width: 160px;
