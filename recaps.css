@@ -71,6 +71,11 @@ footer {
   height: 75px;
   width: 75px;
 }
+.ws-ring-in-sidebar {
+  position: relative;
+  right: -1200px;
+  bottom: -400px;
+}
 .container-heading {
   background-color: lightgoldenrodyellow;
   display: grid;
