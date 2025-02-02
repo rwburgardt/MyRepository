@@ -24,7 +24,7 @@ body{
   display: flex;
   flex-direction: row; /*This is the default*/
   justify-content: space-around;
-  position: sticky;/*This together with the next line keeps the title bar in place at the top*/
+  position: sticky;/*This together with the next line keeps the header in place at the top*/
   top: 0;
   grid-area: header;
   background-color: lightcyan;
@@ -33,7 +33,7 @@ body{
   align-items: center;
 }
 @media (max-width: 800px){
-  .title{
+  .header{
     font-size: 45px;
   }
 }
