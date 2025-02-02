@@ -20,7 +20,7 @@ body{
   "sidebar main"
   "sidebar footer"  
 }
-.title{
+.header{
   display: flex;
   flex-direction: row; /*This is the default*/
   justify-content: space-around;
@@ -52,15 +52,8 @@ body{
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
 }
-/*@media (max-width: 800px){
-  .sidebar{
-    grid-area: sidebar;
-    background-color: green;
-    font-size: 18px;
-    color:black;
-  }
-}*/
 .pig-in-sidebar{
   margin: 120px 0 0 20px;
   position: relative;
