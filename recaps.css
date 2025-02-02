@@ -15,7 +15,7 @@ body {
   "sidebar main"
   "sidebar footer"  
 }
-.title {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -28,6 +28,9 @@ body {
   font-size: 55px;
   align-items: center; /*This is vertical alignment*/
 }
+main {
+  grid-area: main;
+}
 .sidebar {
   min-height: 100vh;
   grid-area: sidebar;
@@ -39,23 +42,14 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  /*position: sticky;
-  top: 0*/
-}
-main {
-  grid-area: main;
-}
-footer {
-  background-color: green;
-  grid-area: footer;
-  height: 20px
-}
+  bottom: 0;
+  }
 .pig-in-sidebar {
   margin: 120px 0 0 20px;
   position: relative;
   right: -50px;
   bottom: -50px;
-  /*This ode killed the color on the sidebar. I don't know why.
+  /*This one killed the color on the sidebar. I don't know why.
   position: fixed;
   top: 125px;
   left: 0;
@@ -73,6 +67,11 @@ footer {
   position: relative;
   right: -1200px;
   bottom: -400px;
+}
+footer {
+  background-color: green;
+  grid-area: footer;
+  height: 20px
 }
 .container-heading {
   background-color: lightgoldenrodyellow;
