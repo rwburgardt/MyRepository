@@ -42,7 +42,6 @@ body{
   bottom: -30px
 }
 .sidebar{
-  min-height: 100vh;
   grid-area: sidebar;
   background-color: green;
   font-size: 18px;
@@ -71,7 +70,6 @@ body{
   position: relative;
   top: 50px;
   left: 18px;
-  /*margin: 50px 0 0 18px;*/
 }
 main{
   color:black;
