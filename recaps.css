@@ -8,7 +8,7 @@
 body {
   font-family: MyFont;
   display: grid;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 125px 1fr;
   grid-template-rows: 96px 1fr auto;
   grid-template-areas:
   "sidebar header"
