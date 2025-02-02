@@ -75,7 +75,10 @@ body{
   margin-top: 10px;
 }
 .ws-ring-in-sidebar {
-  margin: 50px 0 0 18px;
+  position: relative;
+  top: 50px;
+  left: 18px;
+  /*margin: 50px 0 0 18px;*/
 }
 main{
   color:black;
