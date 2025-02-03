@@ -33,7 +33,7 @@ header {
   font-size: 55px;
   color: black;
   background-color: rgb(113, 143, 173);
-  position: sticky; /*Fixed positioning is always relative to the viewport.*/
+  position: fixed; /*Fixed positioning is always relative to the viewport.*/
   top: 0; /*I needed the next 2 lines to force the header all the way across my laptop screen.*/
   left: 0;
   right: 0;
