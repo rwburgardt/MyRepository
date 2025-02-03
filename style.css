@@ -34,8 +34,8 @@ header {
   background-color: rgb(113, 143, 173);
   position: fixed; /*Fixed positioning is always relative to the viewport.*/
   top: 0; /*I needed the next 2 lines to force the header all the way across the viewport.*/
-  left: 0;
-  right: 0;
+  /*left: 0;
+  right: 0;*/
   z-index: 2;
 }
 
