@@ -33,7 +33,7 @@ header {
   font-size: 55px;
   color: black;
   background-color: rgb(113, 143, 173);
-  position: fixed; /*Fixed positioning is always relative to the viewport..*/
+  position: fixed; /*Fixed positioning is always relative to the viewport, not the page. */
   top: 0; /*I needed fixed positioning to force the header all the way across my phone screen*/
   left: 0;
   right: 0;
@@ -49,6 +49,8 @@ header {
 section {
   display: flex;
   justify-content: flex-start;
+  position: relative;
+  top: 96px; /*This line moved the section element down below the header which was covering the 'March' heading*/  
 }
 
 aside {
