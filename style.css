@@ -10,9 +10,9 @@
   src: url(CowboyOutlaw.otf);
 }
 
-/*There are 5 position properties: static (the default), relative, absolute, fixed, and sticky. Elements are always positioned using top, right, bottom, or left. Any CSS unit of measure will work. You are always 'offsetting' (pushing away) from the keyword you use. Positive values push inward and negative values push outward. When you use CSS positioning, you are modifying the normal document flow. Divs, paragraphs, and lists are block elements by default. Images, links, and inputs are in-line elements by default. (a) The relative position is relative to its original position. Relative positioning does not modify the document flow; i.e., even though we visually moved the element, it still exists in its original location as far as the other elements are concerned. The document flow is not affected. (b) absolute-positioned elements are positioned according to the nearest parent element. Elements that are absolutely-positioned ARE removed from the document flow. (c) Fixed positioning is always in terms of the viewport (browser window). It works similarly to absolute positioned elements except the "parent" element is always the viewport. It moves with the browser window and sits in front of all the other content. Fixed-positioned elements ARE removed from the document flow. (d) Sticky positioning is relative to the containing element. Its document flow behaves like 'relative' until it is stuck, and then behaves like 'fixed'. Z-index controls the stacking order of CSS elements.*/
+/*There are 5 position properties: static (the default), relative, absolute, fixed, and sticky. Elements are always positioned using top:, right:, bottom:, and/or left:, along with a value. Any CSS unit of measure will work; i.e., em, rem, etc. Positive values push inward and negative values push outward. When you use CSS positioning, you are modifying the normal document flow. Divs, paragraphs, and lists are block elements by default. Images, links, and inputs are in-line elements by default. (a) The relative position is relative to its original position. Relative positioning DOES NOT affect the document flow; i.e., even though we visually moved the element, it still exists in its original location as far as the other elements are concerned. (b) absolute-positioned elements are positioned relative to the nearest parent element. Elements that are absolutely-positioned ARE removed from the document flow. (c) Fixed positioning is always relative to the viewport (browser window). It works similarly to absolute positioned elements except the "parent" element is always the viewport. It moves with the browser window and sits in front of all the other content. Fixed-positioned elements ARE removed from the document flow. (d) Sticky positioning is relative to the containing element. Its document flow behaves like 'relative' until it is stuck, and then behaves like 'fixed'. Z-index controls the stacking order of CSS elements.*/
 
-body {
+body {    /*Header and section are children of the body element.*/
   font-family: MyFont;
   font-size: 18px;
   background-image: url('seager.jpg');
@@ -23,18 +23,30 @@ body {
   flex-direction: column;
 }
 
-header {
+header {   
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  color: black;
-  font-size: 55px;
-  align-items: center;
-  background-color: rgb(113, 143, 173);
+  flex-direction: row; /*The following two lines are parent-level properties.*/
+  justify-content: space-around; /*This provides horizontal alignment to the 3 elements in the header.*/
+  align-items: center; /*This centers the 3 elements in the header vertically.*/
   height: 120px;
-  position: sticky;
-  top: 0;
+  font-size: 55px;
+  color: black;
+  background-color: rgb(113, 143, 173);
+  position: fixed; /*Fixed positioning is always relative to the viewport.*/
+  top: 0; /*I needed the next 2 lines to force the header all the way across the viewport.*/
+  left: 0;
+  right: 0;
   z-index: 2;
+}
+
+/*.header-text {
+  flex-shrink: 0; 
+}*/
+
+@media (max-width: 800px){
+  header {
+    font-size: 44px;
+  }
 }
 
 section {
