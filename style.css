@@ -24,6 +24,13 @@ body {    /*Header and section are children of the body element.*/
   justify-content: flex-end;
 }
 
+.twilight-zone-image {
+  position: fixed;
+  top: 78px;
+  left: 190px;
+  z-index: 3;
+}
+
 header {   /*child of body*/
   display: flex;
   flex-direction: row; /*The following two lines are parent-level properties.*/
@@ -68,10 +75,11 @@ aside {  /*child of section alongside main, which causes it to be as long vertic
 .pig-in-sidebar{ 
   position: relative;
   top: 175px;
-  left: 90px;
+  left: 20px;
+  z-index: 4;
 }
 .paragraph-in-sidebar{ 
-  position:relative;
+  position: relative;
   top: 170px;
   left: 10px;
 }
@@ -83,7 +91,7 @@ aside {  /*child of section alongside main, which causes it to be as long vertic
 
 .ws-ring-in-sidebar { 
   position: relative;
-  top: 250px;
+  top: 200px;
   left: 18px;
 }
 
