@@ -26,8 +26,8 @@ body {    /*Header and section are children of the body element.*/
 
 .twilight-zone-image {
   position: fixed;
-  top: 78px;
-  left: 190px;
+  top: 75px;
+  left: 180px;
   z-index: 3;
 }
 
@@ -93,6 +93,12 @@ aside {  /*child of section alongside main, which causes it to be as long vertic
   position: relative;
   top: 200px;
   left: 18px;
+}
+
+.nolan-in-sidebar {
+  position: relative;
+  top: 220px;
+  left: -20px;
 }
 
 main {  /*child of section*/
