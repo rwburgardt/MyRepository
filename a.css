@@ -65,7 +65,7 @@ main {
   nav-padding {
     padding-right: 0px;
   }
-}`
+}
 
 .name-of-month {
   display: flex; /*This line and the next are needed to bottom-align the text.*/
