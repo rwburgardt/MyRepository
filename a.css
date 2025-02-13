@@ -15,6 +15,7 @@ nav {
   display: flex;
   flex-direction: row;
   /*border: 1px solid red;*/
+  justify-content: space-around; /*This provides horizontal alignment to the 3 elements in the header.*/
 }
 
 section {
