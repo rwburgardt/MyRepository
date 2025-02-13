@@ -33,6 +33,12 @@ aside {
   width: 11%;
 }
 
+@media (max-width: 800px){
+  aside {
+    width: 25%;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -40,6 +46,12 @@ main {
   min-height: 100%;
   width: 89%;
 }
+
+@media (max-width: 800px){
+  main {
+    width: 75%;
+  }
+}`
 
 .round-the-corners{
   border-radius: 50%;
