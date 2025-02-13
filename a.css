@@ -24,7 +24,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: right; /*This provides horizontal alignment to the elements in the header.*/
+  justify-content: flex-end; /*This provides horizontal alignment to the elements in the header.*/
   align-items: center; /*This centers the elements in the header vertically.*/
   background-color: rgb(113,143,173);
   min-height: 50px;
@@ -37,6 +37,7 @@ section {
   background-color: transparent;
   height: 100%;
   width: 100vw;
+  /*justify-content: flex-start;*/
 }
 
 aside {
@@ -44,18 +45,19 @@ aside {
   flex-direction: column;
   background-color: rgb(113,143,173);
   min-height: 100%;
-  width: 11%;
+  position: relative;
+  width: 164px;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   aside {
     display: flex;
     flex-direction: column;
     background-color: rgb(113,143,173);
     min-height: 100%;
-    width: 25%;
+    width: 35%;
   }
-}
+}*/
 
 .title {
   font-size:55px;
@@ -64,22 +66,23 @@ aside {
 
 
 main {
+  /*margin-left: 164px;*/
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  min-height: 100%;
-  width: 89%;
+  flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   main {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100%;
-  width: 75%;    
+  width: 65%;    
   }
-}`
+}*/
 
 .round-the-corners{
   border-radius: 50%;
