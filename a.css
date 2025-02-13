@@ -28,12 +28,17 @@ section {
 aside {
   display: flex;
   flex-direction: column;
+  background-color: lightgreen;
+  min-height: 100%;
+  width: 25%;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100%;
+  width: 75%"
 }
 
 .brice-image{
