@@ -9,13 +9,18 @@ body {
   display: flex;
   flex-direction: column;
   /*border: 1px solid red;*/
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   /*border: 1px solid red;*/
-  justify-content: space-around; /*This provides horizontal alignment to the 3 elements in the header.*/
+  justify-content: flex-end; /*This provides horizontal alignment to the elements in the header.*/
+  align-items: center; /*This centers the elements in the header vertically.*/
 }
 
 section {
@@ -34,7 +39,15 @@ main {
   display: flex;
   flex-direction: column;
   /*border: 1px solid red;*/
+  align-items: center;
 }
 
+.brice-image{
+  border-radius: 50%;
+  margin-left: 20px;
+}
 
+.straight-up-texas-image{
+  border-radius: 50%
+}
   
