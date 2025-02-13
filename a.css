@@ -30,7 +30,7 @@ aside {
   flex-direction: column;
   background-color: lightgreen;
   min-height: 100%;
-  width: 25%;
+  width: 11%;
 }
 
 main {
@@ -38,15 +38,15 @@ main {
   flex-direction: column;
   align-items: center;
   min-height: 100%;
-  width: 75%;
+  width: 89%;
 }
 
-.brice-image{
+.round-the-corners{
   border-radius: 50%;
 }
 
-.straight-up-texas-image{
-  border-radius: 50%;
+.nav-padding {
+  padding-right: 70px;
 }
 
 .name-of-month {
