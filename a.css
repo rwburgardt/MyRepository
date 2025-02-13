@@ -19,7 +19,7 @@ nav {
   display: flex;
   flex-direction: row;
   /*border: 1px solid red;*/
-  justify-content: flex-end; /*This provides horizontal alignment to the elements in the header.*/
+  justify-content: right; /*This provides horizontal alignment to the elements in the header.*/
   align-items: center; /*This centers the elements in the header vertically.*/
 }
 
