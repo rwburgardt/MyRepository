@@ -8,17 +8,14 @@
 body {
   display: flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
   background-image: url('seager.jpg');
   background-repeat:no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  /*border: 1px solid red;*/
   justify-content: right; /*This provides horizontal alignment to the elements in the header.*/
   align-items: center; /*This centers the elements in the header vertically.*/
 }
@@ -26,19 +23,16 @@ nav {
 section {
   display: flex;
   flex-direction: row;
-  /*border: 1px solid red;*/
 }
 
 aside {
   display: flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
 }
 
 main {
   display: flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
   align-items: center;
 }
 
@@ -48,5 +42,14 @@ main {
 
 .straight-up-texas-image{
   border-radius: 50%;
+}
+
+.name-of-month {
+  display: flex; /*This line and the next are needed to bottom-align the text.*/
+  align-items: flex-end;
+  height: 96px;
+  font-size: 55px;
+  color: black;
+  text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
 }
   
