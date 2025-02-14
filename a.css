@@ -30,7 +30,11 @@ nav {
   align-items: center; /*This centers the elements in the header vertically.*/
   background-color: rgb(113,143,173);
   min-height: 50px;
-  min-width: 100vw;
+  position: fixed; /*Fixed positioning is always relative to the viewport, not the page. */
+  top: 0; /*I needed fixed positioning to force the header all the way across my phone screen*/
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
 
 section {
