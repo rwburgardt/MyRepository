@@ -33,6 +33,15 @@ nav {
   width: 100vw;
 }
 
+@media (max-width: 800px){
+  nav {
+  vertical-align: middle; /*This centers the elements in the header vertically.*/
+  background-color: rgb(113,143,173);
+  min-height: 50px;
+  width: 100vw;
+  }
+}
+
 section {
   display: flex;
   flex-direction: row;
@@ -86,17 +95,63 @@ main {
   }
 }*/
 
-.round-the-corners{
-  border-radius: 50%;
-}
-
-.nav-padding {
+.mother-pig {
   padding-right: 70px;
 }
 
 @media (max-width: 800px){
-  .nav-padding {
+  .mother-pig {
     padding-right: 0px;
+    position: fixed;
+    right: 0px;
+  }
+}
+
+.locked-on-rangers {
+  padding-right: 70px;
+}
+
+@media (max-width: 800px){
+  .locked-on-rangers {
+    padding-right: 0px;
+    position: fixed;
+    right: 50px;
+  }
+}
+
+.brice {
+  border-radius: 50%;
+}
+
+@media (max-width: 800px){
+  .brice {
+    padding-right: 0px;
+    position: fixed;
+    right: 230px;
+  }
+}
+
+.straight-up-texas-podcast {
+  padding-right: 70px;
+}
+
+@media (max-width: 800px){
+  .straight-up-texas-podcast {
+    padding-right: 0px;
+    position: fixed;
+    right: 275px;
+  }
+}
+
+.straight-up-texas-image {
+  border-radius: 50%;
+}
+
+@media (max-width: 800px){
+  .straight-up-texas-image {
+    padding-right: 0px;
+    position: fixed;
+    right: 450px;
   }
 }
 
