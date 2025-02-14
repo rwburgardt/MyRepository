@@ -30,7 +30,7 @@ nav {
   align-items: center; /*This centers the elements in the header vertically.*/
   background-color: rgb(113,143,173);
   min-height: 50px;
-  width: 100vw;
+  min-width: 100vw;
 }
 
 section {
