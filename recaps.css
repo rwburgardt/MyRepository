@@ -100,28 +100,24 @@ footer {
             vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            /*padding: 0.3125em;*/
           }
           .opponent-heading {
             text-align: center;
             vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            /*padding: 0.3125em;*/
           }
           .result-heading {
             text-align: center;
             vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            /*padding: 0.3125em;*/
           }
           .recap-heading {
             text-align: center;
             vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            /*padding: 0.3125em;*/
           }
 
 .date-game {
@@ -161,4 +157,14 @@ footer {
   background-color: lightcyan;
   font-size: 1.125em;
   padding: 0.3125em;
+}
+
+@media (max-width: 800px){
+  .recap-game {
+    text-align: left;
+    border: 1px solid black;
+    background-color: lightcyan;
+    font-size: 0.75em;
+    /*padding: 0.3125em;*/
+  }
 }
