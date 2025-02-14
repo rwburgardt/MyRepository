@@ -73,7 +73,6 @@ aside {
   }
 }
 
-
 main {
   /*margin-left: 164px;*/
   display: flex;
@@ -97,61 +96,61 @@ main {
   padding-right: 70px;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .mother-pig {
     padding-right: 0px;
     position: fixed;
     right: 0px;
   }
-}
+}*/
 
 .locked-on-rangers {
   padding-right: 70px;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .locked-on-rangers {
     padding-right: 0px;
     position: fixed;
     right: 50px;
   }
-}
+}*/
 
 .brice {
   border-radius: 50%;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .brice {
     padding-right: 0px;
     position: fixed;
     right: 230px;
   }
-}
+}*/
 
 .straight-up-texas-podcast {
   padding-right: 70px;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .straight-up-texas-podcast {
     padding-right: 0px;
     position: fixed;
     right: 275px;
   }
-}
+}*/
 
 .straight-up-texas-image {
   border-radius: 50%;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .straight-up-texas-image {
     padding-right: 0px;
     position: fixed;
     right: 450px;
   }
-}
+}*/
 
 .name-of-month {
   display: flex; /*This line and the next are needed to bottom-align the text.*/
