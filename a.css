@@ -76,7 +76,7 @@ aside {
 }
 
 @media (max-width: 800px){
-  title {
+  .title {
     font-size: 44px;  
     text-shadow:3px 4px 6px rgba(000,000,000,0.4);  
   }
