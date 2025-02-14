@@ -72,7 +72,14 @@ aside {
 
 .title {
   font-size:55px;
-  text-shadow:3px 4px 6px rgba(000,000,000,0.4)
+  text-shadow:3px 4px 6px rgba(000,000,000,0.4);
+}
+
+@media (max-width: 800px){
+  title {
+    font-size: 44px;  
+    text-shadow:3px 4px 6px rgba(000,000,000,0.4);  
+  }
 }
 
 
