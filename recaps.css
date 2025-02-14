@@ -1,13 +1,8 @@
 * {
   margin: 0;
 }
-@font-face {
-  font-family: MyFont;
-  src: url(CowboyOutlaw.otf);
-}
 
 body {
-  font-family: MyFont;
   display: grid;
   grid-template-columns: 125px 1fr;
   grid-template-rows: 96px 1fr auto;
@@ -25,7 +20,7 @@ body {
   position: sticky;
   top: 0;
   grid-area: header;
-  background-color: lightcyan;
+  background-color: rgb(113 143 173);
   color: black;
   font-size: 55px;
   align-items: center;
@@ -51,7 +46,7 @@ main {
 .pig-in-sidebar {
   margin: 120px 0 0 20px;
   position: relative;
-  right: -50px;
+  right: 5px;
   bottom: -50px;
 }
 
