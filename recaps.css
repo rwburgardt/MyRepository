@@ -81,14 +81,14 @@ footer {
 
 .container-body {
   display: grid;
-  grid-template-columns: 95px 80px 63px 1fr;
+  grid-template-columns: 95px 63px 80px 1fr;
   grid-template-rows: 120px;
   grid-auto-rows: 120px;
 }
 
 @media (max-width: 800px){
   .container-body {
-    grid-template-columns: 95px 80px 63px 1fr;
+    grid-template-columns: 95px 63px 80px 1fr;
     grid-template-rows: 220px;
     grid-auto-rows: 220px;
   }
