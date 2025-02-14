@@ -33,7 +33,7 @@ main {
 .sidebar {
   grid-area: sidebar;
   background-color: rgb(113,143,173);
-  font-size: 18px;
+  font-size: 1.125em;
   color:black;
   display: flex;
   flex-direction: column;
