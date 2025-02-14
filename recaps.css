@@ -73,7 +73,7 @@ footer {
 .container-heading {
   background-color: lightgoldenrodyellow;
   display: grid;
-  grid-template-columns: 95px 80px 63px 1fr;
+  grid-template-columns: 95px 63px 80px 1fr;
   grid-template-rows: 25px;
   position: sticky;
   top: 96px;
