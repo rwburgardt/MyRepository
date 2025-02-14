@@ -96,27 +96,31 @@ footer {
 
           .date-heading {
             text-align: center;
+            vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            padding: 0.3125em;
+            /*padding: 0.3125em;*/
           }
           .opponent-heading {
             text-align: center;
+            vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            padding: 0.3125em;
+            /*padding: 0.3125em;*/
           }
           .result-heading {
             text-align: center;
+            vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            padding: 0.3125em;
+            /*padding: 0.3125em;*/
           }
           .recap-heading {
             text-align: center;
+            vertical-align: middle;
             border: 1px solid black;
             font-size: 1.125em;
-            padding: 0.3125em;
+            /*padding: 0.3125em;*/
           }
 
 .date-game {
