@@ -134,6 +134,12 @@ main {
   left: -15px;
 }
 
+.rangers-logo {
+  position: relative;
+  top: 45px;
+  left: 45px;
+}
+
 .two-week-month {
   display: flex;
   flex-wrap: wrap;
