@@ -7,11 +7,11 @@
 
 /* unvisited link*/
 a:link {
-  color: white;
+  color: darkblue;
 }
 /* visited link */
 a:visited {
-  color: yellow;
+  color: red;
 }
 /* mouse over link */
 a:hover {
