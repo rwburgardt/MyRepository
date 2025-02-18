@@ -39,14 +39,6 @@ body {
   left: 197px;
   z-index: 3;
 }
-/*
-nav {
-  height: 60px;
-  background-color:  rgb(113,143,173);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 
 .links-container {
   height: 100%;
@@ -56,7 +48,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
 }
-
+/*
 #sidebar-active {
   display: none;
 }
@@ -64,22 +56,22 @@ nav {
 .open-sidebar-button, .close-sidebar-button {
   display: none;
 }
-
-@media (max-width: 600px){
+*/
+@media (max-width: 400px){
   .links-container {
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
     width: 200px;
-    background-color: black;
+    background-color: rgb(113,143,173);
     color: white;
   }
 }
-*/
+
 
 nav {
   display: flex;
@@ -88,16 +80,12 @@ nav {
   align-items: center;
   background-color: rgb(113,143,173);
   min-height: 50px;
-  position: fixed;
-  top: 0; 
+  position: fixed;   /*Fixed positioning is always relative to the viewport, not the page. */
+  top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
   left: 0;
   right: 0;
   z-index: 2;
 }
-
-/*Fixed positioning is always relative to the viewport, not the page. */
-/*I needed fixed positioning to force the header all the way across my phone screen*/
-
 
 section {
   display: flex;
@@ -152,7 +140,6 @@ main {
   width: 150px;
   height: 40px;
   background-color: white;
-  color: black;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
@@ -169,7 +156,6 @@ main {
   width: 150px;
   height: 40px;
   background-color: white;
-  color: black;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
