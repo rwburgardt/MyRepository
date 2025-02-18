@@ -143,20 +143,38 @@ main {
   padding-right: 4.375em;
 }
 
-.locked-on-rangers {
-  padding-right: 4.375em;
-}
-
 .brice {
   border-radius: 50%;
 }
 
-.straight-up-texas-podcast {
-  padding-right: 4.375em;
+.locked-on-rangers-podcast {
+  border: 3px outset buttonborder;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 30px;
+  /*padding-right: 4.375em;*/
 }
 
 .straight-up-texas-image {
   border-radius: 50%;
+}
+
+.straight-up-texas-podcast {
+  border: 3px outset buttonborder;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 30px;
+  /*padding-right: 4.375em;*/
 }
 
 .name-of-month {
