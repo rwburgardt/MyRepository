@@ -57,6 +57,7 @@ body {
   display: none;
 }
 */
+/*
 @media (max-width: 400px){
   .links-container {
     flex-direction: column;
@@ -67,11 +68,11 @@ body {
     right: 0;
     z-index: 10;
     width: 200px;
-    background-color: rgb(113,143,173);
+    background-color: lightblue;
     color: white;
   }
 }
-
+*/
 
 nav {
   display: flex;
