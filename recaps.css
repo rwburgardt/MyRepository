@@ -95,8 +95,8 @@ footer {
 @media (max-width: 1000px){
   .container-body {
     grid-template-columns: 95px 63px 80px 1fr;
-    grid-template-rows: 250px;
-    grid-auto-rows: 250px;
+    grid-template-rows: 270px;
+    grid-auto-rows: 270px;
   }
 }
 
