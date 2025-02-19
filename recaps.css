@@ -26,6 +26,11 @@ body {
   align-items: center;
 }
 
+.game-recaps {
+  font-size: 0.75em;
+  text-shadow:3px 4px 6px rgba(000,000,000,0.4);
+}
+
 main {
   grid-area: main;
 }
@@ -48,6 +53,7 @@ main {
   position: relative;
   right: 5px;
   bottom: -50px;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .homeplate-in-sidebar {
@@ -82,15 +88,15 @@ footer {
 .container-body {
   display: grid;
   grid-template-columns: 95px 63px 80px 1fr;
-  grid-template-rows: 120px;
-  grid-auto-rows: 120px;
+  grid-template-rows: 140px;
+  grid-auto-rows: 140px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .container-body {
     grid-template-columns: 95px 63px 80px 1fr;
-    grid-template-rows: 220px;
-    grid-auto-rows: 220px;
+    grid-template-rows: 240px;
+    grid-auto-rows: 240px;
   }
 }
 
@@ -124,7 +130,7 @@ footer {
   text-align: center;
   border: 1px solid black;
   background-color: lightcyan;
-  font-size: 1.125em;
+  font-size: 1em;
   padding: 0.3125em;
 }
 
@@ -132,7 +138,7 @@ footer {
   text-align: center;
   border: 1px solid black;
   background-color: lightcyan;
-  font-size: 1.125em;
+  font-size: 1em;
   padding: 0.3125em;
 }
 
@@ -140,31 +146,14 @@ footer {
   text-align: center;
   border: 1px solid black;
   background-color: lightcyan;
-  font-size: 1.125em;
+  font-size: 1em;
   padding: 0.3125em;
 }
-
-@media (max-width: 800px){
-  .result-game {
-    font-size: 0.875em;
-    padding: 0.375em;
-  }
-}  
 
 .recap-game {
   text-align: left;
   border: 1px solid black;
   background-color: lightcyan;
-  font-size: 1.125em;
+  font-size: 1em;
   padding: 0.3125em;
-}
-
-@media (max-width: 800px){
-  .recap-game {
-    text-align: left;
-    border: 1px solid black;
-    background-color: lightcyan;
-    font-size: 0.9em;
-    /*padding: 0.3125em;*/
-  }
 }
