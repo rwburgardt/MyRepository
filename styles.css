@@ -49,6 +49,7 @@ body {
   top: 70px;
   left: 197px;
   z-index: 3;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 nav {
@@ -110,12 +111,11 @@ nav a:hover {
     transition: 0.5s ease-out;
   }
   nav a {
-    box-sizing: border-box;
+    box-sizing: border-box; /*Includes the padding and border in an element's total width and height.*/
     height: auto;
     width: 100%;
     padding: 30px;
   }
-
   #sidebar-active {
     display: none;
   }
@@ -138,7 +138,7 @@ nav a:hover {
     margin-top: 50px;
     margin-left: 20px;
   }
-  .locked-on-rangers-podcast {
+  .podcast-link {
     position:relative;
     left: 80px;
     top: -50px;
@@ -147,20 +147,10 @@ nav a:hover {
     border-radius: 50%;
     margin-left: 20px;
   }
-  .straight-up-texas-podcast {
-    position: relative;
-    left: 80px;
-    top: -50px;
-  }
   .dlls-podcast-image {
     margin-left: 20px;
   }
-  .dlls-podcast-link {
-    position: relative;
-    left: 80px;
-    top: -50px;
-  }
- .mother-pig-in-nav {
+  .mother-pig-in-nav {
     display: none;
   }
 }
@@ -206,10 +196,11 @@ main {
 
 .brice {
   border-radius: 50%;
+  margin-right: 5px;
 }
 
-.locked-on-rangers-podcast {
-  border: 3px outset buttonborder;
+.podcast-link {
+  border: 3px solid black;;
   width: 150px;
   height: 40px;
   background-color: white;
@@ -217,36 +208,22 @@ main {
   text-align: center;
   vertical-align: middle;
   margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
 }
 
 .straight-up-texas-image {
   border-radius: 50%;
+  margin-right: 5px;
 }
 
-.straight-up-texas-podcast {
-  border: 3px outset buttonborder;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 24px;
-}
-
-.dlls-podcast-link {
-  border: 3px outset buttonborder;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 30px;
+.dlls-podcast-image{
+  margin-right: 5px;
 }
 
 .mother-pig-in-nav {
   padding-right: 1em;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .name-of-month {
@@ -262,6 +239,7 @@ main {
   position: relative;
   left: 25px;
   z-index: 4;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .paragraph-in-sidebar{ 
@@ -278,12 +256,14 @@ main {
   position: relative;
   top: 20px;
   left: 25px;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .nolan-in-sidebar {
   position: relative;
   top: 30px;
   left: -15px;
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .rangers-logo {
@@ -336,6 +316,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 3px 3px;
 }
 
 .day {
