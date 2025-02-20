@@ -162,4 +162,5 @@ footer {
   background-color: lightcyan;
   font-size: 1em;
   padding: 0.3125em;
+  overflow: auto;
 }
