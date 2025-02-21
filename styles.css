@@ -68,11 +68,11 @@ body {
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-@media (max-width: 400px){
+/*@media (max-width: 400px){
   .bubble {
     left: -320px;
   }
-}
+}*/
 
 .bubble-bottom-left:before {
   content: "";
