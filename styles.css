@@ -46,7 +46,7 @@ body {
 
 .big-head-image {
   position: relative;
-  top: -100px;
+  top: 0px;
   left: 0px;
   z-index: 3;
   filter: drop-shadow(5px 5px 5px #222);
