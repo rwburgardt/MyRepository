@@ -55,7 +55,7 @@ body {
 .bubble {
   position: relative;
   top: 0px;
-  left: -320px;
+  left: -480px;
   font-family: sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -66,6 +66,12 @@ body {
   text-align: center;
   color: #000;
   filter: drop-shadow(5px 5px 5px #222);
+}
+
+@media (max-width: 400px){
+  .bubble {
+    left: -320px;
+  }
 }
 
 .bubble-bottom-left:before {
