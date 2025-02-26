@@ -21,6 +21,27 @@
   gtag('config', 'G-5HJ03WSVKP');
 </script>
 
+<script>
+
+  function search(team) {
+	  let searched = document.getElementById("team").value;
+   	let text = document.getElementById("search").innerHTML;
+  	let re = new RegExp(searched,"g"); // search for all instances
+		let newText = text.replace(re, `<mark>${searched}</mark>`);
+		document.getElementById("search").innerHTML = newText;
+  }
+
+  function unsearch(team) {
+	  let searched = document.getElementById("team").value;
+   	let text = document.getElementById("search").innerHTML;
+  	let re = new RegExp(`<mark>${searched}</mark>`,"g"); // search for all instances
+		let newText = text.replace(re, `${searched}`);
+		document.getElementById("search").innerHTML = newText;
+    document.getElementById("team").value = '';
+  }
+
+</script>
+
 <body>     <!--body is parent of nav and section-->
 
   <nav>
@@ -59,7 +80,45 @@
     <aside>
       <div class="bubble bubble-bottom-left" contenteditable>Click on Recap for a synopsis that highlights why the Rangers won or lost the game...</div>
       <img class = "big-head-image" src = "big-head-image.png" width="225px" height="274px">
-      <img class="pig-in-sidebar" src = "motherpig.png" width="100px" height="100px">
+      <!--<img class="pig-in-sidebar" src = "motherpig.png" width="100px" height="100px">-->
+
+      <form>  
+        <input list="teams" class="input-box" placeholder="     Select an opponent" id="team">
+        <datalist id="teams">
+          <option value="Ari">
+          <option value="Ath">
+          <option value="Atl">
+          <option value="Bal">
+          <option value="Bos">
+          <option value="CHC">
+          <option value="Cin"> 
+          <option value="Cle"> 
+          <option value="CWS">
+          <option value="Col">
+          <option value="Det">
+          <option value="Hou">
+          <option value="KC">
+          <option value="LAA">
+          <option value="LAD">
+          <option value="Mia">
+          <option value="Mil">
+          <option value="Min">
+          <option value="NYM">
+          <option value="NYY">
+          <option value="Phi">
+          <option value="Pit">
+          <option value="SD">
+          <option value="Sea">
+          <option value="SF">
+          <option value="SL">
+          <option value="TB">
+          <option value="Tor">
+          <option value="Was">    
+        </datalist><br>
+        <input type="button" value="Find" class="find-button" id="team" onclick="search(team)" style = "width:81px">
+        <input type="button" value="Clear" class="clear-button" onclick ="unsearch(team)" style="width:81px">
+      </form>
+
       <div class="paragraph-in-sidebar">
         AL West Standings on 3/27 at 6:00 am CDT:
       </div>
@@ -99,7 +158,7 @@
       <img class = "nolan-in-sidebar" src = "nolan.png" width = "200px" height = "200px">
       <img class = "rangers-logo" src = "logo.gif" width = "85px" height = "85px">
     </aside>
-    <main>
+    <main id = "search"> <!--ID added for search box-->
       <h1 class = "title">Sports Guy's 2025 Texas Rangers Recaps</h1>
 
       <p class = "name-of-month">March</p>
