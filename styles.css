@@ -97,7 +97,7 @@ body {
 }
 
 .clear-button, .find-button, .input-box {
-  background-color: lightcyan;
+  background-color: lightgoldenrodyellow;
   width: 50px;
   /*margin-left: 5px;*/
 }
@@ -117,7 +117,6 @@ body {
 }
 
 .input-box {
-  background-color: lightcyan;
   width: 132px;
 }
 
