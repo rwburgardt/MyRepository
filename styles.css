@@ -99,7 +99,7 @@ body {
 .clear-button, .find-button, .input-box {
   background-color: lightcyan;
   width: 50px;
-  margin-left: 5px;
+  /*margin-left: 5px;*/
 }
 
 /*.find-button {
