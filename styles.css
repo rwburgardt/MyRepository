@@ -98,6 +98,7 @@ body {
 
 .clear-button, .find-button, .input-box {
   background-color: lightcyan;
+  width: 50px;
 }
 
 /*.find-button {
@@ -114,9 +115,10 @@ body {
   height: 700px;
 }
 
-/*.input-box {
+.input-box {
   background-color: lightcyan;
-}*/
+  width: 132px;
+}
 
 .links-container {
   height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
