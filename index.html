@@ -84,7 +84,7 @@
 
       <form>  
         <input list="teams" class="input-box" placeholder="Select an opponent" id="team">
-        <datalist id="teams">
+        <datalist id="teams"> <!--The datalist element specifies a list of pre-defined options for an input element.-->
           <option value="Ari">
           <option value="Ath">
           <option value="Atl">
@@ -115,7 +115,7 @@
           <option value="Tor">
           <option value="Was">    
         </datalist>
-        <input type="button" value="Find" class="find-button" id="team" onclick="search(team)">
+        <input type="button" value="Highlight" class="find-button" id="team" onclick="search(team)">
         <input type="button" value="Clear" class="clear-button" onclick ="unsearch(team)">
       </form>
 
