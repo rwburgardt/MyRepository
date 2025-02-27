@@ -23,18 +23,18 @@
 
 <script>
 
-  function search(team) {
+  function searchforteam(team) {
 	  let searched = document.getElementById("team").value;
    	let text = document.getElementById("search").innerHTML;
-  	let re = new RegExp(searched,"g"); // search for all instances
+   	let re = new RegExp(searched,"g"); // search for all instances
 		let newText = text.replace(re, `<mark>${searched}</mark>`);
 		document.getElementById("search").innerHTML = newText;
   }
 
-  function unsearch(team) {
+  function unsearchforteam(team) {
 	  let searched = document.getElementById("team").value;
    	let text = document.getElementById("search").innerHTML;
-  	let re = new RegExp(`<mark>${searched}</mark>`,"g"); // search for all instances
+    let re = new RegExp(`<mark>${searched}</mark>`,"g"); // search for all instances
 		let newText = text.replace(re, `${searched}`);
 		document.getElementById("search").innerHTML = newText;
     document.getElementById("team").value = '';
@@ -115,8 +115,8 @@
           <option value="Tor">
           <option value="Was">    
         </datalist>
-        <input type="button" value="Highlight" class="find-button" id="team" onclick="search(team)">
-        <input type="button" value="Clear" class="clear-button" onclick ="unsearch(team)">
+        <input type="button" value="Highlight" class="find-button" id="team" onclick="searchforteam(team)">
+        <input type="button" value="Clear" class="clear-button" onclick ="unsearchforteam(team)">
       </form>
 
       <div id="paragraph-in-sidebar">
