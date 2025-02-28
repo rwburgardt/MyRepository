@@ -178,7 +178,7 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
 #sidebar-active {
   display: none;
 }
-
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 body {
   display: flex;
   flex-direction: column;
@@ -188,37 +188,6 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
   max-width: 100vw;
-}
-
-.five-week-month, .two-week-month, .six-week-month {
-  display: flex;
-  flex-wrap: wrap;  
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  width: 1000px;
-  height: 700px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
-}
-
-.name-of-month {
-  display: flex; /*This line and the next are needed to bottom-align the text.*/
-  align-items: flex-end;
-  height: 90px;
-  font-size: 3.4375em;
-  text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
-}
-
-.placeholder {
-  width: 125px;
-  height: 125px;
 }
 
 section {
@@ -231,8 +200,12 @@ section {
   top: 60px;
 }
 
-.six-week-month {
-  height: 800px;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
 }
 
 #title {
@@ -242,8 +215,35 @@ section {
   padding-top: 50px;
 }
 
+.name-of-month {
+  display: flex; /*This line and the next are needed to bottom-align the text.*/
+  align-items: flex-end;
+  height: 90px;
+  font-size: 3.4375em;
+  text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
+}
+
+.five-week-month, .two-week-month, .six-week-month {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 1000px;
+  height: 700px;
+}
+
+.six-week-month {
+  height: 800px;
+}
+
 .two-week-month {
   height: 280px;
+}
+
+.placeholder {
+  width: 125px;
+  height: 125px;
 }
 
 .mar27, .mar28, .mar29, .mar30, .mar31, .apr1, .apr2, .apr3, .apr4, .apr5, .apr6, .apr7, .apr8, .apr9, .apr10, .apr11, .apr12, .apr13, .apr14, .apr15, .apr16, .apr17, .apr18, .apr19, .apr20, .apr21, .apr22, .apr23, .apr24, .apr25, .apr26, .apr27, .apr28, .apr29, .apr30, .may1, .may2, .may3, .may4, .may5, .may6, .may7, .may8, .may9, .may10, .may11, .may12, .may13, .may14, .may15, .may16, .may17, .may18, .may19, .may20, .may21, .may22, .may23, .may24, .may25, .may26, .may27, .may28, .may29, .may30, .may31, .jun1, .jun2, .jun3, .jun4, .jun5, .jun6, .jun7, .jun8, .jun9, .jun10, .jun11, .jun12, .jun13, .jun14, .jun15, .jun16, .jun17, .jun18, .jun19, .jun20, .jun21, .jun22, .jun23, .jun24, .jun25, .jun26, .jun27, .jun28, .jun29, .jun30, .jul1, .jul2, .jul3, .jul4, .jul5, .jul6, .jul7, .jul8, .jul9, .jul10, .jul11, .jul12, .jul13, .jul14, .jul15, .jul16, .jul17, .jul18, .jul19, .jul20, .jul21, .jul22, .jul23, .jul24, .jul25, .jul26, .jul27, .jul28, .jul29, .jul30, .jul31, .aug1, .aug2, .aug3, .aug4, .aug5, .aug6, .aug7, .aug8, .aug9, .aug10, .aug11, .aug12, .aug13, .aug14, .aug15, .aug16, .aug17, .aug18, .aug19, .aug20, .aug21, .aug22, .aug23, .aug24, .aug25, .aug26, .aug27, .aug28, .aug29, .aug30, .aug31, .sep1, .sep2, .sep3, .sep4, .sep5, .sep6, .sep7, .sep8, .sep9, .sep10, .sep11, .sep12, .sep13, .sep14, .sep15, .sep16, .sep17, .sep18, .sep19, .sep20, .sep21, .sep22, .sep23, .sep24, .sep25, .sep26, .sep27, .sep28 {
