@@ -48,6 +48,7 @@ aside {
   position: relative;
   top: 0px;
   left: 0px;
+  z-index: 3;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
@@ -154,6 +155,7 @@ nav {
   top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
@@ -305,6 +307,7 @@ section {
     height: auto;
     width: 100%;
     padding: 30px;
+    z-index: 3;
   }
   .open-sidebar-button, .close-sidebar-button {
     display: block;
