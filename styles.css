@@ -48,7 +48,6 @@ aside {
   position: relative;
   top: 0px;
   left: 0px;
-  z-index: 3;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
@@ -87,12 +86,12 @@ body {
   width: 0px;
   height: 0px;
   position: absolute;
+  left: 32px;
+  bottom: -24px;
   border-left: 24px solid lightgray;
   border-right: 12px solid transparent;
   border-top: 12px solid lightgray;
   border-bottom: 20px solid transparent;
-  left: 32px;
-  bottom: -24px;
 }
 
 .clear-button, .find-button, .input-box {
@@ -155,7 +154,6 @@ nav {
   top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
   left: 0;
   right: 0;
-  z-index: 2;
 }
 
 nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
