@@ -116,64 +116,7 @@ aside {
   margin-top: 45px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Aside^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
-
-body {
-  display: flex;
-  flex-direction: column;
-  background-image: url('seager.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh;
-  max-width: 100vw;
-}
-
-#brice, #dlls-podcast-image, #straight-up-texas-image {
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.five-week-month, .two-week-month, .six-week-month {
-  display: flex;
-  flex-wrap: wrap;  
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  width: 1000px;
-  height: 700px;
-}
-
-.links-container {
-  height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
-}
-
-#mother-pig-in-nav {
-  padding-right: 1em;
-  filter: drop-shadow(5px 5px 5px #222);
-}
-
-.name-of-month {
-  display: flex; /*This line and the next are needed to bottom-align the text.*/
-  align-items: flex-end;
-  height: 90px;
-  font-size: 3.4375em;
-  text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
-}
-
+/*---------------------------------------------------Nav------------------------------------------------*/
 nav {
   min-height: 60px;
   background-color: var(--color-1);
@@ -196,13 +139,18 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   text-decoration: none; /*To remove any underline*/
 }
 
-.open-sidebar-button, .close-sidebar-button {
-  display: none;
+.links-container {
+  height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.placeholder {
-  width: 125px;
-  height: 125px;
+#brice, #dlls-podcast-image, #straight-up-texas-image {
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 .podcast-link {
@@ -218,6 +166,61 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   box-shadow: 3px 3px;
 }
 
+#mother-pig-in-nav {
+  padding-right: 1em;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.open-sidebar-button, .close-sidebar-button {
+  display: none;
+}
+
+#sidebar-active {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.five-week-month, .two-week-month, .six-week-month {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 1000px;
+  height: 700px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
+}
+
+.name-of-month {
+  display: flex; /*This line and the next are needed to bottom-align the text.*/
+  align-items: flex-end;
+  height: 90px;
+  font-size: 3.4375em;
+  text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
+}
+
+.placeholder {
+  width: 125px;
+  height: 125px;
+}
+
 section {
   display: flex;
   flex-direction: row;
@@ -226,10 +229,6 @@ section {
   max-width: 100vw;
   position: relative;
   top: 60px;
-}
-
-#sidebar-active {
-  display: none;
 }
 
 .six-week-month {
