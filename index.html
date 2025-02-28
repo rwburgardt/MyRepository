@@ -50,16 +50,16 @@
   <nav>
     <input type="checkbox" id="sidebar-active">
 
-    <label for="sidebar-active" class="open-sidebar-button"> <!--This causes clicking the menu to check the checkbox-->
+    <label for="sidebar-active" class="open-sidebar-button"> <!--The label tag with the for attribute causes clicking the menu button to check the checkbox-->
       <img src="menu-icon-black.png" height="60px" width="60px"> <!--It's best to include image dimensions in the html tag-->
     </label> 
 
     <label id="overlay" for="sidebar-active">
-    </label> <!--This line allows the sidebar to go away by clicking in the document-->
+    </label> <!--The label tag with the for attribute makes the entire page clickable to remove to check from the checkbox-->
 
-    <div class="links-container">
+    <div class="links-container">  <!--This div is the sidebar-->
      
-      <label for="sidebar-active" class="close-sidebar-button"> <!--This causes clicking the menu to uncheck the checkbox-->
+      <label for="sidebar-active" class="close-sidebar-button"> <!--The label tag causes clicking the X to uncheck the checkbox-->
         <img src="close-icon-black.png" height="60px" width="60px">
       </label>
       

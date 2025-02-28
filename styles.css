@@ -173,7 +173,7 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
 
 .open-sidebar-button, .close-sidebar-button {
   display: none;
-}
+}  /* We don't want to see these 2 buttons unless viewpoint width is less than 400px */
 
 #sidebar-active {
   display: none;
@@ -258,24 +258,8 @@ section {
   box-shadow: 3px 3px;
 }
 
-.day {
-  
-}
-
 .date {
   font-size: 2em;
-}
-
-.opp {
-
-}
-
-.score {
-
-}
-
-.recap {
-
 }
 
 /* -------------------------------Media queries follow---------------------------------------------------*/
@@ -323,11 +307,11 @@ section {
     display: none;
   }
   
-  #sidebar-active:checked ~ .links-container {
-    display: flex;
+  #sidebar-active:checked ~ .links-container { /* Take any and all elements with a class of links-container and apply the below formatting if the elements are general siblings (general means it can be but doesn't have to be adjacent) of the element with ID sidebar-active:checked. */
+    display: flex; 
     right: 0;
   }
-  #sidebar-active:checked ~ #overlay{
+  #sidebar-active:checked ~ #overlay{  /* Take any and all elements with a class of overlay and apply the below formatting if the elements are general siblings (general means it can be but doesn't have to be adjacent) of the element with ID sidebar-active:checked. */
     height: 100%;
     width: 100%;
     position: fixed;
