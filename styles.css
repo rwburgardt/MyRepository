@@ -75,11 +75,10 @@ body {
   font-size: 18px;
   line-height: 24px;
   width: 300px;
-  background: lightgray;
+  background: var(--accent-color);
   border-radius: 40px;
   padding: 4px;
   text-align: center;
-  color: #000;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
@@ -142,7 +141,6 @@ main {
   align-items: flex-end;
   height: 90px;
   font-size: 3.4375em;
-  color: black;
   text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
 }
 
@@ -160,17 +158,12 @@ nav {
   z-index: 2;
 }
 
-nav a{
-  height: 100%;
-  padding: 0 20px;
-  display: flex;
+nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
+  height: 100%;  /* > is the child combinator.*/
+  padding: 0 20px;  /* ~ is the general (not necessarily adjacent) sibling combinator*/
+  display: flex;   /*+ is the adjacent sibling combinator*/
   align-items: center;
   text-decoration: none; /*To remove any underline*/
-  color: var(--text-color);
-}
-
-nav a:hover {
-  background-color: var(--accent-color);
 }
 
 #nolan-in-sidebar {
@@ -194,8 +187,8 @@ nav a:hover {
   height: 125px;
 }
 
-#podcast-link {
-  border: 3px solid black;;
+.podcast-link {
+  border: 3px solid black;
   width: 150px;
   height: 40px;
   background-color: white;
@@ -210,7 +203,6 @@ nav a:hover {
 #rangers-logo {
   position: relative;
   margin-top: 45px;
-  /*left: 55px;*/
 }
 
 section {
@@ -233,7 +225,6 @@ section {
 
 #standings{  
   position:relative;
-  /*padding-left: 0.3125em;*/
 }
 
 #title {
@@ -250,7 +241,6 @@ section {
 #ws-ring-in-sidebar { 
   position: relative;
   margin-top: 20px;
-  /*left: 35px;*/
   filter: drop-shadow(5px 5px 5px #222);
 }
 
@@ -286,8 +276,16 @@ section {
 
 }
 
-/* Below is a media query*/
+/* -------------------------------Media queries follow---------------------------------------------------*/
+
 @media (max-width: 400px){
+  #brice {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  #dlls-podcast-image {
+    margin-left: 20px;
+  }
   .links-container {
     flex-direction: column;
     align-items: flex-start;
@@ -297,9 +295,12 @@ section {
     right: -100%;
     z-index: 10;
     width: 300px;
-    background-color: #333;
+    background-color: var(--accent-color);
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
     transition: 0.5s ease-out;
+  }
+  #mother-pig-in-nav {
+    display: none;
   }
   nav a {
     box-sizing: border-box; /*Includes the padding and border in an element's total width and height.*/
@@ -307,12 +308,18 @@ section {
     width: 100%;
     padding: 30px;
   }
-  #sidebar-active {
-    display: none;
-  }
   .open-sidebar-button, .close-sidebar-button {
     display: block;
   }
+  #podcast-link {
+    position:relative;
+    left: 80px;
+    top: -50px;
+  }
+  #sidebar-active {
+    display: none;
+  }
+  
   #sidebar-active:checked ~ .links-container {
     display: flex;
     right: 0;
@@ -325,27 +332,11 @@ section {
     left: 0;
     z-index: 9;
   }
-  #brice {
-    margin-top: 50px;
-    margin-left: 20px;
-  }
-  #podcast-link {
-    position:relative;
-    left: 80px;
-    top: -50px;
-  }
   #straight-up-texas-image {
     border-radius: 50%;
     margin-left: 20px;
   }
-  #dlls-podcast-image {
-    margin-left: 20px;
-  }
-  #mother-pig-in-nav {
-    display: none;
-  }
 }
-/*  Above is a media query*/
 
 @media (max-width: 800px){
   #title {

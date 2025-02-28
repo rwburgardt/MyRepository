@@ -46,29 +46,29 @@
 
   <nav>
     <input type="checkbox" id="sidebar-active">
-      <label for="sidebar-active" class="open-sidebar-button">
-        <img src="menu-icon-white.png" height="50px" width="50px">
-      </label> <!--Becomes clickable when linked to input using for-->
+      <label for="sidebar-active" class="open-sidebar-button"> <!--This causes clicking the menu to check the checkbox-->
+        <img src="menu-icon-black.png" height="50px" width="50px"> <!--It's best to include image dimensions in the html tag-->
+      </label> 
 
-    <label id="overlay" for="sidebar-active"></label> 
+    <label id="overlay" for="sidebar-active"></label> <!--This line allows the sidebar to go away by clicking in the document-->
 
     <div class="links-container">
      
-      <label for="sidebar-active" class="close-sidebar-button">
+      <label for="sidebar-active" class="close-sidebar-button"> <!--This causes clicking the menu to uncheck the checkbox-->
         <img src="close-icon-white.png" height="50px" width="50px">
       </label>
       
       <img id="brice" src = "Brice.jpg" width="40px" height="40px">
 
-      <a id="podcast-link" href="https://lockedonpodcasts.com/podcasts/locked-on-texas-rangers/" target="_blank">Locked on Rangers Podcast</a>
+      <a class="podcast-link" href="https://lockedonpodcasts.com/podcasts/locked-on-texas-rangers/" target="_blank">Locked on Rangers Podcast</a>
 
       <img id="straight-up-texas-image" src = "straight-up-texas-image.webp" width="40px" height="40px">
 
-      <a id="podcast-link" href="https://podcasts.apple.com/us/podcast/straight-up-texas-podcast/id902525872" target="_blank">Straight Up Texas Podcast</a>
+      <a class="podcast-link" href="https://podcasts.apple.com/us/podcast/straight-up-texas-podcast/id902525872" target="_blank">Straight Up Texas Podcast</a>
 
       <img id="dlls-podcast-image" src = "dlls-podcast-image.png" width="55px" height="55px">
 
-      <a id="podcast-link" href="https://alldlls.com/rangers/podcast/" target="_blank">DLLS Rangers Podcast</a>
+      <a class="podcast-link" href="https://alldlls.com/rangers/podcast/" target="_blank">DLLS Rangers Podcast</a>
 
       <img id="mother-pig-in-nav" src = "motherpig.png" width="50px" height="50px">
 
