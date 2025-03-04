@@ -132,7 +132,7 @@ nav {
 }
 
 nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
-  height: 100%;  /* > is the child combinator.*/
+  /*height: 100%;*/  /* > is the child combinator.*/
   padding: 0 20px;  /* ~ is the general (not necessarily adjacent) sibling combinator*/
   display: flex;   /*+ is the adjacent sibling combinator*/
   align-items: center;
@@ -221,6 +221,7 @@ main {
   height: 90px;
   font-size: 3.4375em;
   text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
+  margin-top: 20px;
 }
 
 .five-week-month, .two-week-month, .six-week-month {
@@ -257,6 +258,14 @@ main {
   justify-content: center;
   box-shadow: 3px 3px;
 }
+
+/*.mar27 {
+  background-color: rgb(231, 247, 231);
+}
+
+.mar28 {
+  background-color: rgb(243, 224, 226);
+}*/
 
 .date {
   font-size: 2em;
