@@ -24,25 +24,25 @@
 <!-------------------------------------------- Team Search Box ----------------------------------------->
 <script>
 
-  function searchforteam(team) {
-	  let searched = document.getElementById("team").value;
+  function searchforteam(teamToFind) {
+	  let searchTerm = document.getElementById("teamToFind").value;
    	let text = document.getElementById("search").innerHTML;
-   	let re = new RegExp(searched,"g"); // search for all instances
-		let newText = text.replace(re, `<mark>${searched}</mark>`);
+   	let re = new RegExp(searchTerm,"g"); // search for all instances
+		let newText = text.replace(re, `<mark>${searchTerm}</mark>`);
 		document.getElementById("search").innerHTML = newText;
   }
 
-  function unsearchforteam(team) {
-	  let searched = document.getElementById("team").value;
+  function unsearchforteam(teamToFind) {
+	  let searchTerm = document.getElementById("teamToFind").value;
    	let text = document.getElementById("search").innerHTML;
-    let re = new RegExp(`<mark>${searched}</mark>`,"g"); // search for all instances
-		let newText = text.replace(re, `${searched}`);
+    let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
+		let newText = text.replace(re, `${searchTerm}`);
 		document.getElementById("search").innerHTML = newText;
-    document.getElementById("team").value = '';
+    document.getElementById("teamToFind").value = '';
   }
 
 </script>
-<!-------------------------------------------- Team Search Box ----------------------------------------->
+<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Team Search Box^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
 
 <body>     <!--body is parent of nav and section-->
 
@@ -83,7 +83,7 @@
     </div>
   
   </nav>
-  <!-----------------------------------------------Nav Element------------------------------------------->
+  <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav Element^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
   <!---------------------------------------------Section Element----------------------------------------->
   <section>     <!--section is parent of aside and main-->
     <!---------------------------------------------Aside Element----------------------------------------->
@@ -94,7 +94,7 @@
       <img id="big-head-image" src = "big-head-image.png" width="200px" height="243px">
       
       <form>  
-        <input list="teams" class="input-box" placeholder="Select an opponent" id="team">
+        <input list="teams" class="input-box" placeholder="Select an opponent" id="teamToFind">
         <datalist id="teams"> <!--The datalist element specifies a list of pre-defined options for an input element.-->
           <option value="Ari">
           <option value="Ath">
@@ -126,8 +126,8 @@
           <option value="Tor">
           <option value="Was">    
         </datalist>
-        <input type="button" value="Highlight" class="find-button" id="team" onclick="searchforteam(team)">
-        <input type="button" value="Clear" class="clear-button" onclick ="unsearchforteam(team)">
+        <input type="button" value="Find" class="find-button" onclick="searchforteam(teamToFind)">
+        <input type="button" value="Clear" class="clear-button" onclick ="unsearchforteam(teamToFind)">
       </form>
 
       <div id="paragraph-in-sidebar">
