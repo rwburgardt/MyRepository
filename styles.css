@@ -74,7 +74,7 @@ aside {
 #rocky {
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 20px;
   /*z-index: 3;*/
   filter: drop-shadow(5px 5px 5px #222);
 }
