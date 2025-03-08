@@ -23,8 +23,12 @@
 <!------------------------------------------ Google tag (gtag.js) -------------------------------------->
 <!-------------------------------------------- Team Search Box ----------------------------------------->
 <script>
-
-  function searchforteam(teamToFind) {
+  /*const teamToFind = document.getElementById("teamToFind").value;
+  button.getElementById("findButton") {
+    searchForTeam(teamToFind);
+  }*/
+  
+  function searchForTeam(teamToFind) {
 	  let searchTerm = document.getElementById("teamToFind").value;
    	let text = document.getElementById("search").innerHTML;
    	let re = new RegExp(searchTerm,"g"); // search for all instances
@@ -32,7 +36,7 @@
 		document.getElementById("search").innerHTML = newText;
   }
 
-  function unsearchforteam(teamToFind) {
+  function unsearchForTeam(teamToFind) {
 	  let searchTerm = document.getElementById("teamToFind").value;
    	let text = document.getElementById("search").innerHTML;
     let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
@@ -102,9 +106,9 @@
           <option value="Bal">
           <option value="Bos">
           <option value="CHC">
+          <option value="CHW"> 
           <option value="Cin"> 
-          <option value="Cle"> 
-          <option value="CWS">
+          <option value="Cle">
           <option value="Col">
           <option value="Det">
           <option value="Hou">
@@ -126,8 +130,9 @@
           <option value="Tor">
           <option value="Was">    
         </datalist>
-        <input type="button" value="Find" class="find-button" onclick="searchforteam(teamToFind)">
-        <input type="button" value="Clear" class="clear-button" onclick ="unsearchforteam(teamToFind)">
+        <!--<input type="button" value="Find" class="findButton">-->
+        <input type="button" value="Find" class="findButton" onclick="searchForTeam(teamToFind)">
+        <input type="button" value="Clear" class="clearButton" onclick ="unsearchForTeam(teamToFind)">
       </form>
 
       <div id="paragraph-in-sidebar">

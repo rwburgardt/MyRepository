@@ -84,12 +84,12 @@ aside {
   width: 132px;
 }
 
-.clear-button, .find-button {
+.clearButton, .findButton {
   background-color: lightgoldenrodyellow;
   width: 58px;
 }
 
-.clear-button:hover, .find-button:hover {
+.clearButton:hover, .findButton:hover {
   background-color: lightblue;
 }
 
