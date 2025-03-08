@@ -89,6 +89,10 @@ aside {
   width: 58px;
 }
 
+.clear-button:hover, .find-button:hover {
+  background-color: lightblue;
+}
+
 #paragraph-in-sidebar{ 
   position: relative;
   left: 5px;
