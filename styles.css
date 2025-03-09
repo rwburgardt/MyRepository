@@ -84,7 +84,7 @@ aside {
   width: 132px;
 }
 
-.clearButton, .findButton {
+#clearButton, #findButton {
   background-color: lightgoldenrodyellow;
   width: 58px;
 }

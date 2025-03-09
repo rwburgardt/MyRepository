@@ -23,26 +23,24 @@
 <!------------------------------------------ Google tag (gtag.js) -------------------------------------->
 <!-------------------------------------------- Team Search Box ----------------------------------------->
 <script>
-  /*const teamToFind = document.getElementById("teamToFind").value;
-  button.getElementById("findButton") {
-    searchForTeam(teamToFind);
-  }*/
+  /*document.getElementById("findButton").addEventListener("click", function(){searchForTeam(inputBoxValue);});*/
   
-  function searchForTeam(teamToFind) {
-	  let searchTerm = document.getElementById("teamToFind").value;
+  
+  function searchForTeam(inputBoxValue) {
+	  let searchTerm = document.getElementById("inputBoxValue").value;
    	let text = document.getElementById("search").innerHTML;
    	let re = new RegExp(searchTerm,"g"); // search for all instances
 		let newText = text.replace(re, `<mark>${searchTerm}</mark>`);
 		document.getElementById("search").innerHTML = newText;
   }
 
-  function unsearchForTeam(teamToFind) {
-	  let searchTerm = document.getElementById("teamToFind").value;
+  function unsearchForTeam(inputBoxValue) {
+	  let searchTerm = document.getElementById("inputBoxValue").value;
    	let text = document.getElementById("search").innerHTML;
     let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
 		let newText = text.replace(re, `${searchTerm}`);
 		document.getElementById("search").innerHTML = newText;
-    document.getElementById("teamToFind").value = '';
+    document.getElementById("inputBoxValue").value = '';
   }
 
 </script>
@@ -98,41 +96,18 @@
       <img id="rocky" src = "rocky.png" width="200px" height="265px">
       
       <form>  
-        <input list="teams" class="input-box" placeholder="Choose a team" id="teamToFind" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
+        <input list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
         <datalist id="teams"> <!--The datalist element specifies a list of pre-defined options for an input element.-->
-          <option value="Ari">
-          <option value="Ath">
-          <option value="Atl">
-          <option value="Bal">
-          <option value="Bos">
-          <option value="CHC">
-          <option value="CHW"> 
-          <option value="Cin"> 
-          <option value="Cle">
-          <option value="Col">
-          <option value="Det">
-          <option value="Hou">
-          <option value="KC">
-          <option value="LAA">
-          <option value="LAD">
-          <option value="Mia">
-          <option value="Mil">
-          <option value="Min">
-          <option value="NYM">
-          <option value="NYY">
-          <option value="Phi">
-          <option value="Pit">
-          <option value="SD">
-          <option value="Sea">
-          <option value="SF">
-          <option value="SL">
-          <option value="TB">
-          <option value="Tor">
-          <option value="Was">    
+          <option value="Ari"><option value="Ath"><option value="Atl"><option value="Bal"><option value="Bos">
+          <option value="CHC"><option value="CHW"><option value="Cin"><option value="Cle"><option value="Col">
+          <option value="Det"><option value="Hou"><option value="KC"><option value="LAA"><option value="LAD">
+          <option value="Mia"><option value="Mil"><option value="Min"><option value="NYM"><option value="NYY">
+          <option value="Phi"><option value="Pit"><option value="SD"><option value="Sea"><option value="SF">
+          <option value="SL"><option value="TB"><option value="Tor"><option value="Was">    
         </datalist>
-        <!--<input type="button" value="Find" class="findButton">-->
-        <input type="button" value="Find" class="findButton" onclick="searchForTeam(teamToFind)">
-        <input type="button" value="Clear" class="clearButton" onclick ="unsearchForTeam(teamToFind)">
+        <!--<input type="button" value="Find" id="findButton">-->
+        <input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue)">
+        <input type="button" value="Clear" id="clearButton" onclick ="unsearchForTeam(inputBoxValue)">
       </form>
 
       <div id="paragraph-in-sidebar">
