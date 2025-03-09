@@ -89,7 +89,7 @@ aside {
   width: 58px;
 }
 
-.clearButton:hover, .findButton:hover {
+#clearButton:hover, #findButton:hover {
   background-color: lightblue;
 }
 
