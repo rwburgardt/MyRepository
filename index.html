@@ -23,7 +23,7 @@
 <!------------------------------------------ Google tag (gtag.js) -------------------------------------->
 <!-------------------------------------------- Team Search Box ----------------------------------------->
 <script>
-  /*document.getElementById("findButton").addEventListener("click", function(){searchForTeam(inputBoxValue);});*/
+  /*document.getElementById("findButton").addEventListener("click", function(){searchForTeam(inputBoxValue.value);});*/
   
   
   function searchForTeam(inputBoxValue) {
@@ -97,7 +97,7 @@
       
       <form>
         <label for="inputBoxValue">Search by team:</label>
-        <input list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
+        <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
         <datalist id="teams"> <!--The datalist element specifies a list of pre-defined options for an input element.-->
           <option value="Ari"><option value="Ath"><option value="Atl"><option value="Bal"><option value="Bos">
           <option value="CHC"><option value="CHW"><option value="Cin"><option value="Cle"><option value="Col">
@@ -107,8 +107,8 @@
           <option value="SL"><option value="TB"><option value="Tor"><option value="Was">    
         </datalist>
         <!--<input type="button" value="Find" id="findButton">-->
-        <input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue)">
-        <input type="button" value="Clear" id="clearButton" onclick ="unsearchForTeam(inputBoxValue)">
+        <input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue.value)">
+        <input type="button" value="Clear" id="clearButton" onclick ="unsearchForTeam(inputBoxValue.value)">
       </form>
 
       <div id="paragraph-in-sidebar">
