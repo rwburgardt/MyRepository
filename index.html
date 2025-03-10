@@ -73,7 +73,8 @@
       
       <form>
         <label for="inputBoxValue">Search by team:</label>
-        <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
+        <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue">
+        <!--<input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">-->
         <datalist id="teams">
           <option value='Ari'><option value='Ath'><option value='Atl'><option value='Bal'><option value='Bos'>
           <option value='CHC'><option value='CHW'><option value='Cin'><option value='Cle'><option value='Col'>
@@ -3439,7 +3440,7 @@
   
     function unsearchForTeam(inputBoxValue) {
       let searchTerm = document.getElementById("inputBoxValue").value;
-       let text = document.getElementById("search").innerHTML;
+      let text = document.getElementById("search").innerHTML;
       let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
       let newText = text.replace(re, `${searchTerm}`);
       document.getElementById("search").innerHTML = newText;

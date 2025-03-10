@@ -49,7 +49,7 @@ main {
 }
 
 .pig-in-sidebar {
-  margin: 120px 0 0 20px;
+  margin: 200px 0 0 20px;
   position: relative;
   right: 9px;
   bottom: 100px;
@@ -58,7 +58,7 @@ main {
 
 .homeplate-in-sidebar {
   position: fixed;
-  top: 175px;
+  top: 220px;
   left: 20px;
   height: 75px;
   width: 75px;
