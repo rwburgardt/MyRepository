@@ -87,6 +87,7 @@ aside {
 #clearButton, #findButton {
   background-color: lightgoldenrodyellow;
   width: 58px;
+  cursor: pointer
 }
 
 #clearButton:hover, #findButton:hover {
