@@ -3426,11 +3426,16 @@
   </section>
   <script>
     document.getElementById("findButton").addEventListener("click", function(){
-      let searchTerm = document.getElementById("inputBoxValue").value;
+    let searchTerm = document.getElementById("inputBoxValue").value;
+    if (searchTerm==="Ari"||searchTerm==="Ath"||searchTerm==="Atl"||searchTerm==="Bal"||searchTerm==="Bos"||searchTerm ==="CHC"||searchTerm==="CHW"||searchTerm==="Cin"||searchTerm==="Cle"||searchTerm==="Col"||searchTerm==="Det"||searchTerm==="Hou"||searchTerm==="KC"||searchTerm==="LAA"||searchTerm==="LAD"||searchTerm==="Mia"||searchTerm==="Mil"||searchTerm ==="Min"||searchTerm==="NYM"||searchTerm==="NYY"||searchTerm==="Phi"||searchTerm==="Pit"||searchTerm==="SD"||searchTerm==="Sea"||searchTerm==="SF"||searchTerm ==="SL"||searchTerm ==="TB"||searchTerm ==="Tor"||searchTerm==="Was") {
+      console.log(searchTerm);
       let text = document.getElementById("search").innerHTML;
       let re = new RegExp(searchTerm,"g"); // search for all instances
       let newText = text.replace(re, `<mark>${searchTerm}</mark>`);
       document.getElementById("search").innerHTML = newText;
+    } else {
+        unsearchForTeam(inputBoxValue.value);
+      }
     })
   
     function unsearchForTeam(inputBoxValue) {
