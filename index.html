@@ -75,12 +75,12 @@
         <label for="inputBoxValue">Search by team:</label>
         <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
         <datalist id="teams">
-          <option value="Ari"><option value="Ath"><option value="Atl"><option value="Bal"><option value="Bos">
-          <option value="CHC"><option value="CHW"><option value="Cin"><option value="Cle"><option value="Col">
-          <option value="Det"><option value="Hou"><option value="KC"><option value="LAA"><option value="LAD">
-          <option value="Mia"><option value="Mil"><option value="Min"><option value="NYM"><option value="NYY">
-          <option value="Phi"><option value="Pit"><option value="SD"><option value="Sea"><option value="SF">
-          <option value="SL"><option value="TB"><option value="Tor"><option value="Was">    
+          <option value='Ari'><option value='Ath'><option value='Atl'><option value='Bal'><option value='Bos'>
+          <option value='CHC'><option value='CHW'><option value='Cin'><option value='Cle'><option value='Col'>
+          <option value='Det'><option value='Hou'><option value='KC'><option value='LAA'><option value='LAD'>
+          <option value='Mia'><option value='Mil'><option value='Min'><option value='NYM'><option value='NYY'>
+          <option value='Phi'><option value='Pit'><option value='SD'><option value='Sea'><option value='SF'>
+          <option value='SL'><option value='TB'><option value='Tor'><option value='Was'>    
         </datalist>
         <input type="button" value="Find" id="findButton">
         <!--<input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue.value)">-->
@@ -3427,8 +3427,7 @@
   <script>
     document.getElementById("findButton").addEventListener("click", function(){
     let searchTerm = document.getElementById("inputBoxValue").value;
-    if (searchTerm==="Ari"||searchTerm==="Ath"||searchTerm==="Atl"||searchTerm==="Bal"||searchTerm==="Bos"||searchTerm ==="CHC"||searchTerm==="CHW"||searchTerm==="Cin"||searchTerm==="Cle"||searchTerm==="Col"||searchTerm==="Det"||searchTerm==="Hou"||searchTerm==="KC"||searchTerm==="LAA"||searchTerm==="LAD"||searchTerm==="Mia"||searchTerm==="Mil"||searchTerm ==="Min"||searchTerm==="NYM"||searchTerm==="NYY"||searchTerm==="Phi"||searchTerm==="Pit"||searchTerm==="SD"||searchTerm==="Sea"||searchTerm==="SF"||searchTerm ==="SL"||searchTerm ==="TB"||searchTerm ==="Tor"||searchTerm==="Was") {
-      console.log(searchTerm);
+    if (searchTerm==='Ari'||searchTerm==='Ath'||searchTerm==='Atl'||searchTerm==='Bal'||searchTerm==='Bos'||searchTerm ==='CHC'||searchTerm==='CHW'||searchTerm==='Cin'||searchTerm==='Cle'||searchTerm==='Col'||searchTerm==='Det'||searchTerm==='Hou'||searchTerm==='KC'||searchTerm==='LAA'||searchTerm==='LAD'||searchTerm==='Mia'||searchTerm==='Mil'||searchTerm ==='Min'||searchTerm==='NYM'||searchTerm==='NYY'||searchTerm==='Phi'||searchTerm==='Pit'||searchTerm==='SD'||searchTerm==='Sea'||searchTerm==='SF'||searchTerm ==='SL'||searchTerm ==='TB'||searchTerm ==='Tor'||searchTerm==='Was') {
       let text = document.getElementById("search").innerHTML;
       let re = new RegExp(searchTerm,"g"); // search for all instances
       let newText = text.replace(re, `<mark>${searchTerm}</mark>`);
