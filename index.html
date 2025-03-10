@@ -21,30 +21,6 @@
   gtag('config', 'G-5HJ03WSVKP');
 </script>
 <!------------------------------------------ Google tag (gtag.js) -------------------------------------->
-<!-------------------------------------------- Team Search Box ----------------------------------------->
-<script>
-  /*document.getElementById("findButton").addEventListener("click", function(){searchForTeam(inputBoxValue.value);});*/
-  
-  
-  function searchForTeam(inputBoxValue) {
-	  let searchTerm = document.getElementById("inputBoxValue").value;
-   	let text = document.getElementById("search").innerHTML;
-   	let re = new RegExp(searchTerm,"g"); // search for all instances
-		let newText = text.replace(re, `<mark>${searchTerm}</mark>`);
-		document.getElementById("search").innerHTML = newText;
-  }
-
-  function unsearchForTeam(inputBoxValue) {
-	  let searchTerm = document.getElementById("inputBoxValue").value;
-   	let text = document.getElementById("search").innerHTML;
-    let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
-		let newText = text.replace(re, `${searchTerm}`);
-		document.getElementById("search").innerHTML = newText;
-    document.getElementById("inputBoxValue").value = '';
-  }
-
-</script>
-<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Team Search Box^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
 
 <body>     <!--body is parent of nav and section-->
 
@@ -98,7 +74,7 @@
       <form>
         <label for="inputBoxValue">Search by team:</label>
         <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">
-        <datalist id="teams"> <!--The datalist element specifies a list of pre-defined options for an input element.-->
+        <datalist id="teams">
           <option value="Ari"><option value="Ath"><option value="Atl"><option value="Bal"><option value="Bos">
           <option value="CHC"><option value="CHW"><option value="Cin"><option value="Cle"><option value="Col">
           <option value="Det"><option value="Hou"><option value="KC"><option value="LAA"><option value="LAD">
@@ -106,8 +82,8 @@
           <option value="Phi"><option value="Pit"><option value="SD"><option value="Sea"><option value="SF">
           <option value="SL"><option value="TB"><option value="Tor"><option value="Was">    
         </datalist>
-        <!--<input type="button" value="Find" id="findButton">-->
-        <input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue.value)">
+        <input type="button" value="Find" id="findButton">
+        <!--<input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue.value)">-->
         <input type="button" value="Clear" id="clearButton" onclick ="unsearchForTeam(inputBoxValue.value)">
       </form>
 
@@ -3448,5 +3424,23 @@
     </main>
     
   </section>
+  <script>
+    document.getElementById("findButton").addEventListener("click", function(){
+      let searchTerm = document.getElementById("inputBoxValue").value;
+      let text = document.getElementById("search").innerHTML;
+      let re = new RegExp(searchTerm,"g"); // search for all instances
+      let newText = text.replace(re, `<mark>${searchTerm}</mark>`);
+      document.getElementById("search").innerHTML = newText;
+    })
+  
+    function unsearchForTeam(inputBoxValue) {
+      let searchTerm = document.getElementById("inputBoxValue").value;
+       let text = document.getElementById("search").innerHTML;
+      let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
+      let newText = text.replace(re, `${searchTerm}`);
+      document.getElementById("search").innerHTML = newText;
+      document.getElementById("inputBoxValue").value = '';
+    }
+  </script>
 </body>
 </html>
