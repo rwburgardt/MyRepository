@@ -339,7 +339,7 @@ main {
   .podcast-link {
     position:relative;
     left: 80px;
-    top: -50px;
+    top: 50px;
   }
   #sidebar-active {
     display: none;
