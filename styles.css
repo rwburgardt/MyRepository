@@ -18,11 +18,11 @@ html{
 
 /* unvisited link*/ /* a provides general styling for links. Below are more specific styles for the pseudo-classes.*/
 a:link {
-  color: darkblue;
+  color: green;
 }
 /* visited link */
 a:visited {
-  color: green;
+  color: darkblue;
 }
 /* mouse over link */
 a:hover {
@@ -331,7 +331,7 @@ main {
   .open-sidebar-button, .close-sidebar-button {
     display: block;
   }
-  #podcast-link {
+  .podcast-link {
     position:relative;
     left: 80px;
     top: -50px;
