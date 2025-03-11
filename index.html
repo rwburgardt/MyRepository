@@ -35,7 +35,7 @@
     <label id="overlay" for="sidebar-active">
     </label> <!--The label tag with the for attribute makes the entire page clickable to remove to check from the checkbox-->
 
-    <div class="links-container">  <!--This div is the sidebar-->
+    <div class="links-container">  <!--This div is the mobile sidebar-->
      
       <label for="sidebar-active" class="close-sidebar-button"> <!--The label tag causes clicking the X to uncheck the checkbox-->
         <img src="close-icon-black.png" height="60px" width="60px">
@@ -55,7 +55,7 @@
 
       <a class="podcast-link" href="https://alldlls.com/rangers/podcast/" target="_blank">DLLS Rangers Podcast</a>
 
-      <img id="mother-pig-in-nav" src = "motherpig.png" width="50px" height="50px">
+      <img class="mother-pig-in-nav" src = "motherpig.png" width="50px" height="50px">
 
     </div>
   
@@ -68,7 +68,7 @@
       <div class="bubble bubble-bottom-left">Click on Recap for a synopsis that highlights why the Rangers won or lost the game...
       </div>
 
-      <img id="rocky" src = "rocky.png" width="200px" height="265px">
+      <img class="rocky" src = "rocky.png" width="200px" height="265px">
       
       <form>
         <label for="inputBoxValue">Search by team:</label>
@@ -87,11 +87,11 @@
         <input type="button" value="Clear" id="clearButton" onclick ="unsearchForTeam(inputBoxValue.value)">
       </form>
 
-      <div id="paragraph-in-sidebar">
+      <div class="paragraph-in-sidebar">
         AL West Standings on 3/27 at 6:00 am CDT:
       </div>
 
-      <table id="standings">
+      <table class="standings">
          <tr>
            <th>Team</th>
            <th>W-L</th>
@@ -124,16 +124,16 @@
          </tr>
       </table>
 
-      <img id="ws-ring-in-sidebar" src = "ws-ring.png" width = "125px" height = "70px">
-      <img id="nolan-in-sidebar" src = "nolan.png" width = "200px" height = "200px">
-      <img id="rangers-logo" src = "logo.gif" width = "85px" height = "85px">
+      <img class="ws-ring-in-sidebar" src = "ws-ring.png" width = "125px" height = "70px">
+      <img class="nolan-in-sidebar" src = "nolan.png" width = "200px" height = "200px">
+      <img class="rangers-logo" src = "logo.gif" width = "85px" height = "85px">
 
     </aside>
     <!---^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Aside Element^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
     <!----------------------------------------------Main Element----------------------------------------->
     <main id="search"> <!--id added for search box-->
 
-      <h1 id="title">Sports Guy's 2025 Texas Rangers Recaps</h1>
+      <h1 class="title">Sports Guy's 2025 Texas Rangers Recaps</h1>
 
       <p class = "name-of-month">March</p>
 

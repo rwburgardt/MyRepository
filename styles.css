@@ -71,7 +71,7 @@ aside {
   border-bottom: 20px solid transparent;
 }
 
-#rocky {
+.rocky {
   position: relative;
   top: 0px;
   left: 20px;
@@ -94,29 +94,29 @@ aside {
   background-color: lightblue;
 }
 
-#paragraph-in-sidebar{ 
+.paragraph-in-sidebar{ 
   position: relative;
   left: 5px;
   margin-top: 20px;
 }
 
-#standings{  
+.standings{  
   position:relative;
 }
 
-#ws-ring-in-sidebar { 
+.ws-ring-in-sidebar { 
   position: relative;
   margin-top: 20px;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-#nolan-in-sidebar {
+.nolan-in-sidebar {
   position: relative;
   margin-top: 30px;
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-#rangers-logo {
+.rangers-logo {
   position: relative;
   margin-top: 45px;
 }
@@ -186,7 +186,7 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   box-shadow: 3px 3px;
 }
 
-#mother-pig-in-nav {
+.mother-pig-in-nav {
   padding-right: 1em;
   filter: drop-shadow(5px 5px 5px #222);
 }
@@ -228,7 +228,7 @@ main {
   flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
 }
 
-#title {
+.title {
   font-size:3.4375em;
   text-shadow:3px 4px 6px rgba(000,000,000,0.4);
   height: 64px;
@@ -321,7 +321,7 @@ main {
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
     transition: 0.5s ease-out;
   }
-  #mother-pig-in-nav {
+  .mother-pig-in-nav {
     display: none;
   }
   nav a {
@@ -369,7 +369,7 @@ main {
 }
 
 @media (max-width: 800px){
-  #title {
+  .title {
     font-size: 2.75em;  
     text-shadow:3px 4px 6px rgba(000,000,000,0.4);
   }
