@@ -141,6 +141,7 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   padding: 0 20px;  /* ~ is the general (not necessarily adjacent) sibling combinator*/
   display: flex;   /*+ is the adjacent sibling combinator*/
   align-items: center;
+  justify-content: center;
   text-decoration: none; /*To remove any underline*/
 }
 
