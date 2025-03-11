@@ -331,6 +331,11 @@ main {
   .open-sidebar-button, .close-sidebar-button {
     display: block;
   }
+  .color-picker {
+    position:relative;
+    left: 80px;
+    top: -50px;
+  }
   .podcast-link {
     position:relative;
     left: 80px;
