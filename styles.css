@@ -58,15 +58,15 @@ nav {
   right: 0;
   z-index: 2;
 }
-
-nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
-  /*height: 100%;*/  /* > is the child combinator.*/
-  padding: 0 20px;   /* ~ is the general (not necessarily adjacent) sibling combinator*/
-  display: flex;     /*+ is the adjacent sibling combinator*/
+/*styling all anchors that are a descendant of the nav element:
+  nav a{               is a descendant combinator.
+  height: 100%;      > is the child combinator.
+  padding: 0 20px;   ~ is the general (not necessarily adjacent) sibling combinator.
+  display: flex;     + is the adjacent sibling combinator.
   align-items: center;
   justify-content: center;
-  text-decoration: none; /*To remove any underline*/
-}
+  text-decoration: none; (removes any underline)
+}*/
 
 .links-container {
   height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
@@ -77,7 +77,7 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   justify-content: flex-end;
 }
 
-.color-flipper-link {
+.color-flipper-link, .locked-on-rangers-link, .straight-up-texas-link, .dlls-link{
   border: 3px solid black;
   width: 150px;
   height: 40px;
@@ -87,7 +87,6 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   margin-right: 30px;
   border-radius: 10px;
   box-shadow: 3px 3px;
-  font-size: 20px;
 }
 
 .color-flipper-link:hover {
@@ -103,18 +102,6 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   margin-right: 5px;
 }
 
-.locked-on-rangers-link {
-  border: 3px solid black;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-right: 30px;
-  border-radius: 10px;
-  box-shadow: 3px 3px;
-}
-
 .locked-on-rangers-link:hover {
   background-color: var(--accent-color);
 }
@@ -128,18 +115,6 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
   margin-right: 5px;
 }
 
-.straight-up-texas-link {
-  border: 3px solid black;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-right: 30px;
-  border-radius: 10px;
-  box-shadow: 3px 3px;
-}
-
 .straight-up-texas-link:hover {
   background-color: var(--accent-color);
 }
@@ -151,19 +126,6 @@ nav a{ /*The space is a descendant combinator: styling all anchors that are a de
 .dlls-podcast-image {
   border-radius: 50%;
   margin-right: 5px;
-}
-
-.dlls-link {
-  border: 3px solid black;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  margin-right: 30px;
-  border-radius: 10px;
-  box-shadow: 3px 3px;
-
 }
 
 .dlls-link:hover {
@@ -380,13 +342,13 @@ main {
     margin-left: 20px;
     display: none;
   }
-  .color-flipper-link {
+  .color-flipper-link, .locked-on-rangers-link, .straight-up-texas-link, .dlls-link {
     position:relative;
     left: 80px;
     top: 50px;
     margin-bottom: 50px;
   }
-  .locked-on-rangers-link {
+  /*.locked-on-rangers-link {
     position:relative;
     left: 80px;
     top: 50px;
@@ -403,7 +365,7 @@ main {
     left: 80px;
     top: 50px;
     margin-bottom: 50px;
-  }
+  }*/
   .links-container {
     flex-direction: column;
     align-items: flex-start;
