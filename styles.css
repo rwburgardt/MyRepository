@@ -299,11 +299,13 @@ main {
 
 @media (max-width: 400px){
   #brice {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 20px;
+    display: none;
   }
   #dlls-podcast-image {
     margin-left: 20px;
+    display: none;
   }
   .links-container {
     flex-direction: column;
@@ -334,12 +336,14 @@ main {
   .color-picker {
     position:relative;
     left: 80px;
-    top: 100px;
+    top: 50px;
+    margin-bottom: 50px;
   }
   .podcast-link {
     position:relative;
     left: 80px;
     top: 50px;
+    margin-bottom: 50px;
   }
   #sidebar-active {
     display: none;
@@ -359,6 +363,7 @@ main {
   #straight-up-texas-image {
     border-radius: 50%;
     margin-left: 20px;
+    display: none;
   }
 }
 
