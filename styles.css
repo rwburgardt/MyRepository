@@ -4,10 +4,10 @@
   --accent-color: lightgray;
 }
 
-* {
+*{
   margin: 0;
 }
-* {
+*{
   padding: 0;
 }
 
@@ -15,24 +15,179 @@ html{
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
 }
+/* a provides general styling for links. Below are more specific styles for the pseudo-classes.*/
 
-/* unvisited link*/ /* a provides general styling for links. Below are more specific styles for the pseudo-classes.*/
+/* unvisited link*/
 a:link {
-  color: green;
+  color: darkblue
 }
 /* visited link */
 a:visited {
-  color: darkblue;
+  color: red;
 }
 /* mouse over link */
 a:hover {
-  color: red;
+  color: darkblue;
 }
 /* selected link */
 a:active {
-  color: darkblue;
+  color: var(--accent-color);
 }
-/*-----------------------------------------------Aside-------------------------------------------*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+/*---------------------------------------------------Nav------------------------------------------------*/
+nav {
+  min-height: 60px;
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;   /*Fixed positioning is always relative to the viewport, not the page. */
+  top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
+  /*height: 100%;*/  /* > is the child combinator.*/
+  padding: 0 20px;   /* ~ is the general (not necessarily adjacent) sibling combinator*/
+  display: flex;     /*+ is the adjacent sibling combinator*/
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /*To remove any underline*/
+}
+
+.links-container {
+  height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.color-flipper-link {
+  border: 3px solid black;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+  font-size: 20px;
+}
+
+.color-flipper-link:hover {
+  background-color: var(--accent-color);
+}
+
+.color-flipper-link:active {
+  transform: translateY(4px);
+}
+
+.brice {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.locked-on-rangers-link {
+  border: 3px solid black;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+}
+
+.locked-on-rangers-link:hover {
+  background-color: var(--accent-color);
+}
+
+.locked-on-rangers-link:active {
+  transform: translateY(4px);
+}
+
+.straight-up-texas-image {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.straight-up-texas-link {
+  border: 3px solid black;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+}
+
+.straight-up-texas-link:hover {
+  background-color: var(--accent-color);
+}
+
+.straight-up-texas-link:active {
+  transform: translateY(4px);
+}
+
+.dlls-podcast-image {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.dlls-link {
+  border: 3px solid black;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+
+}
+
+.dlls-link:hover {
+  background-color: var(--accent-color);
+}
+
+.dlls-link:active {
+  transform: translateY(4px);
+}
+
+.mother-pig-in-nav {
+  padding-right: 1em;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.open-sidebar-button, .close-sidebar-button {
+  display: none;
+}  /* We don't want to see these 2 buttons unless viewpoint width is less than 400px */
+
+#sidebar-active {
+  display: none;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*------------------------------------------------Aside-------------------------------------------*/
 aside {
   display: flex;
   flex-direction: column;
@@ -121,94 +276,6 @@ aside {
   margin-top: 45px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Aside^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/*---------------------------------------------------Nav------------------------------------------------*/
-nav {
-  min-height: 60px;
-  background-color: var(--color-1);
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  align-items: center;
-  position: fixed;   /*Fixed positioning is always relative to the viewport, not the page. */
-  top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
-  left: 0;
-  right: 0;
-  z-index: 2;
-}
-
-nav a{ /*The space is a descendant combinator: styling all anchors that are a descendant of the nav element*/
-  /*height: 100%;*/  /* > is the child combinator.*/
-  padding: 0 20px;  /* ~ is the general (not necessarily adjacent) sibling combinator*/
-  display: flex;   /*+ is the adjacent sibling combinator*/
-  align-items: center;
-  justify-content: center;
-  text-decoration: none; /*To remove any underline*/
-}
-
-.links-container {
-  height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-#brice, #dlls-podcast-image, #straight-up-texas-image {
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.color-picker {
-  border: 3px solid black;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 30px;
-  border-radius: 10px;
-  box-shadow: 3px 3px;
-  font-size: 24px;
-}
-
-.podcast-link {
-  border: 3px solid black;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 30px;
-  border-radius: 10px;
-  box-shadow: 3px 3px;
-}
-
-.mother-pig-in-nav {
-  padding-right: 1em;
-  filter: drop-shadow(5px 5px 5px #222);
-}
-
-.open-sidebar-button, .close-sidebar-button {
-  display: none;
-}  /* We don't want to see these 2 buttons unless viewpoint width is less than 400px */
-
-#sidebar-active {
-  display: none;
-}
-/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-body {
-  display: flex;
-  flex-direction: column;
-  background-image: url('seager.jpg');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh;
-  max-width: 100vw;
-}
 
 section {
   display: flex;
@@ -299,14 +366,43 @@ main {
 /* -------------------------------Media queries follow---------------------------------------------------*/
 
 @media (max-width: 400px){
-  #brice {
+  .brice {
     margin-top: 50px;
     margin-left: 20px;
     display: none;
   }
-  #dlls-podcast-image {
+  .straight-up-texas-image {
+    border-radius: 50%;
     margin-left: 20px;
     display: none;
+  }
+  .dlls-podcast-image {
+    margin-left: 20px;
+    display: none;
+  }
+  .color-flipper-link {
+    position:relative;
+    left: 80px;
+    top: 50px;
+    margin-bottom: 50px;
+  }
+  .locked-on-rangers-link {
+    position:relative;
+    left: 80px;
+    top: 50px;
+    margin-bottom: 50px;
+  }
+  .straight-up-texas-link {
+    position:relative;
+    left: 80px;
+    top: 50px;
+    margin-bottom: 50px;
+  }
+  .dlls-link {
+    position:relative;
+    left: 80px;
+    top: 50px;
+    margin-bottom: 50px;
   }
   .links-container {
     flex-direction: column;
@@ -334,18 +430,6 @@ main {
   .open-sidebar-button, .close-sidebar-button {
     display: block;
   }
-  .color-picker {
-    position:relative;
-    left: 80px;
-    top: 50px;
-    margin-bottom: 50px;
-  }
-  .podcast-link {
-    position:relative;
-    left: 80px;
-    top: 50px;
-    margin-bottom: 50px;
-  }
   #sidebar-active {
     display: none;
   }
@@ -360,11 +444,6 @@ main {
     top: 0;
     left: 0;
     z-index: 9;
-  }
-  #straight-up-texas-image {
-    border-radius: 50%;
-    margin-left: 20px;
-    display: none;
   }
 }
 

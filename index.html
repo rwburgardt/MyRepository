@@ -41,19 +41,19 @@
         <img src="close-icon-black.png" height="60px" width="60px">
       </label>
 
-      <a class="color-picker" href="colorpicker.html">Color Flipper</a>
-      
-      <img id="brice" src = "brice.jpg" width="40px" height="40px">
+      <button id="colorflipper" class="color-flipper-link">Color Flipper</button>
 
-      <a class="podcast-link" href="https://lockedonpodcasts.com/podcasts/locked-on-texas-rangers/" target="_blank">Locked on Rangers Podcast</a>
+      <img class="brice" src = "brice.jpg" width="40px" height="40px">
 
-      <img id="straight-up-texas-image" src = "straight-up-texas-image.webp" width="40px" height="40px">
+      <button id="locked-on-rangers" class="locked-on-rangers-link">Locked on Rangers</button>
 
-      <a class="podcast-link" href="https://podcasts.apple.com/us/podcast/straight-up-texas-podcast/id902525872" target="_blank">Straight Up Texas Podcast</a>
+      <img class="straight-up-texas-image" src = "straight-up-texas-image.webp" width="40px" height="40px">
 
-      <img id="dlls-podcast-image" src = "dlls-podcast-image.png" width="55px" height="55px">
+      <button id="straight-up-texas" class="straight-up-texas-link">Straight Up Texas</button>
 
-      <a class="podcast-link" href="https://alldlls.com/rangers/podcast/" target="_blank">DLLS Rangers Podcast</a>
+      <img class="dlls-podcast-image" src = "dlls-podcast-image.png" width="55px" height="55px">
+
+      <button id="dlls" class="dlls-link">DLLS Rangers Podcast</button>
 
       <img class="mother-pig-in-nav" src = "motherpig.png" width="50px" height="50px">
 
@@ -73,7 +73,6 @@
       <form>
         <label for="inputBoxValue">Search by team:</label>
         <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue">
-        <!--<input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue" pattern="Ari|Ath|Atl|Bal|Bos|CHC|CHW|Cin|Cle|Col|Det|Hou|KC|LAA|LAD|Mia|Mil|Min|NYM|NYY|Phi|Pit|SD|Sea|SF|SL|TB|Tor|Was">-->
         <datalist id="teams">
           <option value='Ari'><option value='Ath'><option value='Atl'><option value='Bal'><option value='Bos'>
           <option value='CHC'><option value='CHW'><option value='Cin'><option value='Cle'><option value='Col'>
@@ -83,7 +82,6 @@
           <option value='SL'><option value='TB'><option value='Tor'><option value='Was'>    
         </datalist>
         <input type="button" value="Highlight" id="findButton">
-        <!--<input type="button" value="Find" id="findButton" onclick="searchForTeam(inputBoxValue.value)">-->
         <input type="button" value="Clear" id="clearButton" onclick ="unsearchForTeam(inputBoxValue.value)">
       </form>
 
@@ -3445,6 +3443,20 @@
       document.getElementById("search").innerHTML = newText;
       document.getElementById("inputBoxValue").value = '';
     }
+
+    document.getElementById("colorflipper").addEventListener("click", () => {
+      window.open("colorflipper.html",'_blank').focus();
+    })
+    document.getElementById("locked-on-rangers").addEventListener("click", () => {
+      window.open("https://lockedonpodcasts.com/podcasts/locked-on-texas-rangers/",'_blank').focus();
+    })
+    document.getElementById("straight-up-texas").addEventListener("click", () => {
+      window.open("https://podcasts.apple.com/us/podcast/straight-up-texas-podcast/id902525872",'_blank').focus();
+    }) 
+    document.getElementById("dlls").addEventListener("click", () => {
+      window.open("https://alldlls.com/rangers/podcast/",'_blank').focus();
+    })
+    
   </script>
 </body>
 </html>
