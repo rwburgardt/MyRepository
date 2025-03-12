@@ -3423,7 +3423,7 @@
     
   </section>
   <script>
-    document.getElementById("findButton").addEventListener("click", function(){
+    document.getElementById("findButton").addEventListener("click", () => {
     let searchTerm = document.getElementById("inputBoxValue").value;
     if (searchTerm==='Ari'||searchTerm==='Ath'||searchTerm==='Atl'||searchTerm==='Bal'||searchTerm==='Bos'||searchTerm ==='CHC'||searchTerm==='CHW'||searchTerm==='Cin'||searchTerm==='Cle'||searchTerm==='Col'||searchTerm==='Det'||searchTerm==='Hou'||searchTerm==='KC'||searchTerm==='LAA'||searchTerm==='LAD'||searchTerm==='Mia'||searchTerm==='Mil'||searchTerm ==='Min'||searchTerm==='NYM'||searchTerm==='NYY'||searchTerm==='Phi'||searchTerm==='Pit'||searchTerm==='SD'||searchTerm==='Sea'||searchTerm==='SF'||searchTerm ==='SL'||searchTerm ==='TB'||searchTerm ==='Tor'||searchTerm==='Was') {
       let text = document.getElementById("search").innerHTML;
@@ -3435,7 +3435,7 @@
       }
     })
   
-    function unsearchForTeam(inputBoxValue) {
+    const unsearchForTeam = (inputBoxValue) => {
       let searchTerm = document.getElementById("inputBoxValue").value;
       let text = document.getElementById("search").innerHTML;
       let re = new RegExp(`<mark>${searchTerm}</mark>`,"g"); // search for all instances
