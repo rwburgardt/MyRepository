@@ -77,7 +77,7 @@ nav {
   justify-content: flex-end;
 }
 
-.color-flipper-link, .locked-on-rangers-link, .straight-up-texas-link, .dlls-link{
+.color-flipper-button, .locked-on-rangers-button, .straight-up-texas-button, .dlls-button{
   border: 3px solid black;
   width: 150px;
   height: 40px;
@@ -89,11 +89,11 @@ nav {
   box-shadow: 3px 3px;
 }
 
-.color-flipper-link:hover {
+.color-flipper-button:hover, .locked-on-rangers-button:hover, .straight-up-texas-button:hover, .dlls-button:hover {
   background-color: var(--accent-color);
 }
 
-.color-flipper-link:active {
+.color-flipper-button:active, .locked-on-rangers-button:active, .straight-up-texas-button:active, .dlls-button:active {
   transform: translateY(4px);
 }
 
@@ -102,39 +102,39 @@ nav {
   margin-right: 5px;
 }
 
-.locked-on-rangers-link:hover {
+/*.locked-on-rangers-button:hover {
   background-color: var(--accent-color);
-}
+}*/
 
-.locked-on-rangers-link:active {
+/*.locked-on-rangers-button:active {
   transform: translateY(4px);
-}
+}*/
 
 .straight-up-texas-image {
   border-radius: 50%;
   margin-right: 5px;
 }
 
-.straight-up-texas-link:hover {
+/*.straight-up-texas-button:hover {
   background-color: var(--accent-color);
-}
+}*/
 
-.straight-up-texas-link:active {
+/*.straight-up-texas-button:active {
   transform: translateY(4px);
-}
+}*/
 
 .dlls-podcast-image {
   border-radius: 50%;
   margin-right: 5px;
 }
 
-.dlls-link:hover {
+/*.dlls-button:hover {
   background-color: var(--accent-color);
-}
+}*/
 
-.dlls-link:active {
+/*.dlls-button:active {
   transform: translateY(4px);
-}
+}*/
 
 .mother-pig-in-nav {
   padding-right: 1em;
@@ -342,30 +342,12 @@ main {
     margin-left: 20px;
     display: none;
   }
-  .color-flipper-link, .locked-on-rangers-link, .straight-up-texas-link, .dlls-link {
+  .color-flipper-button, .locked-on-rangers-button, .straight-up-texas-button, .dlls-button {
     position:relative;
     left: 80px;
     top: 50px;
     margin-bottom: 50px;
   }
-  /*.locked-on-rangers-link {
-    position:relative;
-    left: 80px;
-    top: 50px;
-    margin-bottom: 50px;
-  }
-  .straight-up-texas-link {
-    position:relative;
-    left: 80px;
-    top: 50px;
-    margin-bottom: 50px;
-  }
-  .dlls-link {
-    position:relative;
-    left: 80px;
-    top: 50px;
-    margin-bottom: 50px;
-  }*/
   .links-container {
     flex-direction: column;
     align-items: flex-start;
