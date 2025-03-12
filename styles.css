@@ -77,7 +77,7 @@ nav {
   justify-content: flex-end;
 }
 
-.color-flipper-button, .locked-on-rangers-button, .straight-up-texas-button, .dlls-button{
+.color-flipper-button, .locked-on-rangers-button, .straight-up-texas-button, .dlls-button {
   border: 3px solid black;
   width: 150px;
   height: 40px;
@@ -97,44 +97,10 @@ nav {
   transform: translateY(4px);
 }
 
-.brice {
+.brice-image, .straight-up-texas-image, .dlls-podcast-image {
   border-radius: 50%;
   margin-right: 5px;
 }
-
-/*.locked-on-rangers-button:hover {
-  background-color: var(--accent-color);
-}*/
-
-/*.locked-on-rangers-button:active {
-  transform: translateY(4px);
-}*/
-
-.straight-up-texas-image {
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-/*.straight-up-texas-button:hover {
-  background-color: var(--accent-color);
-}*/
-
-/*.straight-up-texas-button:active {
-  transform: translateY(4px);
-}*/
-
-.dlls-podcast-image {
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-/*.dlls-button:hover {
-  background-color: var(--accent-color);
-}*/
-
-/*.dlls-button:active {
-  transform: translateY(4px);
-}*/
 
 .mother-pig-in-nav {
   padding-right: 1em;
@@ -328,13 +294,8 @@ main {
 /* -------------------------------Media queries follow---------------------------------------------------*/
 
 @media (max-width: 400px){
-  .brice {
+  .brice-image, .straight-up-texas-image {
     margin-top: 50px;
-    margin-left: 20px;
-    display: none;
-  }
-  .straight-up-texas-image {
-    border-radius: 50%;
     margin-left: 20px;
     display: none;
   }
