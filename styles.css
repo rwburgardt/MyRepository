@@ -325,13 +325,6 @@ main {
   .mother-pig-in-nav {
     display: none;
   }
-  nav a {
-    box-sizing: border-box; /*Includes the padding and border in an element's total width and height.*/
-    height: auto;
-    width: 100%;
-    padding: 30px;
-    z-index: 3;
-  }
   .open-sidebar-button, .close-sidebar-button {
     display: block;
   }
