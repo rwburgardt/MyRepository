@@ -167,13 +167,13 @@ aside {
   width: 132px;
 }
 
-#clearButton, #findButton {
+.clearButton, .findButton {
   background-color: lightgoldenrodyellow;
   width: 58px;
   cursor: pointer
 }
 
-#clearButton:hover, #findButton:hover {
+.clearButton:hover, .findButton:hover {
   background-color: lightblue;
 }
 
@@ -220,7 +220,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1; /*This centers child elements horizontally. Not sure why it is required given align-items: center*/
+  flex: 1;  /* This centers child elements horizontally. Not sure why it is required given align-items: center*/
 }
 
 .title {
