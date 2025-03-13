@@ -230,6 +230,15 @@ main {
   padding-top: 50px;
 }
 
+@keyframes fade {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
+}
+.title{
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
 .name-of-month {
   display: flex; /*This line and the next are needed to bottom-align the text.*/
   align-items: flex-end;
