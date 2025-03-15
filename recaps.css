@@ -129,7 +129,7 @@ footer {
 .date-game {
   text-align: center;
   border: 1px solid black;
-  background-color: lightcyan;
+  background-color: lightgray;
   font-size: 1em;
   padding: 0.3125em;
 }
@@ -137,7 +137,7 @@ footer {
 .opponent-game {
   text-align: center;
   border: 1px solid black;
-  background-color: lightcyan;
+  background-color: lightgray;
   font-size: 1em;
   padding: 0.3125em;
 }
@@ -145,7 +145,7 @@ footer {
 .result-game {
   text-align: center;
   border: 1px solid black;
-  background-color: lightcyan;
+  background-color: lightgray;
   font-size: 1em;
   padding: 0.3125em;
 }
@@ -159,7 +159,7 @@ footer {
 .recap-game {
   text-align: left;
   border: 1px solid black;
-  background-color: lightcyan;
+  background-color: lightgray;
   font-size: 1em;
   padding: 0.3125em;
   overflow: auto;
