@@ -7,6 +7,7 @@
 * {
   margin: 0;
 }
+
 * {
   padding: 0;
 }
@@ -18,13 +19,14 @@ html {
 
 body {
   background-color: var(--accent-color);
-  /*background-color: white;*/
+  display: grid;
+  grid-template-areas:
+  'header'
+  'container'
 }
 
-header {
+.header {
   background-color: var(--color-1);
-  /*background-color: var(--accent-color);*/
-  /*background-color: white;*/
   height: 8rem;
   min-width: 100vw;
   display: flex;
@@ -33,6 +35,8 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
+  justify-content: space-evenly;
+  grid-area: header;
 }
 
 .title {
@@ -44,6 +48,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  grid-area: container;
 }
 
 .card {
