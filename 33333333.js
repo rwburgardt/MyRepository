@@ -86,7 +86,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos',
     time: '',
     score: 'W 5-4',
-    recap: '<a href = "55555555.html#mar27">Recap</a>'
+    recap: '<a href = "55555555.html#mar27" target = "_blank">Recap</a>'
     },
     {
     id: '6',
@@ -97,7 +97,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos',
     time: '',
     score: 'W 2-1',
-    recap: '<a href = "55555555.html#mar28">Recap</a>'
+    recap: '<a href = "55555555.html#mar28" target = "_blank">Recap</a>'
     },
     {
     id: '7',
@@ -108,7 +108,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos',
     time: '',
     score: 'W 7-0',
-    recap: '<a href = "55555555.html#mar29">Recap</a>'
+    recap: '<a href = "55555555.html#mar29" target = "_blank" >Recap</a>'
     },
     {
     id: '8',
@@ -119,7 +119,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos',
     time: '',
     score: 'W 5-4',
-    recap: '<a href = "55555555.html#mar30">Recap</a>'
+    recap: '<a href = "55555555.html#mar30" target = "_blank">Recap</a>'
     },
     {
     id: '9',
@@ -130,7 +130,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'at Cin',
     time: '',
     score: 'L 3-2',
-    recap: '<a href = "55555555.html#mar31">Recap</a>'
+    recap: '<a href = "55555555.html#mar31" target = "_blank">Recap</a>'
     },
     {
     id: '10',
