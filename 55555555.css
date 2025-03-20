@@ -27,12 +27,15 @@ header {
   /*background-color: white;*/
   height: 8rem;
   min-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
-  font-size: 4rem;
-  text-align: center;
-  /*padding: 1rem;*/
+  font-size: 3rem;
+  /*text-align: center;*/
 }
 
 .container {
