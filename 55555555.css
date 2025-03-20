@@ -26,13 +26,13 @@ header {
   /*background-color: var(--accent-color);*/
   /*background-color: white;*/
   height: 8rem;
-  width: 100vw;
+  min-width: 100vw;
 }
 
 .title {
   font-size: 4rem;
   text-align: center;
-  padding: 1rem;
+  /*padding: 1rem;*/
 }
 
 .container {
