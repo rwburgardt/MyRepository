@@ -47,6 +47,20 @@ const schedule = [
     opp: 'at Cincinnati',
     score: 'W 1-0',
     recap: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit odit ipsa, a harum natus officia earum eius, quibusdam facere expedita aspernatur. Nulla non asperiores optio consectetur minima corporis unde? Aliquid neque vel cupiditate vero vitae necessitatibus molestias exercitationem, veniam ipsum commodi nam eligendi? Possimus necessitatibus aperiam rerum cumque adipisci in harum incidunt sint? Repellat illo quam facere! Molestiae, facilis. Earum repellat est autem, sequi facere vitae odio placeat nulla magni porro corrupti dolore eligendi adipisci quos quibusdam. Repellat totam voluptate, ipsam recusandae tempora eos. Architecto corporis repellendus enim aliquam? Doloribus illo reiciendis beatae illum ducimus repudiandae rem dolores? Possimus, commodi voluptatum cum nihil sit illo enim necessitatibus magnam. Quisquam sit necessitatibus exercitationem commodi aliquid nam vel perferendis provident distinctio.'
+    },
+    {
+    id: 'apr4',
+    date: 'April 4',
+    opp: 'Tampa Bay',
+    score: '',
+    recap: ''
+    },
+    {
+    id: 'apr5',
+    date: 'April 5',
+    opp: 'Tampa Bay',
+    score: '',
+    recap: ''
     }
 ]
 

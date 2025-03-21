@@ -72,10 +72,13 @@ p {
 }
 
 .motherpigSMALL {
-  margin-left: 12rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .motherpigSMALL {
     margin-left: 6rem;
   }
+}
