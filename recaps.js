@@ -67,7 +67,6 @@ let html = '';
         <p>
           ${element.recap}
         </p>
-        <img src = "motherpigSMALL.png" class = "motherpigSMALL" width="50" height="50">
       </div>\n`
       html += newHTML
     });
