@@ -70,3 +70,12 @@ p {
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
+.motherpigSMALL {
+  margin-left: 12rem;
+}
+
+@media (max-width: 800px){
+  .motherpigSMALL {
+    margin-left: 6rem;
+  }
