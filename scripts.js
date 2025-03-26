@@ -19,6 +19,9 @@ document.getElementById("findButton").addEventListener("click", () => {
     document.getElementById("inputBoxValue").value = '';
   }
 
+  document.getElementById("leave-a-comment").addEventListener("click", () => {
+    window.open("commentbox.html",'_blank').focus();
+  })
   document.getElementById("colorflipper").addEventListener("click", () => {
     window.open("colorflipper.html",'_blank').focus();
   })

@@ -114,6 +114,7 @@ nav {
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*------------------------------------------------Aside-------------------------------------------*/
+
 aside {
   display: flex;
   flex-direction: column;
@@ -125,9 +126,31 @@ aside {
   width: 200px;
 }
 
+.leave-a-comment {
+  border: 3px solid black;
+  width: 175px;
+  height: 40px;
+  background-color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+  color: white
+}
+
+.leave-a-comment:hover {
+  background-color: var(--accent-color);
+  color: black;
+}
+
+.leave-a-comment {
+  transform: translateY(4px);
+}
+
 .bubble {
   position: relative;
-  top: 125px;
+  top: 75px;
   left: 225px;
   font-size: 18px;
   line-height: 24px;
@@ -154,7 +177,7 @@ aside {
 
 .rocky {
   position: relative;
-  top: 0px;
+  top: -40px;  /*Change this back to zero.*/
   left: 20px;
   /*z-index: 3;*/
   filter: drop-shadow(5px 5px 5px #222);
