@@ -4,7 +4,7 @@ const schedule = [
   date: 'March 27',
   opp: 'vs Boston',
   score: 'W - L',
-  recap: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit odit ipsa, a harum natus officia earum eius, quibusdam facere expedita aspernatur. Nulla non asperiores optio consectetur minima corporis unde? Aliquid neque vel cupiditate vero vitae necessitatibus molestias exercitationem, veniam ipsum commodi nam eligendi? Possimus necessitatibus aperiam rerum cumque adipisci in harum incidunt sint? Repellat illo quam facere! Molestiae, facilis. Earum repellat est autem, sequi facere vitae odio placeat nulla magni porro corrupti dolore eligendi adipisci quos quibusdam. Repellat totam voluptate, ipsam recusandae tempora eos. Architecto corporis repellendus enim aliquam? Doloribus illo reiciendis beatae illum ducimus repudiandae rem dolores? Possimus, commodi voluptatum cum nihil sit illo enim necessitatibus magnam. Quisquam sit necessitatibus exercitationem commodi aliquid nam vel perferendis provident distinctio.'
+  recap: 'Nathan Eovaldi outpitched Red Sox opening day starter All Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 2 hits and no walks and striking out 9.  '
   },
   {
   id: 'mar28',
