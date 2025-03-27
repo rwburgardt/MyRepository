@@ -87,8 +87,8 @@ document.getElementById("findButton").addEventListener("click", () => {
     day: 'Thu',
     date: '27',
     opp: 'Bos',
-    time: '3:15',
-    score: '',
+    time: '',
+    score: 'L 5-2',
     recap: '<a href = "recaps.html#mar27" target = "_blank">Recap</a>'
     },
     {
