@@ -4,7 +4,7 @@ const schedule = [
   date: 'March 27',
   opp: 'vs Boston',
   score: 'W - L',
-  recap: "Nathan Eovaldi outpitched Red Sox opening day starter and 2024 All Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 2 hits and no walks and striking out 9. Newcomers Kevin Pillar (CF) and Kyle Higaahioka (C) had the RBI's against Crochet. "
+  recap: "Nathan Eovaldi outpitched Red Sox opening day starter and 2024 All Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 2 hits and no walks and striking out 9. Newcomers Kevin Pillar (CF) and Kyle Higaahioka (C) had the RBI's against Crochet. Rangers' reliever Luke Jackson gave up 3 runs in the 9th on a one-out walk, followed by a single and a HR by rightfielder Wilyer Abreu."
   },
   {
   id: 'mar28',
