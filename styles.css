@@ -446,13 +446,13 @@ h1 {
   background-color: yellow;
 }
 
-.mar27 {
-  background-color: lightpink;
-}
-
 /*.mar28 {
-  background-color: rgb(243, 224, 226);
+  background-color: rgb(223, 241, 223);
 }*/
+
+.mar27 {
+  background-color: rgb(248, 199, 199);
+}
 
 .date {
   font-size: 2em;
