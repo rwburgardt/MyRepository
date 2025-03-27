@@ -4,7 +4,7 @@ const schedule = [
   date: 'March 27',
   opp: 'vs Boston',
   score: 'W - L',
-  recap: 'Nathan Eovaldi outpitched Red Sox opening day starter All Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 2 hits and no walks and striking out 9.  '
+  recap: "Nathan Eovaldi outpitched Red Sox opening day starter and 2024 All Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 2 hits and no walks and striking out 9. Newcomers Kevin Pillar (CF) and Kyle Higaahioka (C) had the RBI's against Crochet. "
   },
   {
   id: 'mar28',
