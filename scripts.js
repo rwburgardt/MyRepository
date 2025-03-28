@@ -22,9 +22,9 @@ document.getElementById("findButton").addEventListener("click", () => {
   document.getElementById("leave-a-comment").addEventListener("click", () => {
     window.open("commentbox.html",'_blank').focus();
   })
-  document.getElementById("colorflipper").addEventListener("click", () => {
+  /*document.getElementById("colorflipper").addEventListener("click", () => {
     window.open("colorflipper.html",'_blank').focus();
-  })
+  })*/
   document.getElementById("locked-on-rangers").addEventListener("click", () => {
     window.open("https://lockedonpodcasts.com/podcasts/locked-on-texas-rangers/",'_blank').focus();
   })
