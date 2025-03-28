@@ -144,7 +144,7 @@ aside {
   color: black;
 }
 
-.leave-a-comment {
+.leave-a-comment:active {
   transform: translateY(4px);
 }
 
