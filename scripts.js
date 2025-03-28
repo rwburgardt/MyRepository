@@ -2300,7 +2300,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Mil',
     time: '7:05',
     score: '',
-    recap: '>'
+    recap: ''
     },
     {
     id: '207',
