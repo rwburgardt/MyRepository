@@ -34,7 +34,7 @@ a:active {
 
 body {
   display: flex;
-  flex-direction: row;  /************CHANGED FROM COLUMN******************/
+  flex-direction: row;
   background-image: url('seager.jpg');
   background-repeat:no-repeat;
   background-size: cover;
@@ -213,9 +213,8 @@ aside {
 
 .rocky {
   position: relative;
-  top: -40px;  /*Change this back to zero.*/
+  top: -40px;
   left: 20px;
-  /*z-index: 3;*/
   filter: drop-shadow(5px 5px 5px #222);
 }
 
@@ -264,7 +263,7 @@ aside {
 
 section {
   display: flex;
-  flex-direction: column;  /***********************CHANGED FROM ROW***********************/
+  flex-direction: column;
   background-color: transparent;
   height: 100%;
   width: 100vw;
