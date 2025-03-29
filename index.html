@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="keywords" content = "Texas Rangers baseball">
   <meta name="description" content = "Texas Rangers Game Recaps">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles - EXPERIMENT.css">
   <title>Rangers Recaps</title>
 
 </head>
@@ -24,152 +24,180 @@
 
 <body>     <!--body is parent of nav and section-->
 
-  <!-----------------------------------------------Nav Element-- --------------------------------------->
-  <nav>
-    <input type="checkbox" id="sidebar-active">
+  <!---------------------------------------------Aside Element----------------------------------------->
+  <aside>
 
-    <label for="sidebar-active" class="open-sidebar-button"> <!--The label tag with the for attribute causes clicking the menu button to check the checkbox-->
-      <img src="menu-icon-black.png" height="60px" width="60px"> <!--It's best to include image dimensions in the html tag-->
-    </label> 
+    <div class="hero">
+      <p class="timer-caption">Next Game In</p>
+      <div class="timebox">
+          <div class="time">
+              <h2 id="days">00</h2>
+              <p>Days</p>
+          </div>
+          <div class="time">
+              <h2 id="hours">00</h2>
+              <p>Hrs</p>
+          </div>
+          <div class="time">
+              <h2 id="minutes">00</h2>
+              <p>Mins</p>
+          </div>
+          <div class="time">
+              <h2 id="seconds">00</h2>
+              <p>Secs</p>
+          </div>
+      </div>
+  </div>
 
-    <label id="overlay" for="sidebar-active">
-    </label> <!--The label tag with the for attribute makes the entire page clickable to remove to check from the checkbox-->
+    <button id="leave-a-comment" class="leave-a-comment"><em>Leave a comment....</em></button>
 
-    <div class="links-container">  <!--This div is the mobile sidebar-->
-     
-      <label for="sidebar-active" class="close-sidebar-button"> <!--The label tag causes clicking the X to uncheck the checkbox-->
-        <img src="close-icon-black.png" height="60px" width="60px">
-      </label>
-
-      <!--<button id="colorflipper" class="color-flipper-button">Color Flipper</button>-->
-
-      <img class="brice-image" src = "brice.jpg" width="40px" height="40px">
-
-      <button id="locked-on-rangers" class="locked-on-rangers-button">Locked on Rangers</button>
-
-      <img class="straight-up-texas-image" src = "straight-up-texas-image.webp" width="40px" height="40px">
-
-      <button id="straight-up-texas" class="straight-up-texas-button">Straight Up Texas</button>
-
-      <img class="dlls-podcast-image" src = "dlls-podcast-image.png" width="55px" height="55px">
-
-      <button id="dlls" class="dlls-button">DLLS Rangers Podcast</button>
-
-      <img class="mother-pig-in-nav" src = "motherpig.png" width="50px" height="50px">
-
-      <img class="rangers-logo" src = "logo.gif" width = "85px" height = "85px">
-
+    <div class="bubble bubble-bottom-left">Rocky says click on Recap to view the journal...
     </div>
-  
-  </nav>
-  <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav Element^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+
+    <img class="rocky" src = "rocky.png" width="200px" height="265px">
+    
+    <form>
+      <label for="inputBoxValue"><strong>Search by team:</strong></label>
+      <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue">
+      <datalist id="teams">
+        <option value='Ari'><option value='Ath'><option value='Atl'><option value='Bal'><option value='Bos'>
+        <option value='CHC'><option value='CHW'><option value='Cin'><option value='Cle'><option value='Col'>
+        <option value='Det'><option value='Hou'><option value='KC'><option value='LAA'><option value='LAD'>
+        <option value='Mia'><option value='Mil'><option value='Min'><option value='NYM'><option value='NYY'>
+        <option value='Phi'><option value='Pit'><option value='SD'><option value='Sea'><option value='SF'>
+        <option value='SL'><option value='TB'><option value='Tor'><option value='Was'>    
+      </datalist>
+      <input type="button" value="Highlight" id="findButton" class="findButton">
+      <input type="button" value="Clear" id="clearButton" class="clearButton" onclick ="unsearchForTeam(inputBoxValue.value)">
+    </form>
+
+    <div class="paragraph-in-sidebar">
+      AL West standings through March 28:
+    </div>
+
+    <table class="standings">
+      <tr>
+        <th>Team</th>
+        <th>W-L</th>
+        <th>GB</th>
+      </tr>
+      <tr>
+        <td>Astros</td>
+        <td style= text-align:right>1-1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Mariners</td>
+        <td style= text-align:right>1-1</td>
+        <td style="text-align:center"><!--&#189--></td>
+      </tr>
+      <tr>
+        <td>Rangers</td>
+        <td style= text-align:right>1-1</td>
+        <td style="text-align:center"><!--&#189--></td>
+      </tr>
+      <tr>
+        <td>Athletics</td>
+        <td style= text-align:right>1-1</td>
+        <td style="text-align:center"><!--&#189--></td>
+      </tr>
+      <tr>
+        <td>Angels</td>
+        <td style= text-align:right>0-1</td>
+        <td style="text-align:center">&#189</td>
+      </tr>
+    </table>
+
+    <div class="paragraph-in-sidebar">
+      Fan Graphs projections on opening day:
+    </div>
+
+    <table class="standings">
+      <tr>
+        <th>Team</th>
+        <th>W-L</th>
+        <th>GB</th>
+      </tr>
+      <tr>
+        <td>Mariners</td>
+        <td style= text-align:right>85-77</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Astros</td>
+        <td style= text-align:right>84-78</td>
+        <td style="text-align:center">1<!--&#189--></td>
+      </tr>
+      <tr>
+        <td>Rangers</td>
+        <td style= text-align:right>83-79</td>
+        <td style="text-align:center">2<!--&#189--></td>
+      </tr>
+      <tr>
+        <td>Athletics</td>
+        <td style= text-align:right>76-86</td>
+        <td style="text-align:center">9<!--&#189--></td>
+      </tr>
+      <tr>
+        <td>Astros</td>
+        <td style= text-align:right>75-87</td>
+        <td style="text-align:center">10<!--&#189--></td>
+      </tr>
+    </table>
+
+
+    <img class="ws-ring-in-sidebar" src = "ws-ring.png" width = "125px" height = "70px">
+    <img class="nolan-in-sidebar" src = "nolan.png" width = "200px" height = "200px">
+    <img class="rangers-logo" src = "logo.gif" width = "85px" height = "85px">
+
+  </aside>
+<!---^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Aside Element^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+
+
   <!---------------------------------------------Section Element----------------------------------------->
   <section>     <!--section is parent of aside and main-->
-    <!---------------------------------------------Aside Element----------------------------------------->
-    <aside>
-      <button id="leave-a-comment" class="leave-a-comment"><em>Leave a comment....</em></button>
 
-      <div class="bubble bubble-bottom-left">Rocky says click on Recap to view the journal...
-      </div>
+    <!-----------------------------------------------Nav Element-- --------------------------------------->
 
-      <img class="rocky" src = "rocky.png" width="200px" height="265px">
+    <nav>
+      <input type="checkbox" id="sidebar-active">
+
+      <label for="sidebar-active" class="open-sidebar-button"> <!--The label tag with the for attribute causes clicking the menu button to check the checkbox-->
+        <img src="menu-icon-black.png" height="60px" width="60px"> <!--It's best to include image dimensions in the html tag-->
+      </label> 
+
+      <label id="overlay" for="sidebar-active">
+      </label> <!--The label tag with the for attribute makes the entire page clickable to remove to check from the checkbox-->
+
+      <div class="links-container">  <!--This div is the mobile sidebar-->
       
-      <form>
-        <label for="inputBoxValue"><strong>Search by team:</strong></label>
-        <input type="text" list="teams" class="input-box" placeholder="Choose a team" id="inputBoxValue">
-        <datalist id="teams">
-          <option value='Ari'><option value='Ath'><option value='Atl'><option value='Bal'><option value='Bos'>
-          <option value='CHC'><option value='CHW'><option value='Cin'><option value='Cle'><option value='Col'>
-          <option value='Det'><option value='Hou'><option value='KC'><option value='LAA'><option value='LAD'>
-          <option value='Mia'><option value='Mil'><option value='Min'><option value='NYM'><option value='NYY'>
-          <option value='Phi'><option value='Pit'><option value='SD'><option value='Sea'><option value='SF'>
-          <option value='SL'><option value='TB'><option value='Tor'><option value='Was'>    
-        </datalist>
-        <input type="button" value="Highlight" id="findButton" class="findButton">
-        <input type="button" value="Clear" id="clearButton" class="clearButton" onclick ="unsearchForTeam(inputBoxValue.value)">
-      </form>
+        <label for="sidebar-active" class="close-sidebar-button"> <!--The label tag causes clicking the X to uncheck the checkbox-->
+          <img src="close-icon-black.png" height="60px" width="60px">
+        </label>
 
-      <div class="paragraph-in-sidebar">
-        AL West standings through March 28:
+        <!--<button id="colorflipper" class="color-flipper-button">Color Flipper</button>-->
+
+        <img class="brice-image" src = "brice.jpg" width="40px" height="40px">
+
+        <button id="locked-on-rangers" class="locked-on-rangers-button">Locked on Rangers</button>
+
+        <img class="straight-up-texas-image" src = "straight-up-texas-image.webp" width="40px" height="40px">
+
+        <button id="straight-up-texas" class="straight-up-texas-button">Straight Up Texas</button>
+
+        <img class="dlls-podcast-image" src = "dlls-podcast-image.png" width="55px" height="55px">
+
+        <button id="dlls" class="dlls-button">DLLS Rangers Podcast</button>
+
+        <img class="mother-pig-in-nav" src = "motherpig.png" width="50px" height="50px">
+
+        <img class="rangers-logo" src = "logo.gif" width = "85px" height = "85px">
+
       </div>
-
-      <table class="standings">
-        <tr>
-          <th>Team</th>
-          <th>W-L</th>
-          <th>GB</th>
-        </tr>
-        <tr>
-          <td>Astros</td>
-          <td style= text-align:right>1-1</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Mariners</td>
-          <td style= text-align:right>1-1</td>
-          <td style="text-align:center"><!--&#189--></td>
-        </tr>
-        <tr>
-          <td>Rangers</td>
-          <td style= text-align:right>1-1</td>
-          <td style="text-align:center"><!--&#189--></td>
-        </tr>
-        <tr>
-          <td>Athletics</td>
-          <td style= text-align:right>1-1</td>
-          <td style="text-align:center"><!--&#189--></td>
-        </tr>
-        <tr>
-          <td>Angels</td>
-          <td style= text-align:right>0-1</td>
-          <td style="text-align:center">&#189</td>
-        </tr>
-      </table>
-
-      <div class="paragraph-in-sidebar">
-        Fan Graphs projections on opening day:
-      </div>
-
-      <table class="standings">
-        <tr>
-          <th>Team</th>
-          <th>W-L</th>
-          <th>GB</th>
-        </tr>
-        <tr>
-          <td>Mariners</td>
-          <td style= text-align:right>85-77</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Astros</td>
-          <td style= text-align:right>84-78</td>
-          <td style="text-align:center">1<!--&#189--></td>
-        </tr>
-        <tr>
-          <td>Rangers</td>
-          <td style= text-align:right>83-79</td>
-          <td style="text-align:center">2<!--&#189--></td>
-        </tr>
-        <tr>
-          <td>Athletics</td>
-          <td style= text-align:right>76-86</td>
-          <td style="text-align:center">9<!--&#189--></td>
-        </tr>
-        <tr>
-          <td>Astros</td>
-          <td style= text-align:right>75-87</td>
-          <td style="text-align:center">10<!--&#189--></td>
-        </tr>
-      </table>
-
-
-      <img class="ws-ring-in-sidebar" src = "ws-ring.png" width = "125px" height = "70px">
-      <img class="nolan-in-sidebar" src = "nolan.png" width = "200px" height = "200px">
-      <img class="rangers-logo" src = "logo.gif" width = "85px" height = "85px">
-
-    </aside>
-    <!---^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Aside Element^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    
+    </nav>
+  <!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav Element^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+    
     <!----------------------------------------------Main Element----------------------------------------->
     <main id="search"> <!--id added for search box-->
 
@@ -212,7 +240,7 @@
     
   </section>
 
-  <script src = "scripts.js">
+  <script src = "scripts - EXPERIMENT.js">
      
   </script>
 

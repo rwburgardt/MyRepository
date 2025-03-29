@@ -34,7 +34,7 @@ a:active {
 
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;  /************CHANGED FROM COLUMN******************/
   background-image: url('seager.jpg');
   background-repeat:no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ nav {
   align-items: center;
   position: fixed;   /*Fixed positioning is always relative to the viewport, not the page. */
   top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
-  left: 0;
+  left: 200px;    /***************************CHANGED FROM ZER0********************/
   right: 0;
   z-index: 2;
 }
@@ -125,6 +125,42 @@ aside {
   position: relative;
   width: 200px;
 }
+
+    .hero{
+      height: 80px;
+      width: 175px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background-color: lightpink;
+      border-radius: 20px;
+      border: 2px solid black;
+      color: black;
+      margin-top: 20px;
+    }
+
+    .timer-caption{
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    .timebox{
+      display: flex;
+      gap: 10px;
+    }
+
+    .time{
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .time h2{
+      font-size: px;
+      font-weight: 500;
+    }
 
 .leave-a-comment {
   border: 3px solid black;
@@ -228,10 +264,10 @@ aside {
 
 section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;  /***********************CHANGED FROM ROW***********************/
   background-color: transparent;
   height: 100%;
-  max-width: 100vw;
+  width: 100vw;
   position: relative;
   top: 60px;
 }
@@ -242,6 +278,8 @@ main {
   justify-content: center;
   align-items: center;
   flex: 1;  /* This centers child elements horizontally. Not sure why it is required given align-items: center*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
