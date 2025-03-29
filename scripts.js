@@ -98,9 +98,9 @@ document.getElementById("findButton").addEventListener("click", () => {
     day: 'Fri',
     date: '28',
     opp: 'Bos',
-    time: '7:05',
-    score: '',
-    recap: ''
+    time: '',
+    score: 'W 4-1',
+    recap: '<a href = "recaps.html#mar28" target = "_blank">Recap</a>'
     },
     {
     id: '7',
