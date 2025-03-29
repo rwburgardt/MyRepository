@@ -11,7 +11,7 @@ const schedule = [
   date: 'March 28',
   opp: 'vs Boston',
   score: 'W 4-1',
-  recap: 'Jonah Heim solo-homered twice off All-Star Red Sox starting pitcher Tanner Houck, and Jack Leiter notched a quality start, scattering 5 hits and a walk in 5 innings to get his first career win. LF Wyatt Langford made a nice run-saving catch in the 2nd, and Leiter pitched out of trouble in the 3rd and 4th. Boston threatened in the 7th after Marc Church put 2 on, but Hoby Milner pitched out of a bases-loaded, one-out jam. Five Ranger relievers combined for four shutout innings, and Luke Jackson pitched a perfect 9th to get the save. '
+  recap: 'Jonah Heim solo-homered twice off All-Star Red Sox starting pitcher Tanner Houck and Jack Leiter notched a quality start, scattering 5 hits and a walk in 5 innings to get his first career win. LF Wyatt Langford made a nice run-saving catch in the 2nd and Leiter pitched out of trouble in the 3rd and 4th. Boston threatened in the 7th after Marc Church put 2 on, but Hoby Milner pitched out of a bases-loaded, one-out jam. Five Ranger relievers combined for four shutout innings, and Luke Jackson pitched a perfect 9th to get the save. '
   },
   {
   id: 'mar29',
