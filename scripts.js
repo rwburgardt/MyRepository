@@ -515,7 +515,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr28',
     day: 'Mon',
     date: '28',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -526,7 +526,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr29',
     day: 'Tue',
     date: '29',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -537,7 +537,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr30',
     day: 'Wed',
     date: '30',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -625,7 +625,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may1',
     day: 'Thu',
     date: '1',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1593,7 +1593,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul21',
     day: 'Mon',
     date: '21',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1604,7 +1604,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul22',
     day: 'Tue',
     date: '22',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1615,7 +1615,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul23',
     day: 'Wed',
     date: '23',
-    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2099,7 +2099,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug29',
     day: 'Fri',
     date: '29',
-    opp: 'at Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'at Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -2110,7 +2110,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug30',
     day: 'Sat',
     date: '30',
-    opp: 'at Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'at Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -2121,7 +2121,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug31',
     day: 'Sun',
     date: '31',
-    opp: 'at Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
+    opp: 'at Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
