@@ -102,7 +102,7 @@ let html = '';
         <p>
           ${element.recap}
         </p>
-        <image src = "motherpigSMALL.png" class = "motherpigSMALL">
+        <image src = "images/motherpigSMALL.png" class = "motherpigSMALL">
       </div>\n`
       html += newHTML
     });
