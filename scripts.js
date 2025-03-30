@@ -86,7 +86,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'mar27',
     day: 'Thu',
     date: '27',
-    opp: 'Bos',
+    opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'L 5-2',
     recap: '<a href = "recaps.html#mar27" target = "_blank">Recap</a>'
@@ -97,7 +97,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'mar28',
     day: 'Fri',
     date: '28',
-    opp: 'Bos',
+    opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 4-1',
     recap: '<a href = "recaps.html#mar28" target = "_blank">Recap</a>'
@@ -108,7 +108,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'mar29',
     day: 'Sat',
     date: '29',
-    opp: 'Bos',
+    opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -119,7 +119,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'mar30',
     day: 'Sun',
     date: '30',
-    opp: 'Bos',
+    opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -130,7 +130,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'mar31',
     day: 'Mon',
     date: '31',
-    opp: 'at Cin',
+    opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:40',
     score: '',
     recap: ''
@@ -218,7 +218,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr1',
     day: 'Tue',
     date: '1',
-    opp: 'at Cin',
+    opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:40',
     score: '',
     recap: ''
@@ -229,7 +229,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr2',
     day: 'Wed',
     date: '2',
-    opp: 'at Cin',
+    opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '11:40',
     score: '',
     recap: ''
@@ -251,7 +251,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr4',
     day: 'Fri',
     date: '4',
-    opp: 'TB',
+    opp: 'TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -262,7 +262,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr5',
     day: 'Sat',
     date: '5',
-    opp: 'TB',
+    opp: 'TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -273,7 +273,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr6',
     day: 'Sun',
     date: '6',
-    opp: 'TB',
+    opp: 'TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -284,7 +284,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr7',
     day: 'Mon',
     date: '7',
-    opp: 'at CHC',
+    opp: 'at CHC <img src="logos/cubs.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -295,7 +295,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr8',
     day: 'Tue',
     date: '8',
-    opp: 'at CHC',
+    opp: 'at CHC <img src="logos/cubs.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -306,7 +306,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr9',
     day: 'Wed',
     date: '9',
-    opp: 'at CHC',
+    opp: 'at CHC <img src="logos/cubs.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:20',
     score: '',
     recap: ''
@@ -328,7 +328,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr11',
     day: 'Fri',
     date: '11',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:40',
     score: '',
     recap: ''
@@ -339,7 +339,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr12',
     day: 'Sat',
     date: '12',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:40',
     score: '',
     recap: ''
@@ -350,7 +350,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr13',
     day: 'Sun',
     date: '13',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:10',
     score: '',
     recap: ''
@@ -372,7 +372,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr15',
     day: 'Tue',
     date: '15',
-    opp: 'LAA',
+    opp: 'LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -383,7 +383,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr16',
     day: 'Wed',
     date: '16',
-    opp: 'LAA',
+    opp: 'LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -394,7 +394,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr17',
     day: 'Thu',
     date: '17',
-    opp: 'LAA',
+    opp: 'LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -405,7 +405,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr18',
     day: 'Fri',
     date: '18',
-    opp: 'LAD',
+    opp: 'LAD <img src="logos/dodgers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -416,7 +416,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr19',
     day: 'Sat',
     date: '19',
-    opp: 'LAD',
+    opp: 'LAD <img src="logos/dodgers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -427,7 +427,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr20',
     day: 'Sun',
     date: '20',
-    opp: 'LAD',
+    opp: 'LAD <img src="logos/dodgers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -449,7 +449,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr22',
     day: 'Tue',
     date: '22',
-    opp: 'at Ath',
+    opp: 'at Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -460,7 +460,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr23',
     day: 'Wed',
     date: '23',
-    opp: 'at Ath',
+    opp: 'at Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -471,7 +471,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr24',
     day: 'Thu',
     date: '24',
-    opp: 'at Ath',
+    opp: 'at Ath <img src="logos/athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -482,7 +482,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr25',
     day: 'Fri',
     date: '25',
-    opp: 'at SF',
+    opp: 'at SF <img src="logos/giants.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:15',
     score: '',
     recap: ''
@@ -493,7 +493,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr26',
     day: 'Sat',
     date: '26',
-    opp: 'at SF',
+    opp: 'at SF <img src="logos/giants.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -504,7 +504,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr27',
     day: 'Sun',
     date: '27',
-    opp: 'at SF',
+    opp: 'at SF <img src="logos/giants.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -515,7 +515,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr28',
     day: 'Mon',
     date: '28',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -526,7 +526,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr29',
     day: 'Tue',
     date: '29',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -537,7 +537,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'apr30',
     day: 'Wed',
     date: '30',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -625,7 +625,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may1',
     day: 'Thu',
     date: '1',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -636,7 +636,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may2',
     day: 'Fri',
     date: '2',
-    opp: 'Sea',
+    opp: 'Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -647,7 +647,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may3',
     day: 'Sat',
     date: '3',
-    opp: 'Sea',
+    opp: 'Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -658,7 +658,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may4',
     day: 'Sun',
     date: '4',
-    opp: 'Sea',
+    opp: 'Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -680,7 +680,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may6',
     day: 'Tue',
     date: '6',
-    opp: 'at Bos',
+    opp: 'at Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:45',
     score: '',
     recap: ''
@@ -691,7 +691,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may7',
     day: 'Wed',
     date: '7',
-    opp: 'at Bos',
+    opp: 'at Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:45',
     score: '',
     recap: ''
@@ -702,7 +702,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may8',
     day: 'Thu',
     date: '8',
-    opp: 'at Bos',
+    opp: 'at Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:35',
     score: '',
     recap: ''
@@ -713,7 +713,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may9',
     day: 'Fri',
     date: '9',
-    opp: 'at Det',
+    opp: 'at Det <img src="logos/tigers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:40',
     score: '',
     recap: ''
@@ -724,7 +724,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may10',
     day: 'Sat',
     date: '10',
-    opp: 'at Det',
+    opp: 'at Det <img src="logos/tigers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:10',
     score: '',
     recap: ''
@@ -735,7 +735,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may11',
     day: 'Sun',
     date: '11',
-    opp: 'at Det',
+    opp: 'at Det <img src="logos/tigers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:40',
     score: '',
     recap: ''
@@ -746,7 +746,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may12',
     day: 'Mon',
     date: '12',
-    opp: 'Col',
+    opp: 'Col <img src="logos/rockies.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -757,7 +757,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may13',
     day: 'Tue',
     date: '13',
-    opp: 'Col',
+    opp: 'Col <img src="logos/rockies.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -768,7 +768,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may14',
     day: 'Wed',
     date: '14',
-    opp: 'Col',
+    opp: 'Col <img src="logos/rockies.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -779,7 +779,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may15',
     day: 'Thu',
     date: '15',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -790,7 +790,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may16',
     day: 'Fri',
     date: '16',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -801,7 +801,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may17',
     day: 'Sat',
     date: '17',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -812,7 +812,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may18',
     day: 'Sun',
     date: '18',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:05',
     score: '',
     recap: ''
@@ -834,7 +834,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may20',
     day: 'Tue',
     date: '20',
-    opp: 'at NYY',
+    opp: 'at NYY <img src="logos/yankees.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -845,7 +845,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may21',
     day: 'Wed',
     date: '21',
-    opp: 'at NYY',
+    opp: 'at NYY <img src="logos/yankees.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -856,7 +856,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may22',
     day: 'Thu',
     date: '22',
-    opp: 'at NYY',
+    opp: 'at NYY <img src="logos/yankees.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '11:35',
     score: '',
     recap: ''
@@ -867,7 +867,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may23',
     day: 'Fri',
     date: '23',
-    opp: 'at CHW',
+    opp: 'at CHW <img src="logos/white-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -878,7 +878,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may24',
     day: 'Sat',
     date: '24',
-    opp: 'at CHW',
+    opp: 'at CHW <img src="logos/white-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:10',
     score: '',
     recap: ''
@@ -889,7 +889,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may25',
     day: 'Sun',
     date: '25',
-    opp: 'at CHW',
+    opp: 'at CHW <img src="logos/white-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:15',
     score: '',
     recap: ''
@@ -900,7 +900,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may26',
     day: 'Mon',
     date: '26',
-    opp: 'Tor',
+    opp: 'Tor <img src="logos/blue-jays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -911,7 +911,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may27',
     day: 'Tue',
     date: '27',
-    opp: 'Tor',
+    opp: 'Tor <img src="logos/blue-jays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -922,7 +922,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may28',
     day: 'Wed',
     date: '28',
-    opp: 'Tor',
+    opp: 'Tor <img src="logos/blue-jays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -944,7 +944,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may30',
     day: 'Fri',
     date: '30',
-    opp: 'SL',
+    opp: 'SL <img src="logos/cardinals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -955,7 +955,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'may31',
     day: 'Sat',
     date: '31',
-    opp: 'SL',
+    opp: 'SL <img src="logos/cardinals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -966,7 +966,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun1',
     day: 'Sun',
     date: '1',
-    opp: 'SL',
+    opp: 'SL <img src="logos/cardinals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:05',
     score: '',
     recap: ''
@@ -988,7 +988,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun3',
     day: 'Tue',
     date: '3',
-    opp: 'at TB',
+    opp: 'at TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:35',
     score: '',
     recap: ''
@@ -999,7 +999,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun4',
     day: 'Wed',
     date: '4',
-    opp: 'at TB',
+    opp: 'at TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:35',
     score: '',
     recap: ''
@@ -1010,7 +1010,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun5',
     day: 'Thu',
     date: '5',
-    opp: 'at TB',
+    opp: 'at TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:35',
     score: '',
     recap: ''
@@ -1021,7 +1021,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun6',
     day: 'Fri',
     date: '6',
-    opp: 'at Was',
+    opp: 'at Was <img src="logos/nationals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:45',
     score: '',
     recap: ''
@@ -1032,7 +1032,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun7',
     day: 'Sat',
     date: '7',
-    opp: 'at Was',
+    opp: 'at Was <img src="logos/nationals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -1043,7 +1043,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun8',
     day: 'Sun',
     date: '8',
-    opp: 'at Was',
+    opp: 'at Was <img src="logos/nationals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:35',
     score: '',
     recap: ''
@@ -1065,7 +1065,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun10',
     day: 'Tue',
     date: '10',
-    opp: 'at Min ',
+    opp: 'at Min <img src="logos/twins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -1076,7 +1076,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun11',
     day: 'Wed',
     date: '11',
-    opp: 'at Min ',
+    opp: 'at Min <img src="logos/twins.gif" width="20px" height="20px" style="vertical-align:bottom"> ',
     time: '6:40',
     score: '',
     recap: ''
@@ -1087,7 +1087,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun12',
     day: 'Thu',
     date: '12',
-    opp: 'at Min ',
+    opp: 'at Min <img src="logos/twins.gif" width="20px" height="20px" style="vertical-align:bottom"> ',
     time: '12:10',
     score: '',
     recap: ''
@@ -1098,7 +1098,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun13',
     day: 'Fri',
     date: '13',
-    opp: 'CHW',
+    opp: 'CHW <img src="logos/white-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1109,7 +1109,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun14',
     day: 'Sat',
     date: '14',
-    opp: 'CHW',
+    opp: 'CHW <img src="logos/white-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -1120,7 +1120,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun15',
     day: 'Sun',
     date: '15',
-    opp: 'CHW',
+    opp: 'CHW <img src="logos/white-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1142,7 +1142,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun17',
     day: 'Tue',
     date: '17',
-    opp: 'KC',
+    opp: 'KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1153,7 +1153,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun18',
     day: 'Wed',
     date: '18',
-    opp: 'KC',
+    opp: 'KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1164,7 +1164,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun19',
     day: 'Thu',
     date: '19',
-    opp: 'KC',
+    opp: 'KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1175,7 +1175,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun20',
     day: 'Fri',
     date: '20',
-    opp: 'at Pit',
+    opp: 'at Pit <img src="logos/pirates.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:40',
     score: '',
     recap: ''
@@ -1186,7 +1186,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun21',
     day: 'Sat',
     date: '21',
-    opp: 'at Pit',
+    opp: 'at Pit <img src="logos/pirates.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -1197,7 +1197,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun22',
     day: 'Sun',
     date: '22',
-    opp: 'at Pit',
+    opp: 'at Pit <img src="logos/pirates.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:35',
     score: '',
     recap: ''
@@ -1208,7 +1208,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun23',
     day: 'Mon',
     date: '23',
-    opp: 'at Bal',
+    opp: 'at Bal <img src="logos/orioles.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:35',
     score: '',
     recap: ''
@@ -1219,7 +1219,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun24',
     day: 'Tue',
     date: '24',
-    opp: 'at Bal',
+    opp: 'at Bal <img src="logos/orioles.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:35',
     score: '',
     recap: ''
@@ -1230,7 +1230,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun25',
     day: 'Wed',
     date: '25',
-    opp: 'at Bal',
+    opp: 'at Bal <img src="logos/orioles.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:35',
     score: '',
     recap: ''
@@ -1252,7 +1252,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun27',
     day: 'Fri',
     date: '27',
-    opp: 'Sea',
+    opp: 'Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1263,7 +1263,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun28',
     day: 'Sat',
     date: '28',
-    opp: 'Sea',
+    opp: 'Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -1274,7 +1274,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun29',
     day: 'Sun',
     date: '29',
-    opp: 'Sea',
+    opp: 'Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1285,7 +1285,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jun30',
     day: 'Mon',
     date: '30',
-    opp: 'Bal',
+    opp: 'Bal <img src="logos/orioles.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1373,7 +1373,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul1',
     day: 'Tue',
     date: '1',
-    opp: 'Bal',
+    opp: 'Bal <img src="logos/orioles.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1384,7 +1384,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul2',
     day: 'Wed',
     date: '2',
-    opp: 'Bal',
+    opp: 'Bal <img src="logos/orioles.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1406,7 +1406,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul4',
     day: 'Fri',
     date: '4',
-    opp: 'at SD',
+    opp: 'at SD <img src="logos/padres.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '5:40',
     score: '',
     recap: ''
@@ -1417,7 +1417,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul5',
     day: 'Sat',
     date: '5',
-    opp: 'at SD',
+    opp: 'at SD <img src="logos/padres.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:40',
     score: '',
     recap: ''
@@ -1428,7 +1428,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul6',
     day: 'Sun',
     date: '6',
-    opp: 'at SD',
+    opp: 'at SD <img src="logos/padres.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:10',
     score: '',
     recap: ''
@@ -1439,7 +1439,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul7',
     day: 'Mon',
     date: '7',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1450,7 +1450,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul8',
     day: 'Tue',
     date: '8',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1461,7 +1461,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul9',
     day: 'Wed',
     date: '9',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1472,7 +1472,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul10',
     day: 'Thu',
     date: '10',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1483,7 +1483,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul11',
     day: 'Fri',
     date: '11',
-    opp: 'at Hou',
+    opp: 'at Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:10',
     score: '',
     recap: ''
@@ -1494,7 +1494,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul12',
     day: 'Sat',
     date: '12',
-    opp: 'at Hou',
+    opp: 'at Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:35',
     score: '',
     recap: ''
@@ -1505,7 +1505,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul13',
     day: 'Sun',
     date: '13',
-    opp: 'at Hou',
+    opp: 'at Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:10',
     score: '',
     recap: ''
@@ -1560,7 +1560,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul18',
     day: 'Fri',
     date: '18',
-    opp: 'Det',
+    opp: 'Det <img src="logos/tigers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1571,7 +1571,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul19',
     day: 'Sat',
     date: '19',
-    opp: 'Det',
+    opp: 'Det <img src="logos/tigers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -1582,7 +1582,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul20',
     day: 'Sun',
     date: '20',
-    opp: 'Det',
+    opp: 'Det <img src="logos/tigers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1593,7 +1593,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul21',
     day: 'Mon',
     date: '21',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1604,7 +1604,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul22',
     day: 'Tue',
     date: '22',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1615,7 +1615,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul23',
     day: 'Wed',
     date: '23',
-    opp: 'Ath',
+    opp: 'Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1637,7 +1637,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul25',
     day: 'Fri',
     date: '25',
-    opp: 'Atl',
+    opp: 'Atl <img src="logos/braves.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1648,7 +1648,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul26',
     day: 'Sat',
     date: '26',
-    opp: 'Atl',
+    opp: 'Atl <img src="logos/braves.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -1659,7 +1659,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul27',
     day: 'Sun',
     date: '27',
-    opp: 'Atl',
+    opp: 'Atl <img src="logos/braves.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1670,7 +1670,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul28',
     day: 'Mon',
     date: '28',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1681,7 +1681,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul29',
     day: 'Tue',
     date: '29',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1692,7 +1692,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul30',
     day: 'Wed',
     date: '30',
-    opp: 'at LAA',
+    opp: 'at LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:38',
     score: '',
     recap: ''
@@ -1703,7 +1703,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'jul31',
     day: 'Thu',
     date: '31',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:40',
     score: '',
     recap: ''
@@ -1791,7 +1791,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug1',
     day: 'Fri',
     date: '1',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:10',
     score: '',
     recap: ''
@@ -1802,7 +1802,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug2',
     day: 'Sat',
     date: '2',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:10',
     score: '',
     recap: ''
@@ -1813,7 +1813,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug3',
     day: 'Sun',
     date: '3',
-    opp: 'at Sea',
+    opp: 'at Sea <img src="logos/mariners.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:10',
     score: '',
     recap: ''
@@ -1824,7 +1824,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug4',
     day: 'Mon',
     date: '4',
-    opp: 'NYY',
+    opp: 'NYY <img src="logos/yankees.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1835,7 +1835,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug5',
     day: 'Tue',
     date: '5',
-    opp: 'NYY',
+    opp: 'NYY <img src="logos/yankees.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1846,7 +1846,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug6',
     day: 'Wed',
     date: '6',
-    opp: 'NYY',
+    opp: 'NYY <img src="logos/yankees.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1868,7 +1868,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug8',
     day: 'Fri',
     date: '8',
-    opp: 'Phi',
+    opp: 'Phi <img src="logos/phillies.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1879,7 +1879,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug9',
     day: 'Sat',
     date: '9',
-    opp: 'Phi',
+    opp: 'Phi <img src="logos/phillies.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:15',
     score: '',
     recap: ''
@@ -1890,7 +1890,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug10',
     day: 'Sun',
     date: '10',
-    opp: 'Phi',
+    opp: 'Phi <img src="logos/phillies.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1901,7 +1901,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug11',
     day: 'Mon',
     date: '11',
-    opp: 'Ari',
+    opp: 'Ari <img src="logos/diamondbacks.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1912,7 +1912,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug12',
     day: 'Tue',
     date: '12',
-    opp: 'Ari',
+    opp: 'Ari <img src="logos/diamondbacks.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -1923,7 +1923,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug13',
     day: 'Wed',
     date: '13',
-    opp: 'Ari',
+    opp: 'Ari <img src="logos/diamondbacks.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -1945,7 +1945,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug15',
     day: 'Fri',
     date: '15',
-    opp: 'at Tor',
+    opp: 'at Tor <img src="logos/blue-jays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:07',
     score: '',
     recap: ''
@@ -1956,7 +1956,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug16',
     day: 'Sat',
     date: '16',
-    opp: 'at Tor',
+    opp: 'at Tor <img src="logos/blue-jays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '2:07',
     score: '',
     recap: ''
@@ -1967,7 +1967,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug17',
     day: 'Sun',
     date: '17',
-    opp: 'at Tor',
+    opp: 'at Tor <img src="logos/blue-jays.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:37',
     score: '',
     recap: ''
@@ -1978,7 +1978,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug18',
     day: 'Mon',
     date: '18',
-    opp: 'at KC',
+    opp: 'at KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -1989,7 +1989,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug19',
     day: 'Tue',
     date: '19',
-    opp: 'at KC',
+    opp: 'at KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -2000,7 +2000,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug20',
     day: 'Wed',
     date: '20',
-    opp: 'at KC',
+    opp: 'at KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:40',
     score: '',
     recap: ''
@@ -2011,7 +2011,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug21',
     day: 'Thu',
     date: '21',
-    opp: 'at KC',
+    opp: 'at KC <img src="logos/royals.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:10',
     score: '',
     recap: ''
@@ -2022,7 +2022,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug22',
     day: 'Fri',
     date: '22',
-    opp: 'Cle',
+    opp: 'Cle <img src="logos/guardians.gif" width="24px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2033,7 +2033,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug23',
     day: 'Sat',
     date: '23',
-    opp: 'Cle',
+    opp: 'Cle <img src="logos/guardians.gif" width="24px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -2044,7 +2044,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug24',
     day: 'Sun',
     date: '24',
-    opp: 'Cle',
+    opp: 'Cle <img src="logos/guardians.gif" width="24px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -2055,7 +2055,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug25',
     day: 'Mon',
     date: '25',
-    opp: 'LAA',
+    opp: 'LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2066,7 +2066,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug26',
     day: 'Tue',
     date: '26',
-    opp: 'LAA',
+    opp: 'LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2077,7 +2077,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug27',
     day: 'Wed',
     date: '27',
-    opp: 'LAA',
+    opp: 'LAA <img src="logos/angels.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2099,7 +2099,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug29',
     day: 'Fri',
     date: '29',
-    opp: 'at Ath',
+    opp: 'at Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -2110,7 +2110,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug30',
     day: 'Sat',
     date: '30',
-    opp: 'at Ath',
+    opp: 'at Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '9:05',
     score: '',
     recap: ''
@@ -2121,7 +2121,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'aug31',
     day: 'Sun',
     date: '31',
-    opp: 'at Ath',
+    opp: 'at Ath <img src="logos/Athletics.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
     recap: ''
@@ -2209,7 +2209,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep1',
     day: 'Mon',
     date: '1',
-    opp: 'at Ari',
+    opp: 'at Ari <img src="logos/diamondbacks.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:10',
     score: '',
     recap: ''
@@ -2220,7 +2220,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep2',
     day: 'Tue',
     date: '2',
-    opp: 'at Ari',
+    opp: 'at Ari <img src="logos/diamondbacks.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '8:40',
     score: '',
     recap: ''
@@ -2231,7 +2231,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep3',
     day: 'Wed',
     date: '3',
-    opp: 'at Ari',
+    opp: 'at Ari <img src="logos/diamondbacks.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '2:40',
     score: '',
     recap: ''
@@ -2253,7 +2253,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep5',
     day: 'Fri',
     date: '5',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2264,7 +2264,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep6',
     day: 'Sat',
     date: '6',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:15',
     score: '',
     recap: ''
@@ -2275,7 +2275,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep7',
     day: 'Sun',
     date: '7',
-    opp: 'Hou',
+    opp: 'Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -2286,7 +2286,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep8',
     day: 'Mon',
     date: '8',
-    opp: 'Mil',
+    opp: 'Mil <img src="logos/brewers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2297,7 +2297,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep9',
     day: 'Tue',
     date: '9',
-    opp: 'Mil',
+    opp: 'Mil <img src="logos/brewers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2308,7 +2308,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep10',
     day: 'Wed',
     date: '10',
-    opp: 'Mil',
+    opp: 'Mil <img src="logos/brewers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -2330,7 +2330,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep12',
     day: 'Fri',
     date: '12',
-    opp: 'at NYM',
+    opp: 'at NYM <img src="logos/mets.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:10',
     score: '',
     recap: ''
@@ -2341,7 +2341,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep13',
     day: 'Sat',
     date: '13',
-    opp: 'at NYM',
+    opp: 'at NYM <img src="logos/mets.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:10',
     score: '',
     recap: ''
@@ -2352,7 +2352,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep14',
     day: 'Sun',
     date: '14',
-    opp: 'at NYM',
+    opp: 'at NYM <img src="logos/mets.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '12:40',
     score: '',
     recap: ''
@@ -2363,7 +2363,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep15',
     day: 'Mon',
     date: '15',
-    opp: 'at Hou',
+    opp: 'at Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:10',
     score: '',
     recap: ''
@@ -2374,7 +2374,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep16',
     day: 'Tue',
     date: '16',
-    opp: 'at Hou',
+    opp: 'at Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:10',
     score: '',
     recap: ''
@@ -2385,7 +2385,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep17',
     day: 'Wed',
     date: '17',
-    opp: 'at Hou',
+    opp: 'at Hou <img src="logos/astros.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:10',
     score: '',
     recap: ''
@@ -2407,7 +2407,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep19',
     day: 'Fri',
     date: '19',
-    opp: 'Mia',
+    opp: 'Mia <img src="logos/marlins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2418,7 +2418,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep20',
     day: 'Sat',
     date: '20',
-    opp: 'Mia',
+    opp: 'Mia <img src="logos/marlins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '6:05',
     score: '',
     recap: ''
@@ -2429,7 +2429,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep21',
     day: 'Sun',
     date: '21',
-    opp: 'Mia',
+    opp: 'Mia <img src="logos/marlins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -2451,7 +2451,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep23',
     day: 'Tue',
     date: '23',
-    opp: 'Min',
+    opp: 'Min <img src="logos/twins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2462,7 +2462,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep24',
     day: 'Wed',
     date: '24',
-    opp: 'Min',
+    opp: 'Min <img src="logos/twins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '7:05',
     score: '',
     recap: ''
@@ -2473,7 +2473,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep25',
     day: 'Thu',
     date: '25',
-    opp: 'Min',
+    opp: 'Min <img src="logos/twins.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '1:35',
     score: '',
     recap: ''
@@ -2484,7 +2484,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep26',
     day: 'Fri',
     date: '26',
-    opp: 'at Cle',
+    opp: 'at Cle <img src="logos/guardians.gif" width="24px" height="20px" style="vertical-align:bottom">',
     time: '6:10',
     score: '',
     recap: ''
@@ -2495,7 +2495,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep27',
     day: 'Sat',
     date: '27',
-    opp: 'at Cle',
+    opp: 'at Cle <img src="logos/guardians.gif" width="24px" height="20px" style="vertical-align:bottom">',
     time: '5:10',
     score: '',
     recap: ''
@@ -2506,7 +2506,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     class: 'sep28',
     day: 'Sun',
     date: '28',
-    opp: 'at Cle',
+    opp: 'at Cle <img src="logos/guardians.gif" width="24px" height="20px" style="vertical-align:bottom">',
     time: '2:10',
     score: '',
     recap: ''
@@ -2592,7 +2592,7 @@ document.getElementById("findButton").addEventListener("click", () => {
           <div class = "date">
             ${element.date}
           </div>
-          <div>
+          <div class = "opp">
             ${element.opp}
           </div>
           <div>
@@ -2623,7 +2623,7 @@ document.getElementById("findButton").addEventListener("click", () => {
             <div class = "date">
               ${element.date}
             </div>
-            <div>
+            <div class = "opp">
               ${element.opp}
             </div>
             <div>
@@ -2654,7 +2654,7 @@ document.getElementById("findButton").addEventListener("click", () => {
             <div class = "date">
               ${element.date}
             </div>
-            <div>
+            <div class = "opp">
               ${element.opp}
             </div>
             <div>
@@ -2685,7 +2685,7 @@ document.getElementById("findButton").addEventListener("click", () => {
             <div class = "date">
               ${element.date}
             </div>
-            <div>
+            <div class = "opp">
               ${element.opp}
             </div>
             <div>
@@ -2716,7 +2716,7 @@ document.getElementById("findButton").addEventListener("click", () => {
             <div class = "date">
               ${element.date}
             </div>
-            <div>
+            <div class = "opp">
               ${element.opp}
             </div>
             <div>
@@ -2747,7 +2747,7 @@ document.getElementById("findButton").addEventListener("click", () => {
             <div class = "date">
               ${element.date}
             </div>
-            <div>
+            <div class = "opp">
               ${element.opp}
             </div>
             <div>
@@ -2778,7 +2778,7 @@ document.getElementById("findButton").addEventListener("click", () => {
               <div class = "date">
                 ${element.date}
               </div>
-              <div>
+              <div class = "opp">
                 ${element.opp}
               </div>
               <div>
