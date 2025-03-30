@@ -18,7 +18,7 @@ const schedule = [
   date: 'March 29',
   opp: 'vs Boston',
   score: 'W 4-3',
-  recap: 'Tyler Mahle could not find the plate in his first start of the season and did not survive the 2nd inning as 31 of his 61 pitches were balls. But the Rangers led 2-1 after 2 innings when Red Sox LF Kristian Campbell made what appeared to be a diving catch of a Garcia line drive only to have the ball leave his glove when he hit the ground. The bullpen was excellent as 5 relievers kept the Rangers in the game and Adolis Garcia provided the offense with 3 RBIs on 2 doubles and a HR. The Rangers entered the 9th with a 4-3 lead. Arlington High School graduate Chris Martin pitched a perfect 9th for his first save of the season.'
+  recap: `Tyler Mahle couldn't find the plate in his first start of the season and didn't survive the 2nd inning as 31 of his 61 pitches were balls. But the Rangers led 2-1 after 2 innings when Red Sox LF Kristian Campbell made what appeared to be a diving catch of a Garcia line drive only to have the ball leave his glove when he hit the ground. The bullpen was excellent as 5 relievers kept the Rangers in the game and Adolis Garcia provided the offense with 3 RBIs on 2 doubles and a HR. The Rangers entered the 9th with a 4-3 lead. Arlington High School graduate Chris Martin pitched a perfect 9th for his first save of the season.`
   },
   {
   id: 'mar30',
