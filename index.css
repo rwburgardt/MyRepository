@@ -1,0 +1,569 @@
+:root{
+  --color-1: rgb(113,143,173);
+  --text-color: black;
+  --accent-color: lightgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* a provides general styling for links. Below are more specific styles for the pseudo-classes.*/
+
+/* unvisited link*/
+a:link {
+  color: darkblue
+}
+/* visited link */
+a:visited {
+  color: red;
+}
+/* mouse over link */
+a:hover {
+  color: darkblue;
+}
+/* selected link */
+a:active {
+  color: var(--accent-color);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background-image: url('seager.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+/*---------------------------------------------------Nav------------------------------------------------*/
+nav {
+  height: 60px; /*min-height:60px caused .links-container to be only 55px.*/
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;   /*Fixed positioning is always relative to the viewport, not the page. */
+  top: 0;            /*I needed fixed positioning to force the header all the way across my phone screen*/
+  left: 200px;    /***************************CHANGED FROM ZER0********************/
+  right: 0;
+  z-index: 2;
+}
+/*styling all anchors that are a descendant of the nav element:
+  nav a{               is a descendant combinator.
+  height: 100%;      > is the child combinator.
+  padding: 0 20px;   ~ is the general (not necessarily adjacent) sibling combinator.
+  display: flex;     + is the adjacent sibling combinator.
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; (removes any underline)
+}*/
+
+.links-container {
+  height: 100%; /*I don't know why this container doesn't fill the full height of the nav element*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.color-flipper-button, .locked-on-rangers-button, .straight-up-texas-button, .dlls-button {
+  border: 3px solid black;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+}
+
+.color-flipper-button:hover, .locked-on-rangers-button:hover, .straight-up-texas-button:hover, .dlls-button:hover {
+  background-color: var(--accent-color);
+}
+
+.color-flipper-button:active, .locked-on-rangers-button:active, .straight-up-texas-button:active, .dlls-button:active {
+  transform: translateY(4px);
+}
+
+.brice-image, .straight-up-texas-image, .dlls-podcast-image {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.mother-pig-in-nav {
+  padding-right: 1em;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.open-sidebar-button, .close-sidebar-button {
+  display: none;
+}  /* We don't want to see these 2 buttons unless viewpoint width is less than 400px */
+
+#sidebar-active {
+  display: none;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Nav^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*------------------------------------------------Aside-------------------------------------------*/
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(113,143,173);
+  min-height: 100%;
+  position: relative;
+  width: 200px;
+}
+
+    .hero{
+      height: 80px;
+      width: 175px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background-color: lightpink;
+      border-radius: 20px;
+      border: 2px solid black;
+      color: black;
+      margin-top: 20px;
+    }
+
+    .timer-caption{
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    .timebox{
+      display: flex;
+      gap: 10px;
+    }
+
+    .time{
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .time h2{
+      font-size: px;
+      font-weight: 500;
+    }
+
+.leave-a-comment {
+  border: 3px solid black;
+  width: 175px;
+  height: 40px;
+  background-color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+  color: white
+}
+
+.leave-a-comment:hover {
+  background-color: var(--accent-color);
+  color: black;
+}
+
+.leave-a-comment:active {
+  transform: translateY(4px);
+}
+
+.bubble {
+  position: relative;
+  top: 75px;
+  left: 225px;
+  font-size: 18px;
+  line-height: 24px;
+  width: 250px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  padding: 4px;
+  text-align: center;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 32px;
+  bottom: -24px;
+  border-left: 24px solid lightgray;
+  border-right: 12px solid transparent;
+  border-top: 12px solid lightgray;
+  border-bottom: 20px solid transparent;
+}
+
+.rocky {
+  position: relative;
+  top: -40px;
+  left: 20px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.input-box {
+  background-color: lightgoldenrodyellow;
+  width: 132px;
+}
+
+.clearButton, .findButton {
+  background-color: lightgoldenrodyellow;
+  width: 58px;
+  cursor: pointer
+}
+
+.clearButton:hover, .findButton:hover {
+  background-color: lightblue;
+}
+
+.paragraph-in-sidebar{ 
+  position: relative;
+  left: 5px;
+  margin-top: 20px;
+}
+
+.standings{  
+  position:relative;
+}
+
+.ws-ring-in-sidebar { 
+  position: relative;
+  margin-top: 20px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.nolan-in-sidebar {
+  position: relative;
+  margin-top: 30px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.rangers-logo {
+  position: relative;
+  margin-top: 45px;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^Aside^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  top: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;  /* This centers child elements horizontally. Not sure why it is required given align-items: center*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size:3.4375em;
+  text-shadow:3px 4px 6px rgba(000,000,000,0.4);
+  height: 64px;
+  padding-top: 50px;
+}
+
+.animate {
+	border-bottom: 2px solid #ccc;
+}
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+.animate span:nth-of-type(21) {
+	animation-delay: 1.00s;
+}
+.animate span:nth-of-type(22) {
+	animation-delay: 1.05s;
+}
+.animate span:nth-of-type(23) {
+	animation-delay: 1.1s;
+}
+.animate span:nth-of-type(24) {
+	animation-delay: 1.15s;
+}
+.animate span:nth-of-type(25) {
+	animation-delay: 1.2s;
+}
+.animate span:nth-of-type(26) {
+	animation-delay: 1.25s;
+}
+.animate span:nth-of-type(27) {
+	animation-delay: 1.3s;
+}
+.animate span:nth-of-type(28) {
+	animation-delay: 1.35s;
+}
+.animate span:nth-of-type(29) {
+	animation-delay: 1.4s;
+}
+.animate span:nth-of-type(30) {
+	animation-delay: 1.45s;
+}
+.animate span:nth-of-type(31) {
+	animation-delay: 1.5s;
+}
+.animate span:nth-of-type(32) {
+	animation-delay: 1.55s;
+}
+.animate span:nth-of-type(33) {
+	animation-delay: 1.6s;
+}
+.animate span:nth-of-type(34) {
+	animation-delay: 1.65s;
+}
+.animate span:nth-of-type(35) {
+	animation-delay: 1.7s;
+}
+.animate span:nth-of-type(36) {
+	animation-delay: 1.75s;
+}
+.animate span:nth-of-type(37) {
+	animation-delay: 1.8s;
+}
+
+.seven span {
+	opacity: 0;
+	transform: translate(-150px, 0) scale(.3);
+	animation: leftRight .5s forwards;
+}
+
+@keyframes leftRight {
+	40% {
+		transform: translate(50px, 0) scale(.7);
+		opacity: 1;
+		color: yellow;
+	}
+
+	60% {
+		color: red;
+	}
+
+	80% {
+		transform: translate(0) scale(2);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+	}
+}
+
+.name-of-month {
+  display: flex; /*This line and the next are needed to bottom-align the text.*/
+  align-items: flex-end;
+  height: 90px;
+  font-size: 3.4375em;
+  text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.two-week-month, .six-week-month, .mar, .apr, .may, .jun, .jul, .aug, .sep {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 1000px;
+  height: 700px;
+}
+
+.six-week-month {
+  height: 800px;
+}
+
+.two-week-month {
+  height: 280px;
+}
+
+.placeholder {
+  width: 125px;
+  height: 125px;
+}
+
+.mar27, .mar28, .mar29, .mar30, .mar31, .apr1, .apr2, .apr3, .apr4, .apr5, .apr6, .apr7, .apr8, .apr9, .apr10, .apr11, .apr12, .apr13, .apr14, .apr15, .apr16, .apr17, .apr18, .apr19, .apr20, .apr21, .apr22, .apr23, .apr24, .apr25, .apr26, .apr27, .apr28, .apr29, .apr30, .may1, .may2, .may3, .may4, .may5, .may6, .may7, .may8, .may9, .may10, .may11, .may12, .may13, .may14, .may15, .may16, .may17, .may18, .may19, .may20, .may21, .may22, .may23, .may24, .may25, .may26, .may27, .may28, .may29, .may30, .may31, .jun1, .jun2, .jun3, .jun4, .jun5, .jun6, .jun7, .jun8, .jun9, .jun10, .jun11, .jun12, .jun13, .jun14, .jun15, .jun16, .jun17, .jun18, .jun19, .jun20, .jun21, .jun22, .jun23, .jun24, .jun25, .jun26, .jun27, .jun28, .jun29, .jun30, .jul1, .jul2, .jul3, .jul4, .jul5, .jul6, .jul7, .jul8, .jul9, .jul10, .jul11, .jul12, .jul13, .jul14, .jul15, .jul16, .jul17, .jul18, .jul19, .jul20, .jul21, .jul22, .jul23, .jul24, .jul25, .jul26, .jul27, .jul28, .jul29, .jul30, .jul31, .aug1, .aug2, .aug3, .aug4, .aug5, .aug6, .aug7, .aug8, .aug9, .aug10, .aug11, .aug12, .aug13, .aug14, .aug15, .aug16, .aug17, .aug18, .aug19, .aug20, .aug21, .aug22, .aug23, .aug24, .aug25, .aug26, .aug27, .aug28, .aug29, .aug30, .aug31, .sep1, .sep2, .sep3, .sep4, .sep5, .sep6, .sep7, .sep8, .sep9, .sep10, .sep11, .sep12, .sep13, .sep14, .sep15, .sep16, .sep17, .sep18, .sep19, .sep20, .sep21, .sep22, .sep23, .sep24, .sep25, .sep26, .sep27, .sep28 {
+  width: 125px;
+  height: 125px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px;
+}
+
+.mar27:hover,  .mar28:hover,  .mar29:hover,  .mar30:hover,  .mar31:hover,  .apr1:hover,  .apr2:hover,  .apr3:hover,  .apr4:hover,  .apr5:hover,  .apr6:hover,  .apr7:hover,  .apr8:hover,  .apr9:hover,  .apr10:hover,  .apr11:hover,  .apr12:hover,  .apr13:hover,  .apr14:hover,  .apr15:hover,  .apr16:hover,  .apr17:hover,  .apr18:hover,  .apr19:hover,  .apr20:hover,  .apr21:hover,  .apr22:hover,  .apr23:hover,  .apr24:hover,  .apr25:hover,  .apr26:hover,  .apr27:hover,  .apr28:hover,  .apr29:hover,  .apr30:hover,  .may1:hover,  .may2:hover,  .may3:hover,  .may4:hover,  .may5:hover,  .may6:hover,  .may7:hover,  .may8:hover,  .may9:hover,  .may10:hover,  .may11:hover,  .may12:hover,  .may13:hover,  .may14:hover,  .may15:hover,  .may16:hover,  .may17:hover,  .may18:hover,  .may19:hover,  .may20:hover,  .may21:hover,  .may22:hover,  .may23:hover,  .may24:hover,  .may25:hover,  .may26:hover,  .may27:hover,  .may28:hover,  .may29:hover,  .may30:hover,  .may31:hover,  .jun1:hover,  .jun2:hover,  .jun3:hover,  .jun4:hover,  .jun5:hover,  .jun6:hover,  .jun7:hover,  .jun8:hover,  .jun9:hover,  .jun10:hover,  .jun11:hover,  .jun12:hover,  .jun13:hover,  .jun14:hover,  .jun15:hover,  .jun16:hover,  .jun17:hover,  .jun18:hover,  .jun19:hover,  .jun20:hover,  .jun21:hover,  .jun22:hover,  .jun23:hover,  .jun24:hover,  .jun25:hover,  .jun26:hover,  .jun27:hover,  .jun28:hover,  .jun29:hover,  .jun30:hover,  .jul1:hover,  .jul2:hover,  .jul3:hover,  .jul4:hover,  .jul5:hover,  .jul6:hover,  .jul7:hover,  .jul8:hover,  .jul9:hover,  .jul10:hover,  .jul11:hover,  .jul12:hover,  .jul13:hover,  .jul14:hover,  .jul15:hover,  .jul16:hover,  .jul17:hover,  .jul18:hover,  .jul19:hover,  .jul20:hover,  .jul21:hover,  .jul22:hover,  .jul23:hover,  .jul24:hover,  .jul25:hover,  .jul26:hover,  .jul27:hover,  .jul28:hover,  .jul29:hover,  .jul30:hover,  .jul31:hover,  .aug1:hover,  .aug2:hover,  .aug3:hover,  .aug4:hover,  .aug5:hover,  .aug6:hover,  .aug7:hover,  .aug8:hover,  .aug9:hover,  .aug10:hover,  .aug11:hover,  .aug12:hover,  .aug13:hover,  .aug14:hover,  .aug15:hover,  .aug16:hover,  .aug17:hover,  .aug18:hover,  .aug19:hover,  .aug20:hover,  .aug21:hover,  .aug22:hover,  .aug23:hover,  .aug24:hover,  .aug25:hover,  .aug26:hover,  .aug27:hover,  .aug28:hover,  .aug29:hover,  .aug30:hover,  .aug31:hover,  .sep1:hover,  .sep2:hover,  .sep3:hover,  .sep4:hover,  .sep5:hover,  .sep6:hover,  .sep7:hover,  .sep8:hover,  .sep9:hover,  .sep10:hover,  .sep11:hover,  .sep12:hover,  .sep13:hover,  .sep14:hover,  .sep15:hover,  .sep16:hover,  .sep17:hover,  .sep18:hover,  .sep19:hover,  .sep20:hover,  .sep21:hover,  .sep22:hover,  .sep23:hover,  .sep24:hover,  .sep25:hover,  .sep26:hover,  .sep27:hover,  .sep28:hover {
+  background-color: rgb(251, 232, 185);
+  transform: translateY(4px)
+}
+
+.mar27:has(mark),  .mar28:has(mark), .mar29:has(mark), .mar30:has(mark), .mar31:has(mark), .apr1:has(mark), .apr2:has(mark), .apr3:has(mark), .apr4:has(mark), .apr5:has(mark), .apr6:has(mark), .apr7:has(mark), .apr8:has(mark), .apr9:has(mark), .apr10:has(mark), .apr11:has(mark), .apr12:has(mark), .apr13:has(mark), .apr14:has(mark), .apr15:has(mark), .apr16:has(mark), .apr17:has(mark), .apr18:has(mark), .apr19:has(mark), .apr20:has(mark), .apr21:has(mark), .apr22:has(mark), .apr23:has(mark), .apr24:has(mark), .apr25:has(mark), .apr26:has(mark), .apr27:has(mark), .apr28:has(mark), .apr29:has(mark), .apr30:has(mark), .may1:has(mark), .may2:has(mark), .may3:has(mark), .may4:has(mark), .may5:has(mark), .may6:has(mark), .may7:has(mark), .may8:has(mark), .may9:has(mark), .may10:has(mark), .may11:has(mark), .may12:has(mark), .may13:has(mark), .may14:has(mark), .may15:has(mark), .may16:has(mark), .may17:has(mark), .may18:has(mark), .may19:has(mark), .may20:has(mark), .may21:has(mark), .may22:has(mark), .may23:has(mark), .may24:has(mark), .may25:has(mark), .may26:has(mark), .may27:has(mark), .may28:has(mark), .may29:has(mark), .may30:has(mark), .may31:has(mark), .jun1:has(mark), .jun2:has(mark), .jun3:has(mark), .jun4:has(mark), .jun5:has(mark), .jun6:has(mark), .jun7:has(mark), .jun8:has(mark), .jun9:has(mark), .jun10:has(mark), .jun11:has(mark), .jun12:has(mark), .jun13:has(mark), .jun14:has(mark), .jun15:has(mark), .jun16:has(mark), .jun17:has(mark), .jun18:has(mark), .jun19:has(mark), .jun20:has(mark), .jun21:has(mark), .jun22:has(mark), .jun23:has(mark), .jun24:has(mark), .jun25:has(mark), .jun26:has(mark), .jun27:has(mark), .jun28:has(mark), .jun29:has(mark), .jun30:has(mark), .jul1:has(mark), .jul2:has(mark), .jul3:has(mark), .jul4:has(mark), .jul5:has(mark), .jul6:has(mark), .jul7:has(mark), .jul8:has(mark), .jul9:has(mark), .jul10:has(mark), .jul11:has(mark), .jul12:has(mark), .jul13:has(mark), .jul14:has(mark), .jul15:has(mark), .jul16:has(mark), .jul17:has(mark), .jul18:has(mark), .jul19:has(mark), .jul20:has(mark), .jul21:has(mark), .jul22:has(mark), .jul23:has(mark), .jul24:has(mark), .jul25:has(mark), .jul26:has(mark), .jul27:has(mark), .jul28:has(mark), .jul29:has(mark), .jul30:has(mark), .jul31:has(mark), .aug1:has(mark), .aug2:has(mark), .aug3:has(mark), .aug4:has(mark), .aug5:has(mark), .aug6:has(mark), .aug7:has(mark), .aug8:has(mark), .aug9:has(mark), .aug10:has(mark), .aug11:has(mark), .aug12:has(mark), .aug13:has(mark), .aug14:has(mark), .aug15:has(mark), .aug16:has(mark), .aug17:has(mark), .aug18:has(mark), .aug19:has(mark), .aug20:has(mark), .aug21:has(mark), .aug22:has(mark), .aug23:has(mark), .aug24:has(mark), .aug25:has(mark), .aug26:has(mark), .aug27:has(mark), .aug28:has(mark), .aug29:has(mark), .aug30:has(mark), .aug31:has(mark), .sep1:has(mark), .sep2:has(mark), .sep3:has(mark), .sep4:has(mark), .sep5:has(mark), .sep6:has(mark), .sep7:has(mark), .sep8:has(mark), .sep9:has(mark), .sep10:has(mark), .sep11:has(mark), .sep12:has(mark), .sep13:has(mark), .sep14:has(mark), .sep15:has(mark), .sep16:has(mark), .sep17:has(mark), .sep18:has(mark), .sep19:has(mark), .sep20:has(mark), .sep21:has(mark), .sep22:has(mark), .sep23:has(mark), .sep24:has(mark), .sep25:has(mark), .sep26:has(mark), .sep27:has(mark), .sep28:has(mark) {
+  background-color: yellow;
+}
+
+.mar28, .mar29, .mar30 {
+  background-color: rgb(223, 241, 223);
+}
+
+.mar27 {
+  background-color: rgb(248, 199, 199);
+}
+
+.date {
+  font-size: 2em;
+}
+
+.opp {
+  font-size: 1em;
+}
+
+/* -------------------------------Media queries follow---------------------------------------------------*/
+
+@media (max-width: 400px){
+  .brice-image, .straight-up-texas-image {
+    margin-top: 50px;
+    margin-left: 20px;
+    display: none;
+  }
+  .dlls-podcast-image {
+    margin-left: 20px;
+    display: none;
+  }
+  .color-flipper-button, .locked-on-rangers-button, .straight-up-texas-button, .dlls-button {
+    position:relative;
+    width:225px;
+    height: 80px;
+    left: 50px;
+    top: 50px;
+    margin-bottom: 50px;
+  }
+  .rangers-logo {
+    position: relative;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .links-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+    background-color: var(--accent-color);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    transition: 0.5s ease-out;
+  }
+  .mother-pig-in-nav {
+    display: none;
+  }
+  .open-sidebar-button, .close-sidebar-button {
+    display: block;
+  }
+  #sidebar-active {
+    display: none;
+  }
+  #sidebar-active:checked ~ .links-container { /* Take any and all elements with a class of links-container and apply the below formatting if the elements are general siblings (general means it can be but doesn't have to be adjacent) of the element with ID sidebar-active:checked. */
+    display: flex; 
+    right: 0;
+  }
+  #sidebar-active:checked ~ #overlay{  /* Take any and all elements with a class of overlay and apply the below formatting if the elements are general siblings (general means it can be but doesn't have to be adjacent) of the element with ID sidebar-active:checked. */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+}
+
+@media (max-width: 800px){
+  .title {
+    font-size: 2.75em;  
+    text-shadow:3px 4px 6px rgba(000,000,000,0.4);
+  }
+}
