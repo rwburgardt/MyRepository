@@ -24,8 +24,8 @@ const schedule = [
   id: 'mar30',
   date: 'March 30',
   opp: 'vs Boston',
-  score: '',
-  recap: ''
+  score: 'W 3-2',
+  recap: `Jacob DeGrom was sharp in his season debut pitching 5 scoreless innings and leaving with a 1-0 lead. Boston took a 2-1 lead in the 6th off reliever Shawn Armstrong on a looping double deep down the left field line and a throwing error by 3B Ezequiel Duran. Boston's rookie starter Richard Fitts had retired 12 straight entering the Rangers 6th. A 330-foot "wall-scraper" by Wyatt Langford down the rightfield line tied the game. 2 batters later Adolis Garcia homered 431-feet into the second deck in LF for what what proved to be the game winner. Robert Garcia pitched a perfect 7th. Chris Martin stranded Alex Bregman at 3B in the 8th by striking out Kristian Campbell and Connor Wong. Luke Jackson allowed 2 baserunners in the 9th but struckout Alex Bregman with the tying run at 2B.`
   },
   {
   id: 'mar31',

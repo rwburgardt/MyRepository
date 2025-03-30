@@ -120,9 +120,9 @@ document.getElementById("findButton").addEventListener("click", () => {
     day: 'Sun',
     date: '30',
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
-    time: '1:35',
-    score: '',
-    recap: ''
+    time: '',
+    score: 'W 3-2',
+    recap: '<a href = "recaps.html#mar30" target = "_blank">Recap</a>'
     },
     {
     id: '9',
