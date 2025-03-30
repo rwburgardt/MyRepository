@@ -109,7 +109,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     day: 'Sat',
     date: '29',
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
-    time: '6:05',
+    time: '',
     score: '',
     recap: ''
     },
