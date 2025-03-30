@@ -111,7 +111,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 4-3',
-    recap: 'a href = "recaps.html#mar29" target = "_blank">Recap</a>'
+    recap: ''
     },
     {
     id: '8',
