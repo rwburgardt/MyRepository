@@ -441,6 +441,7 @@ h1 {
   text-shadow: 3px 4px 6px rgba(000,000,000,0.4);
   margin-top: 20px;
   margin-bottom: 30px;
+  border-bottom: 2px solid #ccc;
 }
 
 .two-week-month, .six-week-month, .mar, .apr, .may, .jun, .jul, .aug, .sep {
