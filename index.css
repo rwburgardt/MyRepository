@@ -415,11 +415,11 @@ h1 {
 	40% {
 		transform: translate(50px, 0) scale(.7);
 		opacity: 1;
-		color: yellow;
+		color: red;
 	}
 
 	60% {
-		color: red;
+		color: yellow;
 	}
 
 	80% {
