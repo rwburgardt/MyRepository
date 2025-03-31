@@ -218,6 +218,10 @@ aside {
   filter: drop-shadow(5px 5px 5px #222);
 }
 
+.form {
+  margin-top: -20px;
+}
+
 .input-box {
   background-color: lightgoldenrodyellow;
   width: 132px;
