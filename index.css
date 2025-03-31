@@ -35,7 +35,7 @@ a:active {
 body {
   display: flex;
   flex-direction: row;
-  background-image: url('seager.jpg');
+  background-image: url('images/seager.jpg');
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment: fixed;
