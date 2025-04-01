@@ -32,7 +32,7 @@ const schedule = [
   date: 'March 31',
   opp: 'at Cincinnati',
   score: 'L 14-3',
-  recap: `The Reds started the game against rookie Kumar Rocker with a single, HR, single, and double and this one was never in doubt: 6 runs on 7 hits and 2 walks against Rocker in 3 innings. The relievers fared no better, as Gerson Garabito gave up 8 runs, 4 of them earned, on 7 hits and 2 hit-batters in his 2 2/3 innings. Meanwhile the weak-hitting Rangers made Brady Singer, who was 9-13 last year on a good Royals team, look like a Cy Young candidate. He pitched 7 innings of 1-hit ball, striking out 8. The Rangers managed a pair of runs in the 9th on Jake Burger's 1st HR of the season. Adolis Garcia's batting average is .357 while the remainder of the team is a measly .195.`
+  recap: `The Reds started the game against rookie Kumar Rocker with a single, HR, single, and double and this one was never in doubt: 6 runs on 7 hits and 2 walks against Rocker in 3 innings. The relievers fared no better, as Gerson Garabito gave up 8 runs, 4 of them earned, on 7 hits and 2 hit-batters in his 2 2/3 innings. Meanwhile the weak-hitting Rangers made Brady Singer, who was 9-13 last year on a good Royals team, look like a Cy Young candidate. He pitched 7 innings of 1-hit ball, striking out 8. The Rangers managed a pair of runs in the 9th on Jake Burger's 1st HR of the season. Adolis Garcia's batting average is .357 while the remainder of the team is hitting .195.`
   },
   {
     id: 'apr1',
