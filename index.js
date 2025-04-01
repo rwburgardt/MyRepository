@@ -132,7 +132,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     date: '31',
     opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
-    score: 'L',
+    score: 'L 14-3',
     recap: '<a href = "recaps.html#mar31" target = "_blank">Recap</a>'
     },
     {
