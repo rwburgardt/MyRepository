@@ -39,7 +39,7 @@ const schedule = [
     date: 'April 1',
     opp: 'at Cincinnati',
     score: 'W 1-0',
-    recap: `Nathan Eovaldi was brilliant, throwing a complete game 4-hit shutout, striking out 8 and walking none. Reds starting pitcher Carson Spiers was unimpressive in 2024 posting an ERA of 5.64 and an opponent batting avg of .297. But the Rangers lineup needed all of Eovaldi's excellence as Spiers and a trio of Reds relievers held them to a single run on 4 hits. The lone run came in the 1st inning on Wyatt Langford's 361-foot HR to LF, his 2nd of the season. Eovaldi retired Elly De La Cruz on a bouncing ball to 1B to end the game with the tying run at 2nd.`
+    recap: `Nathan Eovaldi was brilliant, throwing a complete game 4-hit shutout, striking out 8 and walking none. Reds starting pitcher Carson Spiers was unimpressive in 2024 posting an ERA of 5.64 and an opponent batting avg of .297, but the Rangers lineup needed all of Eovaldi's excellence as Spiers and a trio of Reds relievers held them to a single run on 4 hits. The lone run came in the 1st inning on Wyatt Langford's 361-foot HR to LF, his 2nd of the season. Eovaldi retired Elly De La Cruz on a bouncing ball to 1B to end the game with the tying run at 2nd.`
     },
     {
     id: 'apr2',
