@@ -230,9 +230,9 @@ document.getElementById("findButton").addEventListener("click", () => {
     day: 'Wed',
     date: '2',
     opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
-    time: '11:40',
-    score: '',
-    recap: ''
+    time: '',
+    score: 'W 1-0',
+    recap: '<a href = "recaps.html#apr2" target = "_blank">Recap</a>'
     },
     {
     id: '19',
