@@ -35,55 +35,97 @@ const schedule = [
   recap: `The Reds started the game against rookie Kumar Rocker with a single, HR, single, and double and this one was never in doubt: 6 runs on 7 hits and 2 walks against Rocker in 3 innings. The relievers fared no better, as Gerson Garabito gave up 8 runs, 4 of them earned, on 7 hits and 2 hit-batters in his 2 2/3 innings. Meanwhile the weak-hitting Rangers made Brady Singer, who was 9-13 last year on a good Royals team, look like a Cy Young candidate. He pitched 7 innings of 1-hit ball, striking out 8. The Rangers managed a pair of runs in the 9th on Jake Burger's 1st HR of the season. Adolis Garcia's batting average is .357 while the remainder of the team is hitting .195.`
   },
   {
-    id: 'apr1',
-    date: 'April 1',
-    opp: 'at Cincinnati',
-    score: 'W 1-0',
-    recap: `Nathan Eovaldi was brilliant, throwing a complete game 4-hit shutout, striking out 8 and walking none. Reds starting pitcher Carson Spiers was unimpressive in 2024 posting an ERA of 5.64 and an opponent batting avg of .297, but the Rangers lineup needed all of Eovaldi's excellence as Spiers and a trio of Reds relievers held them to a single run on 4 hits. The lone run came in the 1st inning on Wyatt Langford's 361-foot HR to LF, his 2nd of the season. Eovaldi retired Elly De La Cruz on a bouncing ball to 1B to end the game with the tying run at 2nd.`
-    },
-    {
-    id: 'apr2',
-    date: 'April 2',
-    opp: 'at Cincinnati',
-    score: 'W 1-0',
-    recap: `The pitching matchup featured Jack Leiter, who won his first start against the Red Sox, versus hard-throwing Reds ace and All-Star Hunter Greene. The Rangers managed a run off Greene in the 4th on a Joc Pederson single and a 2-out double by Josh Smith on a 100-mph fastball. Leiter was spectacular in his 5 innings, allowing just one hit, walking none, and striking out six. Bruce Bochy pulled Leiter before the 6th inning as a precaution due to a blister on his middle finger.
-    Hunter Greene pitched 7 innings of 3-hit ball for the Reds, allowing the one run, walking 1, and striking out 8. Jacob Webb, Robert Garcia, Chris Martin, and Luke Jackson combined to shutout the Reds over the last 4 innings. For the first time in their history the Rangers have won back-to-back 1-0 games.`
-    },
-    {
-    id: 'apr4',
-    date: 'April 4',
-    opp: 'Tampa Bay',
+  id: 'apr1',
+  date: 'April 1',
+  opp: 'at Cincinnati',
+  score: 'W 1-0',
+  recap: `Nathan Eovaldi was brilliant, throwing a complete game 4-hit shutout, striking out 8 and walking none. Reds starting pitcher Carson Spiers was unimpressive in 2024 posting an ERA of 5.64 and an opponent batting avg of .297, but the Rangers lineup needed all of Eovaldi's excellence as Spiers and a trio of Reds relievers held them to a single run on 4 hits. The lone run came in the 1st inning on Wyatt Langford's 361-foot HR to LF, his 2nd of the season. Eovaldi retired Elly De La Cruz on a bouncing ball to 1B to end the game with the tying run at 2nd.`
+  },
+  {
+  id: 'apr2',
+  date: 'April 2',
+  opp: 'at Cincinnati',
+  score: 'W 1-0',
+  recap: `The pitching matchup featured Jack Leiter, who won his first start against the Red Sox, versus hard-throwing Reds ace and All-Star Hunter Greene. The Rangers managed a run off Greene in the 4th on a Joc Pederson single and a 2-out double by Josh Smith on a 100-mph fastball. Leiter was spectacular in his 5 innings, allowing just one hit, walking none, and striking out six. Bruce Bochy pulled Leiter before the 6th inning as a precaution due to a blister on his middle finger.
+  Hunter Greene pitched 7 innings of 3-hit ball for the Reds, allowing the one run, walking 1, and striking out 8. Jacob Webb, Robert Garcia, Chris Martin, and Luke Jackson combined to shutout the Reds over the last 4 innings. For the first time in their history the Rangers have won back-to-back 1-0 games.`
+  },
+  {
+  id: 'apr4',
+  date: 'April 4',
+  opp: 'Tampa Bay',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr5',
+  date: 'April 5',
+  opp: 'Tampa Bay',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr6',
+  date: 'April 6',
+  opp: 'Tampa Bay',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr7',
+  date: 'April 7',
+  opp: 'at Chicago Cubs',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr8',
+  date: 'April 8',
+  opp: 'at Chicago Cubs',
+  score: '',
+  recap: ''
+  },  
+  {
+  id: 'apr9',
+  date: 'April 9',
+  opp: 'at Chicago Cubs',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr11',
+  date: 'April 11',
+  opp: 'at Seattle',
+  score: '',
+  recap: ''
+  },
+  {
+    id: 'apr12',
+    date: 'April 12',
+    opp: 'at Seattle',
     score: '',
     recap: ''
-    },
-    {
-    id: 'apr5',
-    date: 'April 5',
-    opp: 'Tampa Bay',
-    score: '',
-    recap: ''
-    },
-    {
-    id: 'apr6',
-    date: 'April 6',
-    opp: 'Tampa Bay',
-    score: '',
-    recap: ''
-    },
-    {
-    id: 'apr7',
-    date: 'April 7',
-    opp: 'at Chicago Cubs',
-    score: '',
-    recap: ''
-    },
-    {
-      id: 'apr8',
-      date: 'April 8',
-      opp: 'at Chicago Cubs',
-      score: '',
-      recap: ''
-    },
+  },   
+  {
+  id: 'apr13',
+  date: 'April 13',
+  opp: 'at Seattle',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr15',
+  date: 'April 15',
+  opp: 'LA Angels',
+  score: '',
+  recap: ''
+  },
+  {
+  id: 'apr16',
+  date: 'April 16',
+  opp: 'LA Angels',
+  score: '',
+  recap: ''
+  },    
 ]
 
 let html = '';
