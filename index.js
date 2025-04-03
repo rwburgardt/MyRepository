@@ -89,7 +89,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'L 5-2',
-    recap: '<a href = "recaps.html#mar27" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#mar27" target = "_blank">Recap</a>'
     },
     {
     id: '6',
@@ -100,7 +100,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 4-1',
-    recap: '<a href = "recaps.html#mar28" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#mar28" target = "_blank">Recap</a>'
     },
     {
     id: '7',
@@ -111,7 +111,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 4-3',
-    recap: '<a href = "recaps.html#mar29" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#mar29" target = "_blank">Recap</a>'
     },
     {
     id: '8',
@@ -122,7 +122,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'Bos <img src="logos/red-sox.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 3-2',
-    recap: '<a href = "recaps.html#mar30" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#mar30" target = "_blank">Recap</a>'
     },
     {
     id: '9',
@@ -133,7 +133,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'L 14-3',
-    recap: '<a href = "recaps.html#mar31" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#mar31" target = "_blank">Recap</a>'
     },
     {
     id: '10',
@@ -221,7 +221,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 1-0',
-    recap: '<a href = "recaps.html#apr1" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#apr1" target = "_blank">Recap</a>'
     },
     {
     id: '18',
@@ -232,7 +232,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: 'at Cin <img src="logos/reds.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
     score: 'W 1-0',
-    recap: '<a href = "recaps.html#apr2" target = "_blank">Recap</a>'
+    recap: '<a href = "journal.html#apr2" target = "_blank">Recap</a>'
     },
     {
     id: '19',
