@@ -54,7 +54,7 @@ const schedule = [
   date: 'April 4',
   opp: 'Tampa Bay',
   score: '',
-  recap: ''
+  recap: `The pitching matchup is Tyler Mahle versus Zack Littell for Tampa Bay. Mahle struggled to find the strike zone in his first start against the Red Sox. Littell was very effective against Colorado, giving up a run on 4 hits in 6 innings, walking none and striking out 7.`
   },
   {
   id: 'apr5',
