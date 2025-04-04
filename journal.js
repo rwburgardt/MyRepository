@@ -47,7 +47,7 @@ const schedule = [
   opp: 'at Cincinnati',
   score: 'W 1-0',
   recap: `The pitching matchup featured Jack Leiter, who won his first start against the Red Sox, versus hard-throwing Reds ace and All-Star Hunter Greene. The Rangers managed a run off Greene in the 4th on a Joc Pederson single and a 2-out double by Josh Smith on a 100-mph fastball. Leiter was spectacular in his 5 innings, allowing just one hit, walking none, and striking out six. Bruce Bochy pulled Leiter before the 6th inning as a precaution due to a blister on his middle finger.
-  Hunter Greene pitched 7 innings of 3-hit ball for the Reds, allowing the one run, walking 1, and striking out 8. Jacob Webb, Robert Garcia, Chris Martin, and Luke Jackson combined to shutout the Reds over the last 4 innings. For the first time in their history the Rangers have won back-to-back 1-0 games.`
+  Hunter Greene pitched 7 innings of 3-hit ball for the Reds, allowing the one run, walking 1, and striking out 8. Jacob Webb, Robert Garcia, Chris Martin, and Luke Jackson combined to shutout the Reds over the last 4 innings. For the first time in their history the Rangers won back-to-back 1-0 games.`
   },
   {
   id: 'apr4',
