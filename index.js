@@ -252,9 +252,9 @@ document.getElementById("findButton").addEventListener("click", () => {
     day: 'Fri',
     date: '4',
     opp: 'TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
-    time: '7:05',
-    score: '',
-    recap: 'Apple TV+'
+    time: '',
+    score: 'W 5-2',
+    recap: '<a href = "journal.html#apr4" target = "_blank">Recap</a>'
     },
     {
     id: '21',

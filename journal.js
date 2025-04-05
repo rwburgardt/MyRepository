@@ -53,8 +53,8 @@ const schedule = [
   id: 'apr4',
   date: 'April 4',
   opp: 'Tampa Bay',
-  score: '',
-  recap: `The pitching matchup is Tyler Mahle versus Zack Littell for Tampa Bay. Mahle struggled to find the strike zone in his first start against the Red Sox. Littell was very effective against Colorado, giving up a run on 4 hits in 6 innings, walking none and striking out 7.`
+  score: 'W 5-2',
+  recap: `The Rangers took a 4-run lead in the 3rd on 5 consecutive base hits by Smith, Higashioka, Taveras, Semien, and Seager against Tampa Bay's Zack Littell. Littell was coming off an excellent start against Colorado in which he gave up just 1 run on 4 hits in 6 innings, walking none and striking out 7. Tyler Mahle shook off his control issues in his first start and was very effective tonight against a good hitting Rays team, throwing 5 shutout innings and not allowing a runner past first base. The Rays countered with 2 runs in the 7th, but Josh Smith homered in the Rangers half to extend the lead to 3. Luke Jackson pitched a perfect 9th for his 4th save.`
   },
   {
   id: 'apr5',

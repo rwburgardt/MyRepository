@@ -252,13 +252,13 @@ aside {
   margin-top: 20px;
   filter: drop-shadow(5px 5px 5px #222);
 }
-
+/*
 .nolan-in-sidebar {
   position: relative;
   margin-top: 30px;
   filter: drop-shadow(5px 5px 5px #222);
 }
-
+*/
 .rangers-logo {
   position: relative;
   margin-top: 45px;
@@ -493,7 +493,7 @@ td {
   background-color: yellow;
 }
 
-.mar28, .mar29, .mar30, .apr1, .apr2 {
+.mar28, .mar29, .mar30, .apr1, .apr2, .apr4 {
   background-color: rgb(223, 241, 223);
 }
 
