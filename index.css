@@ -138,7 +138,7 @@ aside {
       border-radius: 20px;
       border: 2px solid black;
       color: black;
-      margin-top: 20px;
+      margin-top: 60px;
     }
 
     .timer-caption{
@@ -169,7 +169,7 @@ aside {
   background-color: black;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 10px;
   box-shadow: 3px 3px;
   color: white
@@ -240,7 +240,7 @@ aside {
 .paragraph-in-sidebar{ 
   position: relative;
   left: 5px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .standings{  
@@ -249,7 +249,7 @@ aside {
 
 .ws-ring-in-sidebar { 
   position: relative;
-  margin-top: 20px;
+  margin-top: 25px;
   filter: drop-shadow(5px 5px 5px #222);
 }
 /*
