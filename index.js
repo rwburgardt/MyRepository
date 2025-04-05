@@ -40,10 +40,14 @@ document.getElementById("findButton").addEventListener("click", () => {
     window.open("https://podcasts.apple.com/us/podcast/straight-up-texas-podcast/id902525872",'_blank').focus();
   })
 */
+/*
   document.getElementById("dlls").addEventListener("click", () => {
     window.open("https://alldlls.com/rangers/podcast/",'_blank').focus();
   })
-
+*/
+document.getElementById("dlls").addEventListener("click", () => {
+  window.open("https://www.youtube.com/playlist?list=PLgRo7pt7HJBgDCTO4aHCB687zRuPgrvGT",'_blank').focus();
+})
   const calendar = [
     {
     id: '1',
