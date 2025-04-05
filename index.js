@@ -22,15 +22,24 @@ document.getElementById("findButton").addEventListener("click", () => {
   document.getElementById("leave-a-comment").addEventListener("click", () => {
     window.open("commentbox.html",'_blank').focus();
   })
-  /*document.getElementById("colorflipper").addEventListener("click", () => {
+/*
+  document.getElementById("colorflipper").addEventListener("click", () => {
     window.open("colorflipper.html",'_blank').focus();
-  })*/
+  })
+*/
+/*
   document.getElementById("locked-on-rangers").addEventListener("click", () => {
     window.open("https://lockedonpodcasts.com/podcasts/locked-on-texas-rangers/",'_blank').focus();
   })
+*/
+  document.getElementById("locked-on-rangers").addEventListener("click", () => {
+    window.open("https://www.youtube.com/playlist?list=PLYwDB94YNfvIdb5u2cZG90CaGQzlIT7u7",'_blank').focus();
+  })  
+/*
   document.getElementById("straight-up-texas").addEventListener("click", () => {
     window.open("https://podcasts.apple.com/us/podcast/straight-up-texas-podcast/id902525872",'_blank').focus();
-  }) 
+  })
+*/
   document.getElementById("dlls").addEventListener("click", () => {
     window.open("https://alldlls.com/rangers/podcast/",'_blank').focus();
   })
