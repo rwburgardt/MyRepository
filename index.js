@@ -364,7 +364,7 @@ document.getElementById("findButton").addEventListener("click", () => {
     opp: '',
     time: '',
     score: '',
-    recap: 'RSN'
+    recap: ''
     },
     {
     id: '31',
