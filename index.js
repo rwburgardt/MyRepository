@@ -287,9 +287,9 @@ document.getElementById("dlls").addEventListener("click", () => {
     day: 'Sun',
     date: '6',
     opp: 'TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
-    time: '1:35',
-    score: '',
-    recap: 'RSN'
+    time: '',
+    score: 'W 4-3',
+    recap: '<a href = "journal.html#apr6" target = "_blank">Recap</a>'
     },
     {
     id: '23',
