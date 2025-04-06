@@ -67,8 +67,8 @@ const schedule = [
   id: 'apr6',
   date: 'April 6',
   opp: 'Tampa Bay',
-  score: '',
-  recap: ''
+  score: 'W 4-3',
+  recap: `The pitching matchup was Kumar Rocker (0-1, 13.50) versus Drew Rasmussen who pitched 5 shutout innings in his first start against Pittsburgh. Rocker rebounded nicely from his first start, giving up a run on 6 hits and no walks in 5 innings. Corey Seager homered to right in the 6th off Rays reliever Garrett Cleavinger for a 2-1 lead. The Rangers added another with 2 outs in the 7th after Jonah Heim reached on an error and stole 2B, and Taveras singled to CF to score him. Hoby Milner from FW Paschal HS retired all 6 hitters he faced. Marc Church pitched the 8th and blew the lead giving up a leadoff walk followed by a double, with both runners eventually scoring. Jacob Webb pitched a shutout ninth. In the bottom of the inning with 2 outs, Josh Smith doubled down the LF line and scored on Jonah Heim's single to CF to complete the sweep of the Rays.`
   },
   {
   id: 'apr7',
