@@ -276,9 +276,9 @@ document.getElementById("dlls").addEventListener("click", () => {
     day: 'Sat',
     date: '5',
     opp: 'TB <img src="logos/rays.gif" width="20px" height="20px" style="vertical-align:bottom">',
-    time: '6:05',
-    score: '',
-    recap: 'RSN'
+    time: '',
+    score: 'W 6-4',
+    recap: '<a href = "journal.html#apr5" target = "_blank">Recap</a>'
     },
     {
     id: '22',
@@ -432,7 +432,7 @@ document.getElementById("dlls").addEventListener("click", () => {
     opp: 'LAD <img src="logos/dodgers.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '3:05',
     score: '',
-    recap: 'FOX'
+    recap: 'Fox'
     },
     {
     id: '36',

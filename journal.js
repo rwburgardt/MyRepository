@@ -25,7 +25,7 @@ const schedule = [
   date: 'March 30',
   opp: 'vs Boston',
   score: 'W 3-2',
-  recap: `Jacob DeGrom was sharp in his season debut pitching 5 scoreless innings and leaving with a 1-0 lead. Boston took a 2-1 lead in the 6th off reliever Shawn Armstrong on a looping double deep down the left field line and a throwing error by 3B Ezequiel Duran. Boston's rookie starter Richard Fitts had retired 12 straight entering the Rangers 6th. A 330-foot "wall-scraper" by Wyatt Langford down the RF line tied the game. 2 batters later Adolis Garcia homered 431-feet into the second deck in LF for what proved to be the game winner. Robert Garcia pitched a perfect 7th. Chris Martin stranded Alex Bregman at 3B in the 8th by striking out Kristian Campbell and Connor Wong. Luke Jackson allowed 2 baserunners in the 9th but struckout Alex Bregman with the tying run at 2B for his second save.`
+  recap: `Jacob deGrom was sharp in his season debut pitching 5 scoreless innings and leaving with a 1-0 lead. Boston took a 2-1 lead in the 6th off reliever Shawn Armstrong on a looping double deep down the left field line and a throwing error by 3B Ezequiel Duran. Boston's rookie starter Richard Fitts had retired 12 straight entering the Rangers 6th. A 330-foot "wall-scraper" by Wyatt Langford down the RF line tied the game. 2 batters later Adolis Garcia homered 431-feet into the second deck in LF for what proved to be the game winner. Robert Garcia pitched a perfect 7th. Chris Martin stranded Alex Bregman at 3B in the 8th by striking out Kristian Campbell and Connor Wong. Luke Jackson allowed 2 baserunners in the 9th but struckout Alex Bregman with the tying run at 2B for his second save.`
   },
   {
   id: 'mar31',
@@ -60,8 +60,8 @@ const schedule = [
   id: 'apr5',
   date: 'April 5',
   opp: 'Tampa Bay',
-  score: '',
-  recap: ''
+  score: 'W 6-4',
+  recap: `Marcus Semien homered to left in the Rangers first at bat and Jake Burger followed with a 3-run shot after walks to Langford and Garcia to give Jacob deGrom a 4-run 1st inning lead against 24-year-old Rays starter Taj Bradley (1-0, 3.00). But the Rangers couldn't hold the lead. Brandon Lowe homered off deGrom in the 3rd and Johathan Aranda drew the Rays to within a run with a towering HR off the rightfield foul pole in the 6th. After a 2-out double by Kameron Misner, deGrom's night was over. Reliever Jacob Webb allowed a double to the first batter he faced to tie the game. The Rangers would not get another hit until the 7th when Kevin Pillar pinch hit for Taveras and singled to left. With 2 outs Wyatt Langford hit a line drive HR that just cleared the wall in LF. Garcia, Martin, and Jackson pitched 2 1/3 scoreless innings and Jackson got his 5th save.`
   },
   {
   id: 'apr6',
