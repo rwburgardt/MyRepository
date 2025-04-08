@@ -75,7 +75,7 @@ const schedule = [
   date: 'April 7',
   opp: 'at Chicago Cubs',
   score: 'L 7-0',
-  recap: `The Rangers began play with the best record in the AL and the lowest batting average in MLB at .192. The temperature at game time was 34. The starting pitchers were Eovaldi (1-0, 1.20) against Justin Steele (2-1, 6.89). In his previous 3 starts, Steele gave up 5 HR's and 12 earned runs, but the Rangers could manage only one runner to second base in his 7 innings. Eovaldi gave up 3 runs in 4-2/3. Garabito got hammered for 4 runs in 2-1/3. Seager has 1 RBI in the first 11 games.`
+  recap: `The Rangers began play with the best record in the AL and the lowest batting average in MLB at .192. The temperature at game time was 34. The starting pitchers were Eovaldi (1-0, 1.20) against Justin Steele (2-1, 6.89). In his previous 3 starts, Steele gave up 5 HR's and 12 earned runs, but the Rangers could manage only one runner to second base in his 7 innings. Eovaldi gave up 3 runs in 4-2/3. Garabito got hit for 4 runs in 3-1/3. Seager has 1 RBI in the first 11 games.`
   },
   {
   id: 'apr8',
