@@ -321,7 +321,7 @@ document.getElementById("dlls").addEventListener("click", () => {
     date: '9',
     opp: 'at CHC <img src="logos/cubs.gif" width="20px" height="20px" style="vertical-align:bottom">',
     time: '',
-    score: 'W 6-1',
+    score: 'W 6-2',
     recap: '<a href = "journal.html#apr9" target = "_blank">Recap</a>'
     },
     {

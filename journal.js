@@ -88,7 +88,7 @@ const schedule = [
   id: 'apr9',
   date: 'April 9',
   opp: 'at Chicago Cubs',
-  score: 'W 6-1',
+  score: 'W 6-2',
   recap: `Tyler Mahle (1-0, 1.35) against Shota Imanaga (2-0, 1.40). Wyatt Langford was placed on the 10-day IL. Seager homered in the 1st for the early lead, but the Cubs answered in the 4th after a triple by Suzuki. The Rangers opened up a 4-run lead off Imanaga in the 5th on 5 hits: a single by Pillar, a 398-foot HR to CF by Heim, a single by Semien, a hard double to the CF wall by Jung, and a bloop single by Garcia. Seager's 2nd HR of the day came in the 7th and extended the lead to 6-1. Mahle was sensational over 7 innings: 2 hits, a walk, and 4 K's.`
   },
   {
