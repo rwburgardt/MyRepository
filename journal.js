@@ -4,7 +4,7 @@ const schedule = [
   date: 'March 27',
   opp: 'vs Boston',
   score: 'L 5-2',
-  recap: 'Nathan Eovaldi outpitched Red Sox opening day starter and 2024 All-Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 3 hits and no walks and striking out 9. Newcomers Kevin Pillar (CF) and Kyle Higaahioka (C) had the RBIs against Crochet. Rangers reliever Luke Jackson gave up 3 runs in the 9th on a one-out walk, followed by a single and a HR by rightfielder Wilyer Abreu, his second of the game. The Boston bullpen held the Ranger offense to a pair of singles over the last 4 innings.'
+  recap: 'Nathan Eovaldi outpitched Red Sox opening day starter and 2024 All-Star Garrett Crochet and left the game in a 2-2 tie after 6 innings. Eovaldi threw 87 pitches, giving up 3 hits and no walks, striking out 9. Newcomers Kevin Pillar (CF) and Kyle Higaahioka (C) had the RBIs against Crochet. Rangers reliever Luke Jackson gave up 3 runs in the 9th on a one-out walk, followed by a single and a HR by rightfielder Wilyer Abreu, his second of the game. The Boston bullpen held the Ranger offense to a pair of singles over the last 4 innings.'
   },
   {
   id: 'mar28',
@@ -46,7 +46,7 @@ const schedule = [
   date: 'April 2',
   opp: 'at Cincinnati',
   score: 'W 1-0',
-  recap: `The pitching matchup featured Jack Leiter, who won his first start against the Red Sox, versus hard-throwing Reds ace and All-Star Hunter Greene. The Rangers managed a run off Greene in the 4th on a Joc Pederson single and a 2-out double by Josh Smith on a 100-mph fastball. Leiter was spectacular in his 5 innings, allowing just one hit, walking none, and striking out six. Bruce Bochy pulled Leiter before the 6th inning as a precaution due to a blister on his middle finger.
+  recap: `The pitching matchup featured Jack Leiter, who won his first start against the Red Sox, versus hard-throwing Reds ace and All-Star Hunter Greene. The Rangers managed a run off Greene in the 4th on a Joc Pederson single and a 2-out double by Josh Smith on a 100-mph fastball. Leiter was spectacular in his 5 innings, allowing just one hit and walking none with 6 K's and striking out six. Bruce Bochy pulled Leiter before the 6th inning as a precaution due to a blister on his middle finger.
   Hunter Greene pitched 7 innings of 3-hit ball for the Reds, allowing the one run, walking 1, and striking out 8. Jacob Webb, Robert Garcia, Chris Martin, and Luke Jackson combined to shutout the Reds over the last 4 innings. For the first time in their history the Rangers won back-to-back 1-0 games.`
   },
   {
@@ -61,7 +61,7 @@ const schedule = [
   date: 'April 5',
   opp: 'Tampa Bay',
   score: 'W 6-4',
-  recap: `Marcus Semien homered to left in the Rangers' first at bat and Jake Burger followed with a 3-run shot after walks to Langford and Garcia to give Jacob deGrom a 4-run 1st inning lead against 24-year-old Rays starter Taj Bradley (1-0, 3.00). But the Rangers couldn't hold the lead. Brandon Lowe homered off deGrom in the 3rd and Jonathan Aranda drew the Rays to within a run with a towering HR off the rightfield foul pole in the 6th. After a 2-out double by Kameron Misner, deGrom's night was over. Reliever Jacob Webb allowed a double to the first batter he faced to tie the game. The Rangers would not get another hit until the 7th when Kevin Pillar pinch hit for Taveras and singled to left. With 2 outs Wyatt Langford hit a line drive HR that just cleared the wall in LF. Garcia, Martin, and Jackson pitched 2-1/3 scoreless innings and Jackson got his 5th save. The Rangers were outhit 10 to 4 but drew 6 walks and out-homered the Rays 3 to 2.`
+  recap: `Marcus Semien homered to left to start the game and Jake Burger followed with a 3-run shot after walks to Langford and Garcia to give Jacob deGrom a 4-run 1st inning lead against 24-year-old Rays starter Taj Bradley (1-0, 3.00). But the Rangers couldn't hold the lead. Brandon Lowe homered off deGrom in the 3rd and Jonathan Aranda drew the Rays to within a run with a towering HR off the rightfield foul pole in the 6th. After a 2-out double by Kameron Misner, deGrom's night was over. Reliever Jacob Webb allowed a double to the first batter he faced to tie the game. The Rangers would not get another hit until the 7th when Kevin Pillar pinch hit for Taveras and singled to left. With 2 outs Wyatt Langford hit a line drive HR that just cleared the wall in LF. Garcia, Martin, and Jackson pitched 2-1/3 scoreless innings and Jackson got his 5th save. The Rangers were outhit 10 to 4 but drew 6 walks and out-homered the Rays 3 to 2.`
   },
   {
   id: 'apr6',
@@ -88,8 +88,8 @@ const schedule = [
   id: 'apr9',
   date: 'April 9',
   opp: 'at Chicago Cubs',
-  score: '',
-  recap: ''
+  score: 'W 6-1',
+  recap: `Tyler Mahle (1-0, 1.35) against Shota Imanaga (2-0, 1.40). Wyatt Langford was placed on the 10-day IL. Seager homered in the 1st for the early lead, but the Cubs answered in the 4th after a triple by Suzuki. The Rangers opened up a 4-run lead off Imanaga in the 5th on 5 hits: a single by Pillar, a 398-foot HR to CF by Heim, a single by Semien, a hard double to the CF wall by Jung, and a bloop single by Garcia. Seager's 2nd HR of the day came in the 7th and extended the lead to 6-1. Mahle was sensational over 7 innings: 2 hits, a walk, and 4 K's.`
   },
   {
   id: 'apr11',
